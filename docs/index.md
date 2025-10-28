@@ -5,7 +5,7 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 
 # Support · 문의
 
-**개발자(Developer):** Your Developer Name  
+**개발자(Developer):** frog-im 
 **지원 이메일(Support Email):** 20gns14@gmail.com  
 **응답 시간(Response Time):** 영업일 기준 3일 이내  
 **운영 시간(Business Hours):** Mon–Fri, 10:00–17:00 KST
@@ -16,7 +16,7 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 
 ## Apps
 - **Lyrics Overlay & Tag Editorr**  
-  Google Play: https://play.google.com/store/apps/details?id=com.example.appa
+  Google Play: 
 
 ---
 
@@ -27,3 +27,39 @@ A. Google Play 결제 정책을 따릅니다. 앱 내 결제 문제는 영수증
 
 **Q2. 버그 제보는 어떻게 하나요?**  
 A. 아래 **이메일 폼**을 참고해 주시면 처리 속도가 빨라집니다.
+
+[버그 제보 템플릿]
+
+* 앱 이름 / 버전:
+* 기기 / OS 버전:
+* 재현 방법(가능하면 단계별로):
+* 기대 동작 vs 실제 동작:
+* 스크린샷/영상 링크(선택):
+
+
+**Q3. 개인정보 관련 문의는 어디로 보내나요?**  
+A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
+
+---
+
+## Privacy & Data
+
+- **개인정보처리방침(Privacy Policy) -Lyrics Overlay & Tag Editorr :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
+- **데이터 삭제 요청(Data Deletion Request):** 20gns14@gmail.com
+
+> 개인정보처리방침 링크는 **공개적으로 접근 가능하고, 지오차단이 없으며, PDF가 아닌 웹페이지**여야 심사 문제가 줄어듭니다. :contentReference[oaicite:1]{index=1}
+
+---
+
+## Contact
+
+- 지원: 20gns14@gmail.com 
+
+이메일 문의 시 **앱 이름, 버전, 기기, OS 버전, 재현 영상**을 함께 보내 주시면 빠르게 도와드릴 수 있습니다.
+
+
+---
+
+## Changelog (선택)
+- 2025-10-28: App A v1.2.0 출시. 자막 싱크 개선, 접근성 옵션 추가.
+- 2025-09-10: App A v1.1.0 출시. 버그 수정.
