@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **App name:** Lyrics Overlay & Tag Editorr  
 - **Developer:** frog-im  
-- **Contact:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **Contact:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Effective date:** 2025-10-30
 
 > This Policy is drafted with reference to applicable laws including the Korean Personal Information Protection Act (PIPA), the GDPR/UK GDPR, the Swiss FADP, and relevant U.S. state privacy laws. If there are jurisdiction-specific requirements, those requirements take precedence.
@@ -132,7 +132,7 @@ The app uses open-source software such as **FFmpeg**. An information file (e.g.,
 
 ## 10. Contact
 
-- Email: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ For material changes, we will provide notice **at least 7 days before** the effe
 
 - **In-app link:** open this page from **Settings → Privacy**.  
 - **Regional behavior:** in EEA/UK/CH, Privacy Options are shown. **In KR and some other regions, the button may not show additional options** where not legally required.
+
