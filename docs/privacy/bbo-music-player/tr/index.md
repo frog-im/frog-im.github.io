@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **Uygulama adı:** Lyrics Overlay & Tag Editorr  
 - **Geliştirici:** frog-im  
-- **İletişim:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **İletişim:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Yürürlük tarihi:** 2025-10-30
 
 > Bu Politika; Kore Kişisel Bilgilerin Korunması Kanunu (PIPA), GDPR/UK GDPR, İsviçre FADP ve ilgili ABD eyalet gizlilik yasaları dâhil uygulanabilir düzenlemeler dikkate alınarak hazırlanmıştır. Yargı alanına özgü ek gereklilikler bulunması halinde, bu gereklilikler önceliklidir.
@@ -132,7 +132,7 @@ Uygulama **FFmpeg** gibi açık kaynak yazılımlar kullanır. Uygulama içinde 
 
 ## 10. İletişim
 
-- E-posta: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- E-posta: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ Mevzuat veya hizmet değişiklikleri nedeniyle bu Politikayı güncelleyebiliriz
 
 - **Uygulama içi bağlantı:** **Ayarlar → Gizlilik** ekranından bu sayfayı açabilirsiniz.  
 - **Bölgesel davranış:** AEA/BK/İsviçre’de Gizlilik Seçenekleri gösterilir. **KR ve bazı bölgelerde, yasal gereklilik yoksa buton ek seçenek göstermeyebilir**.
+
