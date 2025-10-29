@@ -1,28 +1,149 @@
-﻿# bbo_music_player
+---
+title: プライバシーポリシー | Lyrics Overlay & Tag Editorr
+description: Lyrics Overlay & Tag Editorr のプライバシーポリシー（日本語）
+lang: ja
+last_updated: 2025-10-30
+---
 
-Beats By One
+# プライバシーポリシー（Lyrics Overlay & Tag Editorr）
 
-## Getting Started
+- **アプリ名:** Lyrics Overlay & Tag Editorr  
+- **開発者:** frog-im  
+- **連絡先:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **施行日:** 2025-10-30
 
-This project is a starting point for a Flutter application.
+> 本ポリシーは、韓国の個人情報保護法（PIPA）、GDPR/UK GDPR、スイスの FADP、ならびに米国各州のプライバシー法など、適用されうる法令を参照して作成しています。管轄地域ごとに追加要件がある場合は、当該要件を優先します。
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 1. 目的および適用範囲
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+本アプリは、**端末内に保存されたオーディオファイルのメタデータ編集**（タイトル、アーティスト等）および **歌詞オーバーレイ表示** を提供します。  
+本アプリは **ユーザーアカウントを作成せず**、ユーザーコンテンツを当社サーバーへ **アップロードしません**。処理は原則として **ユーザーの端末内** で行われます。
 
+ただし **広告配信** および **法令遵守** のため、第三者パートナー（例: Google Mobile Ads SDK（AdMob）、UMP）が **広告識別子** 等の情報を収集・処理する場合があります。同意取得およびプライバシー選択肢は **Google UMP（User Messaging Platform）** の仕様に従います。
 
-## Open-source disclosures
+---
 
-This app uses code of **FFmpeg** licensed under **LGPL v2.1**.
-Source code and build info are available for at least 3 years:
+## 2. 取り扱う情報の項目
 
-- Release: https://github.com/frog-im/bbo_music_player/releases/tag/v1.0.0
-- Build config: `open-source/ffmpeg/ffmpeg-config.txt`
-- Build info: `open-source/ffmpeg/BUILD-INFO.txt`
-- Reproduce: `open-source/ffmpeg/REPRODUCE.md`
+### 2-1) ユーザーが明示的に選択したファイル
+- **音声/カバー画像のパスおよび内容:** 編集・保存の目的に限り **端末内でのみ処理** します。  
+- **FFmpegKit** によるエンコード、メタデータ編集、サムネイル抽出も **端末内** で行います。  
+- 本アプリは、ユーザーが選択したファイルを **当社サーバーへアップロードしません**。
 
+### 2-2) ローカル設定および保存項目
+
+機能提供と利便性向上のため、以下の値を **端末ローカル** に保存します。  
+これらは当社サーバーへ送信されず、**アプリのデータ削除またはアンインストール時に削除** されます。
+
+#### (1) 設定（`shared_preferences`）
+| 区分 | キー/内容 | 目的 | 保存場所 | 削除方法 |
+|---|---|---|---|---|
+| オーバーレイ位置/フォント | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | オーバーレイ位置と文字サイズの復元 | 端末内 SharedPreferences | アプリデータ削除またはアンインストールで削除 |
+| 広告/プライバシー設定 | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | 非パーソナライズド広告、米国 RDP、COPPA タグ、年齢タグ、広告コンテンツレーティング制限 | 端末内 SharedPreferences | 同左 |
+
+#### (2) 一時ファイル（システム一時ディレクトリ）
+- **例:** `cover_*.jpg`, `tmp_*.flac`  
+- **用途:** カバーアート抽出、FLAC タグ挿入、一時エンコード  
+- **保存場所:** OS の一時フォルダ（`systemTemp`）  
+- **保管期間:** 処理完了後にアプリから削除を試みます。OS による定期的なクリーンアップ対象にもなります。
+
+#### (3) ユーザー選択による保存（SAF）
+- 「名前を付けて保存」機能により、ユーザーが指定した場所（例: ダウンロード、クラウド）へ最終ファイルを書き出します。  
+- これらは **外部ストレージ** に保存され、**アプリ削除後も残る** 場合があります。ユーザーが手動で削除できます。
+
+#### (4) 同意ステータス（UMP SDK キャッシュ）
+- EEA/UK/CH では、UMP SDK がユーザーの **広告同意ステータスを端末内にキャッシュ** します。  
+- アプリデータの削除、またはアプリ内の **Privacy Options（プライバシー オプション）** 画面から初期化できます。
+
+---
+
+### 2-3) 広告および同意関連情報（第三者 SDK）
+- **Google Mobile Ads SDK（AdMob）、UMP** は、**広告識別子（AAID/IDFA）**、**IP レンジ**、**端末/アプリ情報**、**広告インタラクション信号**、**同意ステータス** などを収集・処理する場合があります。  
+- **目的:** 広告配信、頻度制御、不正防止、パフォーマンス測定、法的要求への対応  
+- **同意が必要な地域（EEA/UK/CH）:** UMP のプロンプトで同意取得を行い、必要に応じて **Privacy Options** 画面を提供します。  
+  当該要件のない地域（例: 韓国）では **オプションが表示されない** 場合があります。
+
+---
+
+## 3. 処理および保管期間
+
+- **ローカル設定:** ユーザーがアプリデータを削除するか、アプリをアンインストールするまで端末に保存  
+- **一時ファイル:** エンコード/抽出処理中に生成。処理後に削除されるか、OS のキャッシュに一時的に残る場合あり  
+- **広告/同意データ（第三者）:** **Google のポリシー** に従います
+
+---
+
+## 4. 第三者提供および越境移転
+
+広告および同意管理のため、ユーザー情報が Google のインフラへ送信・処理されることがあります。
+
+| 項目 | 内容 |
+|---|---|
+| **移転先（受領者）** | Google LLC およびその関係会社/下請処理者 |
+| **移転先の国・地域** | 米国（および Google インフラ所在の他地域） |
+| **目的** | 広告配信、性能/測定、法令遵守、同意管理 |
+| **移転されるデータ** | 広告識別子、IP レンジ、端末/アプリ情報、広告インタラクション、同意ステータス等 |
+| **保管期間** | Google のポリシーに従う |
+| **同意拒否の影響** | パーソナライズが制限され、非パーソナライズド広告のみになる場合あり |
+
+本アプリは **Google Play の「データ セーフティ」** の開示要件を順守し、実際の処理内容と一致するよう適切に維持します。
+
+---
+
+## 5. 利用者の権利と行使方法
+
+- **パーソナライズド広告の無効化/同意の変更**  
+  - 対象地域（EEA/UK/CH）: **設定 → Privacy Options** で選好を変更できます。  
+  - その他の地域: OS の設定から **広告 ID のリセット/トラッキングの制限** が可能です。
+- **ローカル情報の初期化:** アプリデータの削除またはアンインストールにより、オーバーレイ座標、文字サイズ等のローカル設定が初期化されます。  
+- **GDPR/UK GDPR/スイス FADP/米国州法** に基づく権利（開示、訂正、削除、ポータビリティ、処理の制限、同意の撤回等）は、各法の定める手続により行使できます。  
+  Google が処理する広告関連データについては **Google の手続** をご利用ください。
+
+---
+
+## 6. 児童の個人情報
+
+本アプリは **児童を対象としていません**。法定最低年齢未満の児童は利用を停止し、保護者とともに OS レベルの広告制限機能を利用してください。必要に応じて **TFUA（子ども向けタグ）** 等の保護オプションを適用する場合があります。
+
+---
+
+## 7. 安全管理措置
+
+- 収集・保存における **データ最小化**  
+- 一時ファイルの **限定的な使用** と処理後の削除試行  
+- **OS 権限の範囲内** での処理  
+- 第三者への送信時の **伝送路暗号化**（TLS 等、第三者 SDK の標準に準拠）
+
+---
+
+## 8. データ開示（Google Play「データ セーフティ」）
+
+Play Console の **「データ セーフティ」** セクションを正確に作成・維持し、変更時は速やかに更新します。
+
+---
+
+## 9. オープンソース表記
+
+本アプリは **FFmpeg** などのオープンソースを利用しています。アプリ内の案内ファイル（例: `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`）にソース取得方法を記載し、請求に応じて当該手順で提供します。
+
+---
+
+## 10. 連絡先
+
+- お問い合わせ: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+
+---
+
+## 11. 変更の告知
+
+法令・サービスの変更により本ポリシーを改定することがあります。変更は **アプリ内告知** および **本ポリシーページ** に掲載します。  
+重要な変更の場合、**施行日の少なくとも 7 日前** に告知します。
+
+---
+
+## 付録: 利用者向け案内
+
+- **アプリ内リンク:** 設定の **「Privacy」**（または **Privacy Options**）から本ページを開けます。  
+- **地域別の動作:** EEA/UK/CH では Privacy Options が表示されますが、**韓国など一部地域では法的要件がないため追加オプションが表示されない** 場合があります。
