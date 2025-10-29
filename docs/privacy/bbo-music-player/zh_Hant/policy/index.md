@@ -1,28 +1,78 @@
-﻿# bbo_music_player
+---
+title: 跨境資料移轉告知 | Lyrics Overlay & Tag Editorr
+description: 基於 AdMob 的廣告用途國際資料移轉告知（繁體中文）
+lang: zh_Hant
+last_updated: 2025-10-29
+---
 
-Beats By One
+# 跨境資料移轉告知（AdMob 基礎）
 
-## Getting Started
+本 App（「**Lyrics Overlay & Tag Editorr**」）使用 **Google AdMob** 提供並衡量應用程式內之廣告。於此過程中，個人資料 **可能移轉至境外**。
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## A. 受託者與聯絡
+- **受託者：** Google LLC 及其關係企業（AdMob 之提供者）  
+- **服務/角色：** 廣告投放、廣告/衡量功能、相關日誌處理  
+- **網站：** `admob.google.com`  
+- **隱私諮詢：** [Google 隱私權說明中心連結或 Google 指定之管道]  
+- **備註：** 在 iOS 上，廣告識別碼（IDFA）之使用受平台政策與使用者同意狀態之限制。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> 參考：Google 得使用自合作 App/網站蒐集之資訊（裝置識別碼、IP、App 活動等）以供廣告與衡量之用。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## B. 移轉地區
+- **美國**，以及 Google 或其關係企業具備處理能力之其他國家/地區（如歐洲或亞洲）。
 
-## Open-source disclosures
+---
 
-This app uses code of **FFmpeg** licensed under **LGPL v2.1**.
-Source code and build info are available for at least 3 years:
+## C. 移轉時點與方式
+- **時點：** App 啟動與廣告請求/展示/點擊/衡量等必要時刻  
+- **方式：** 透過網路傳輸並採用 **傳輸中加密**（HTTPS/TLS）  
+- **保障措施：** 依 **國際移轉架構** 與 **契約性保護**（如適足性決定、標準合約條款）辦理
 
-- Release: https://github.com/frog-im/bbo_music_player/releases/tag/v1.0.0
-- Build config: `open-source/ffmpeg/ffmpeg-config.txt`
-- Build info: `open-source/ffmpeg/BUILD-INFO.txt`
-- Reproduce: `open-source/ffmpeg/REPRODUCE.md`
+---
 
+## D. 目的與資料類別
+- **目的：** 廣告投放、反映個人化狀態、效能衡量、分析、提升服務品質與穩定性  
+- **資料範例：** 廣告識別碼（AAID/IDFA）、App 版本/設定、裝置/網路基本資訊、類 Cookie 識別碼、使用記錄（含廣告互動與錯誤/當機訊號）、概略位置（城市/國家層級）。  
+  實際蒐集項目以 Google 之合作夥伴資料使用文件為準。
+
+---
+
+## E. 保存期間
+- 以 **達成上述目的所需之期間** 或 **依適用法令要求** 為限；期滿後予以刪除或去識別化。
+
+---
+
+## F. 拒絕或撤回同意之權利
+- **App 內路徑：** 於 **隱私選項（Privacy Options）** 可選擇 **非個人化廣告（NPA）**。  
+  在 EEA/UK/CH 等地區，可透過 CMP/UMP 介面提供、調整與重設同意。  
+- 拒絕/撤回同意可能限制部分個人化功能，但 App 之核心功能仍可使用。
+
+---
+
+## G. 隱私聯絡窗口
+- **Email：** 20gns14@gmail.com
+
+---
+
+## 各國補充告知
+
+### 韓國（PIPA）
+- 跨境移轉應告知受託者、移轉國家、時點/方式、目的/項目、保存期間及拒絕之影響。本文架構旨在滿足前述要求。
+
+### 日本（APPI）
+- 向海外第三方提供個人資料時，應提供 **移轉目的地** 之 **保護制度** 或 **適當保護措施** 資訊；必要時得以同意為基礎進行移轉。Google 之國際移轉機制與保障如上所述。
+
+### 土耳其（KVKK）
+- 跨境移轉得視情況需要 **適足性決定**、經主管機關批准之 **充分保護書面約定**，或 **明示同意**。相關事項將於本告知與客服管道中說明。
+
+---
+
+## 第三方提供
+- 我們僅以 **最低必要** 原則，向上述 **受託者** 提供法令遵循與服務所需資訊。請參閱 Google 之合作夥伴資料使用文件。
+
+## 政策變更
+- 本告知可能調整；對重大變更，我們將於 App 內提示或更新本文件。
