@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **アプリ名:** Lyrics Overlay & Tag Editorr  
 - **開発者:** frog-im  
-- **連絡先:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **連絡先:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **施行日:** 2025-10-30
 
 > 本ポリシーは、韓国の個人情報保護法（PIPA）、GDPR/UK GDPR、スイスの FADP、ならびに米国各州のプライバシー法など、適用されうる法令を参照して作成しています。管轄地域ごとに追加要件がある場合は、当該要件を優先します。
@@ -132,7 +132,7 @@ Play Console の **「データ セーフティ」** セクションを正確に
 
 ## 10. 連絡先
 
-- お問い合わせ: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- お問い合わせ: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ Play Console の **「データ セーフティ」** セクションを正確に
 
 - **アプリ内リンク:** 設定の **「Privacy」**（または **Privacy Options**）から本ページを開けます。  
 - **地域別の動作:** EEA/UK/CH では Privacy Options が表示されますが、**韓国など一部地域では法的要件がないため追加オプションが表示されない** 場合があります。
+
