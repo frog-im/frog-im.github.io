@@ -54,7 +54,7 @@ Diese App („**Lyrics Overlay & Tag Editorr**“) verwendet **Google AdMob** zu
 ---
 
 ## G. Kontakt für Datenschutzanfragen
-- **E-Mail:** 20gns14@gmail.com
+- **E-Mail:** [g.ns.0700g@gmail.com]
 
 ---
 
@@ -76,3 +76,4 @@ Diese App („**Lyrics Overlay & Tag Editorr**“) verwendet **Google AdMob** zu
 
 ## Änderungen
 - Dieser Hinweis kann sich ändern. Bei wesentlichen Änderungen informieren wir in der App oder aktualisieren dieses Dokument.
+
