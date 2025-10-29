@@ -1,150 +1,78 @@
 ---
-title: Kebijakan Privasi | Lyrics Overlay & Tag Editorr
-description: Kebijakan Privasi Lyrics Overlay & Tag Editorr (Bahasa Indonesia)
+title: Pemberitahuan Transfer Data Lintas Batas | Lyrics Overlay & Tag Editorr
+description: Pemberitahuan transfer data internasional untuk periklanan AdMob (Bahasa Indonesia)
 lang: id
-last_updated: 2025-10-30
+last_updated: 2025-10-29
 ---
 
-# Kebijakan Privasi (Lyrics Overlay & Tag Editorr)
+# Pemberitahuan Transfer Data Lintas Batas (berbasis AdMob)
 
-- **Nama aplikasi:** Lyrics Overlay & Tag Editorr  
-- **Pengembang:** frog-im  
-- **Kontak:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-- **Tanggal berlaku:** 2025-10-30
-
-> Kebijakan ini disusun dengan merujuk pada hukum yang berlaku, termasuk Undang-Undang Perlindungan Informasi Pribadi Korea (PIPA), GDPR/UK GDPR, FADP Swiss, dan undang-undang privasi negara bagian di AS. Jika terdapat persyaratan khusus yurisdiksi, persyaratan tersebut berlaku terlebih dahulu.
+Aplikasi ini (“**Lyrics Overlay & Tag Editorr**”) menggunakan **Google AdMob** untuk penyajian dan pengukuran iklan dalam aplikasi. Dalam penyelenggaraan layanan tersebut, data pribadi dapat **ditransfer ke luar** negara Anda.
 
 ---
 
-## 1. Tujuan dan Ruang Lingkup Pemrosesan
+## A. Penerima dan Kontak
+- **Penerima:** Google LLC dan afiliasinya (penyedia AdMob)  
+- **Layanan/Peran:** penayangan iklan, fitur iklan/pengukuran, pemrosesan log terkait  
+- **Situs:** `admob.google.com`  
+- **Pertanyaan privasi:** [tautan ke Google Privacy Help Center atau jalur lain yang disediakan Google]  
+- **Catatan:** Di iOS, penggunaan pengidentifikasi iklan (IDFA) tunduk pada kebijakan platform dan status persetujuan pengguna.
 
-Aplikasi ini menyediakan fitur **pengeditan metadata** (judul, artis, dll.) untuk file audio yang **disimpan di perangkat**, serta **overlay lirik**.  
-Aplikasi **tidak** membuat akun pengguna dan **tidak** mengunggah konten pengguna ke server kami. Pemrosesan secara bawaan dilakukan **di perangkat pengguna**.
-
-Namun, untuk **periklanan** dan **kepatuhan hukum**, mitra pihak ketiga (mis. Google Mobile Ads SDK (AdMob), UMP) dapat mengumpulkan dan memproses informasi seperti **pengidentifikasi iklan**. Pengumpulan persetujuan dan pilihan privasi mengikuti spesifikasi **Google UMP (User Messaging Platform)**.
-
----
-
-## 2. Kategori Informasi yang Diproses
-
-### 2-1) File yang Dipilih Secara Eksplisit oleh Pengguna
-- **Path dan konten audio/gambar sampul:** diproses **secara lokal** di perangkat hanya untuk tujuan pengeditan/penyimpanan.  
-- **FFmpegKit** digunakan secara lokal untuk encoding, pengeditan metadata, dan ekstraksi thumbnail.  
-- Aplikasi **tidak mengunggah** file yang dipilih pengguna ke server kami.
-
-### 2-2) Pengaturan Lokal dan Nilai yang Disimpan
-
-Untuk fungsi inti dan kenyamanan, aplikasi menyimpan nilai berikut **secara lokal di perangkat**.  
-Nilai ini tidak dikirim ke server kami dan **akan dihapus saat data aplikasi dihapus atau aplikasi dicopot**.
-
-#### (1) Preferensi (`shared_preferences`)
-| Jenis | Kunci/Konten | Tujuan | Lokasi Penyimpanan | Penghapusan |
-|---|---|---|---|---|
-| Posisi/font overlay | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | Memulihkan posisi overlay dan ukuran font | SharedPreferences di perangkat | Terhapus saat data aplikasi dihapus atau aplikasi dicopot |
-| Iklan/Privasi | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | Iklan non-personalisasi, US RDP, tag COPPA, tag usia, batas rating konten iklan | SharedPreferences di perangkat | Sama seperti kiri |
-
-#### (2) File Sementara (direktori sementara sistem)
-- **Contoh:** `cover_*.jpg`, `tmp_*.flac`  
-- **Penggunaan:** ekstraksi cover art, tagging FLAC, encoding sementara  
-- **Lokasi:** folder sementara OS (`systemTemp`)  
-- **Retensi:** dihapus setelah proses selesai jika memungkinkan; OS juga dapat membersihkan secara berkala
-
-#### (3) Penyimpanan yang Dipilih Pengguna (SAF)
-- Dengan “Simpan sebagai,” file akhir dapat ditulis ke lokasi yang dipilih pengguna (mis. Unduhan, cloud).  
-- File ini berada di **penyimpanan eksternal** dan **tetap ada setelah aplikasi dicopot**. Pengguna dapat menghapusnya secara manual.
-
-#### (4) Status Persetujuan (cache SDK UMP)
-- Di wilayah EEA/UK/CH, SDK UMP **menyimpan cache** status persetujuan iklan secara lokal.  
-- Dapat di-reset dengan menghapus data aplikasi atau melalui layar **Opsi Privasi (Privacy Options)** di dalam aplikasi bila tersedia.
+> Referensi: Google dapat menggunakan informasi yang dikumpulkan dari aplikasi/situs mitra (pengidentifikasi perangkat, IP, aktivitas aplikasi, dll.) untuk periklanan dan pengukuran.
 
 ---
 
-### 2-3) Data Iklan dan Persetujuan (SDK Pihak Ketiga)
-- **Google Mobile Ads SDK (AdMob) dan UMP** dapat mengumpulkan/memproses, misalnya: **pengidentifikasi iklan (AAID/IDFA)**, **rentang IP**, **info perangkat/aplikasi**, **sinyal interaksi iklan**, **status persetujuan**, dll.  
-- **Tujuan:** penayangan iklan, pembatasan frekuensi, pencegahan penipuan, pengukuran kinerja, kepatuhan hukum  
-- **Wilayah yang memerlukan persetujuan (EEA/UK/CH):** persetujuan dikumpulkan melalui UMP dan layar **Opsi Privasi** ditampilkan bila diwajibkan.  
-  Di wilayah tanpa kewajiban tersebut (mis. KR), **opsi ini mungkin tidak ditampilkan**.
+## B. Negara Tujuan
+- **Amerika Serikat** dan negara/wilayah lain tempat Google atau afiliasinya memiliki kemampuan pemrosesan (mis. Eropa atau Asia).
 
 ---
 
-## 3. Pemrosesan dan Jangka Waktu Penyimpanan
-
-- **Pengaturan lokal:** disimpan di perangkat hingga pengguna menghapus data aplikasi atau mencopot aplikasi  
-- **File sementara:** dibuat selama proses encoding/ekstraksi; dihapus setelah selesai atau dapat sementara tersisa di cache OS  
-- **Data iklan/persetujuan (pihak ketiga):** sesuai **kebijakan Google**
-
----
-
-## 4. Penerusan ke Pihak Ketiga dan Transfer Lintas Batas
-
-Untuk periklanan dan manajemen persetujuan, informasi pengguna dapat dikirim ke dan diproses pada infrastruktur Google.
-
-| Item | Detail |
-|---|---|
-| **Penerima** | Google LLC dan afiliasi/sub-pemrosesnya |
-| **Tujuan transfer** | Amerika Serikat (dan wilayah lain tempat infrastruktur Google berada) |
-| **Tujuan penggunaan** | Penayangan iklan, kinerja/pengukuran, kepatuhan hukum, manajemen persetujuan |
-| **Data** | Pengidentifikasi iklan, rentang IP, info perangkat/aplikasi, interaksi iklan, status persetujuan, dll. |
-| **Retensi** | Sesuai kebijakan Google |
-| **Dampak penolakan** | Personalisasi terbatas; iklan non-personalisasi dapat ditampilkan |
-
-Kami mematuhi persyaratan pengungkapan **“Keamanan data” Google Play** dan menjaga kesesuaian pengungkapan dengan praktik pemrosesan aktual.
+## C. Waktu dan Metode Transfer
+- **Waktu:** saat aplikasi berjalan dan ketika terjadi permintaan/tayang/klik/pengukuran iklan  
+- **Metode:** transmisi melalui jaringan dengan **enkripsi saat transit** (HTTPS/TLS)  
+- **Perlindungan:** diproses sesuai **kerangka transfer internasional** yang berlaku dan **jaminan kontraktual** (mis. keputusan kecukupan, Standard Contractual Clauses)
 
 ---
 
-## 5. Hak Anda dan Cara Menggunakannya
-
-- **Menonaktifkan iklan personalisasi / mengubah persetujuan**  
-  - Di wilayah yang didukung (EEA/UK/CH): ubah preferensi di **Pengaturan → Opsi Privasi**.  
-  - Wilayah lain: gunakan pengaturan OS untuk **mereset ID iklan / membatasi pelacakan**.
-- **Reset informasi lokal:** menghapus data aplikasi atau mencopot aplikasi akan mereset koordinat overlay, ukuran font, dan pengaturan lokal lainnya.
-- Hak berdasarkan **GDPR/UK GDPR/FADP Swiss/undang-undang privasi negara bagian AS** (akses, perbaikan, penghapusan, portabilitas, pembatasan, penarikan persetujuan, dll.) dapat dijalankan sesuai prosedur yang berlaku.  
-  Untuk data iklan yang diproses Google, gunakan **prosedur Google**.
+## D. Tujuan dan Kategori Data
+- **Tujuan:** penayangan iklan, pemenuhan status personalisasi, pengukuran kinerja, analitik, peningkatan kualitas dan stabilitas layanan  
+- **Contoh data:** pengidentifikasi iklan (AAID/IDFA), versi/pengaturan aplikasi, informasi dasar perangkat/jaringan, pengidentifikasi mirip cookie, log penggunaan (termasuk interaksi iklan serta sinyal error/crash), lokasi kasar (tingkat kota/negara).  
+  Data spesifik yang dikumpulkan diatur oleh dokumentasi penggunaan data mitra dari Google.
 
 ---
 
-## 6. Privasi Anak
-
-Aplikasi ini **tidak ditujukan untuk anak-anak**. Anak di bawah usia minimum hukum harus berhenti menggunakan aplikasi dan, bersama wali, menggunakan fitur pembatasan iklan di tingkat OS. Bila perlu, kami dapat menerapkan **TFUA (child-directed tag)** atau opsi perlindungan anak sejenis.
-
----
-
-## 7. Langkah Keamanan
-
-- **Minimasi data** dalam pengumpulan dan penyimpanan  
-- **Penggunaan terbatas** file sementara dan upaya penghapusan setelah pemrosesan  
-- Pemrosesan **dalam cakupan izin OS**  
-- **Enkripsi saat transit** (TLS atau setara) untuk transfer pihak ketiga sesuai standar SDK
+## E. Jangka Waktu Penyimpanan
+- Disimpan **sepanjang diperlukan untuk tujuan di atas** atau **sesuai yang diwajibkan hukum**, kemudian dihapus atau dianonimkan.
 
 ---
 
-## 8. Keamanan Data (Google Play)
-
-Kami menyiapkan dan memelihara bagian **“Keamanan data”** di Play Console secara akurat, serta memperbaruinya segera ketika terdapat perubahan.
-
----
-
-## 9. Pemberitahuan Open-Source
-
-Aplikasi menggunakan perangkat lunak open-source seperti **FFmpeg**. Berkas informasi (mis. `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`) di dalam aplikasi menjelaskan cara memperoleh kode sumber. Atas permintaan, kami akan menyediakan sumber sesuai petunjuk pada berkas tersebut.
+## F. Hak untuk Menolak atau Menarik Persetujuan
+- **Jalur dalam aplikasi:** di **Opsi Privasi**, Anda dapat memilih **iklan non-personalisasi (NPA)**.  
+  Di wilayah seperti EEA/UK/CH, Anda dapat memberikan, menyesuaikan, dan mereset persetujuan melalui layar CMP/UMP.  
+- Penolakan atau penarikan persetujuan dapat membatasi fitur personalisasi tertentu. Fungsi inti aplikasi tetap tersedia.
 
 ---
 
-## 10. Kontak
-
-- Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-
----
-
-## 11. Perubahan Kebijakan Ini
-
-Kami dapat merevisi Kebijakan ini karena perubahan hukum atau layanan. Pembaruan akan dipublikasikan **di dalam aplikasi** dan pada **halaman kebijakan** ini.  
-Untuk perubahan material, pemberitahuan akan diberikan **setidaknya 7 hari sebelum** tanggal berlaku.
+## G. Kontak untuk Pertanyaan Privasi
+- **Email:** [g.ns.0700g@gmail.com]
 
 ---
 
-## Lampiran: Panduan Pengguna
+## Pemberitahuan Khusus Negara
 
-- **Tautan dalam aplikasi:** buka halaman ini dari **Pengaturan → Privasi**.  
-- **Perilaku regional:** di EEA/UK/CH, Opsi Privasi ditampilkan. **Di KR dan beberapa wilayah lain, tombol mungkin tidak menampilkan opsi tambahan** bila tidak diwajibkan secara hukum.
+### Korea (PIPA)
+- Untuk transfer ke luar negeri, kami mengungkapkan penerima, negara tujuan, waktu/metode, tujuan/kategori data, retensi, serta potensi dampak jika menolak. Pemberitahuan ini dirancang untuk memenuhi persyaratan tersebut.
 
+### Jepang (APPI)
+- Untuk pemberian kepada pihak ketiga di luar negeri, kami menyediakan informasi tentang **negara tujuan** dan **rezim perlindungan** atau **perlindungan yang memadai**. Jika diperlukan, transfer dapat didasarkan pada persetujuan. Mekanisme dan perlindungan transfer internasional Google dijelaskan di atas.
+
+### Türkiye (KVKK)
+- Transfer lintas batas dapat memerlukan **keputusan kecukupan**, **jaminan perlindungan yang memadai** melalui perjanjian tertulis dengan persetujuan otoritas, atau **persetujuan eksplisit**. Rincian akan diberikan dalam pemberitahuan ini dan melalui kanal dukungan.
+
+---
+
+## Pemberian kepada Pihak Ketiga
+- Kami hanya membagikan **informasi minimum yang diperlukan** kepada **Penerima** di atas untuk kepatuhan hukum dan penyediaan layanan. Lihat dokumentasi Google mengenai penggunaan data mitra.
+
+## Perubahan
+- Pemberitahuan ini dapat berubah. Untuk perubahan penting, kami akan memberi tahu di dalam aplikasi atau memperbarui dokumen ini.
