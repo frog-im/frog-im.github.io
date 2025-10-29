@@ -54,7 +54,7 @@ Bu uygulama (“**Lyrics Overlay & Tag Editorr**”), uygulama içi reklamların
 ---
 
 ## G. Gizlilik iletişim noktası
-- **E-posta:** 20gns14@gmail.com
+- **E-posta:** [g.ns.0700g@gmail.com]
 
 ---
 
@@ -76,3 +76,4 @@ Bu uygulama (“**Lyrics Overlay & Tag Editorr**”), uygulama içi reklamların
 
 ## Değişiklikler
 - Bu Bildirim değiştirilebilir. Önemli değişikliklerde uygulama içinden bilgilendirme yapar veya bu belgeyi güncelleriz.
+
