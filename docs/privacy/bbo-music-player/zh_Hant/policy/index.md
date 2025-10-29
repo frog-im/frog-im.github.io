@@ -54,7 +54,7 @@ last_updated: 2025-10-29
 ---
 
 ## G. 隱私聯絡窗口
-- **Email：** 20gns14@gmail.com
+- **Email：** [g.ns.0700g@gmail.com]
 
 ---
 
@@ -76,3 +76,4 @@ last_updated: 2025-10-29
 
 ## 政策變更
 - 本告知可能調整；對重大變更，我們將於 App 內提示或更新本文件。
+
