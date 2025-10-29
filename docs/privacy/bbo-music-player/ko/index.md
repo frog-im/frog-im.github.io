@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **앱명**: Lyrics Overlay & Tag Editorr  
 - **개발자**: frog-im  
-- **연락처**: [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **연락처**: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **시행일**: 2025-10-30
 
 > 본 방침은 「개인정보 보호법」, GDPR/UK GDPR, 스위스 FADP, 미국 주별 프라이버시 법 등 적용 가능한 규정을 고려해 작성되었습니다. 관할권별 추가 요구 사항이 있는 경우 해당 요구를 우선합니다.
@@ -133,7 +133,7 @@ last_updated: 2025-10-30
 
 ## 10. 연락처
 
-- 문의: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- 문의: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
