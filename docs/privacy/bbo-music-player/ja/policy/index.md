@@ -1,28 +1,78 @@
-﻿# bbo_music_player
+---
+title: 国外移転に関する告知 | Lyrics Overlay & Tag Editorr
+description: AdMob 広告に関する国際データ移転告知（日本語）
+lang: ja
+last_updated: 2025-10-29
+---
 
-Beats By One
+# 国外移転に関する告知（AdMob ベース）
 
-## Getting Started
+本アプリ（「**Lyrics Overlay & Tag Editorr**」）は、**Google AdMob** を利用してアプリ内広告の提供および測定を行います。これに関連して、個人データが国外へ **移転** される場合があります。
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## A. 受領者・連絡先
+- **受領者:** Google LLC およびその関係会社（AdMob の提供主体）  
+- **サービス/役割:** 広告配信、広告/測定機能の提供、関連ログの処理  
+- **ウェブサイト:** `admob.google.com`  
+- **プライバシー問い合わせ:** （Google Privacy Help Center 等、Google の案内する経路を参照）  
+- **備考:** iOS における広告識別子（IDFA）の使用は、プラットフォームポリシーおよびユーザーの同意状況に従います。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> 参考: Google は、パートナーのアプリ/サイトから収集した情報（端末識別子、IP、アプリ活動など）を広告および測定に利用する場合があります。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## B. 移転先の国
+- **米国**、および Google または関係会社が処理能力を有するその他の国/地域（例: 欧州、アジア等）。
 
-## Open-source disclosures
+---
 
-This app uses code of **FFmpeg** licensed under **LGPL v2.1**.
-Source code and build info are available for at least 3 years:
+## C. 移転の時期・方法
+- **時期:** アプリの起動時、ならびに広告リクエスト/表示/クリック/測定の各時点  
+- **方法:** ネットワーク経由での送信（**HTTPS/TLS** による伝送路暗号化）  
+- **保護措置:** 適用される **国際移転フレームワーク** および **契約上の保護措置**（例: 適法性認定、標準契約条項）に基づき処理
 
-- Release: https://github.com/frog-im/bbo_music_player/releases/tag/v1.0.0
-- Build config: `open-source/ffmpeg/ffmpeg-config.txt`
-- Build info: `open-source/ffmpeg/BUILD-INFO.txt`
-- Reproduce: `open-source/ffmpeg/REPRODUCE.md`
+---
 
+## D. 目的・項目
+- **目的:** 広告配信、パーソナライズ状態の反映、性能測定、分析、サービス品質・安定性の向上  
+- **項目例:** 広告識別子（AAID/IDFA）、アプリのバージョン/設定、端末/ネットワークの基本情報、クッキー類似の識別子、利用ログ（広告インタラクションやエラー/クラッシュ信号を含む）、概略位置（市区町村/国レベル）。  
+  具体的な収集項目は Google のパートナーデータ利用ドキュメントに従います。
+
+---
+
+## E. 保管期間
+- 上記目的の達成に必要な期間、または適用法令で定める期間保存し、その後は削除または匿名化します。
+
+---
+
+## F. 同意の拒否・撤回
+- **アプリ内の経路:** **Privacy Options** にて **非パーソナライズド広告（NPA）** を選択できます。  
+  EEA/UK/CH などの地域では、CMP/UMP 画面で同意の付与・変更・リセットが可能です。  
+- 同意の拒否・撤回により、一部のパーソナライズ機能が制限される場合がありますが、アプリの基本機能は利用可能です。
+
+---
+
+## G. プライバシー問い合わせ窓口
+- **E-mail:** 20gns14@gmail.com
+
+---
+
+## 各国固有の告知
+
+### 韓国（PIPA）
+- 国外移転に際し、受領者、移転先、時期/方法、目的/項目、保管期間、拒否時の不利益等の告知が求められます。本告知はこれらの要件を満たす構成です。
+
+### 日本（APPI）
+- 海外第三者提供にあたっては、**移転先の国** とその **保護制度** または **適切な保護措置** に関する情報を提供し、必要に応じて同意に基づき移転します。Google の国際移転枠組みと保護措置は上記のとおりです。
+
+### トルコ（KVKK）
+- 国外移転には、**適正性認定**、監督当局の承認を伴う **十分な保護措置に関する書面の取り決め**、または **明示的同意** が必要となる場合があります。詳細は本告知およびサポート窓口で案内します。
+
+---
+
+## 第三者提供
+- 法令順守およびサービス提供に必要な **最小限の情報のみ** を、上記 **受領者** に提供します。パートナーデータの利用方法は Google のドキュメントを参照してください。
+
+## 変更
+- 本告知は変更されることがあります。重要な変更がある場合、アプリ内での告知または本ドキュメントの更新により周知します。
