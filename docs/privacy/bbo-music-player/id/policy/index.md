@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **Nama aplikasi:** Lyrics Overlay & Tag Editorr  
 - **Pengembang:** frog-im  
-- **Kontak:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **Kontak:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Tanggal berlaku:** 2025-10-30
 
 > Kebijakan ini disusun dengan merujuk pada hukum yang berlaku, termasuk Undang-Undang Perlindungan Informasi Pribadi Korea (PIPA), GDPR/UK GDPR, FADP Swiss, dan undang-undang privasi negara bagian di AS. Jika terdapat persyaratan khusus yurisdiksi, persyaratan tersebut berlaku terlebih dahulu.
@@ -132,7 +132,7 @@ Aplikasi menggunakan perangkat lunak open-source seperti **FFmpeg**. Berkas info
 
 ## 10. Kontak
 
-- Email: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ Untuk perubahan material, pemberitahuan akan diberikan **setidaknya 7 hari sebel
 
 - **Tautan dalam aplikasi:** buka halaman ini dari **Pengaturan → Privasi**.  
 - **Perilaku regional:** di EEA/UK/CH, Opsi Privasi ditampilkan. **Di KR dan beberapa wilayah lain, tombol mungkin tidak menampilkan opsi tambahan** bila tidak diwajibkan secara hukum.
+
