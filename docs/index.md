@@ -6,7 +6,7 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 # Support · 문의
 
 **개발자(Developer):** frog-im 
-**지원 이메일(Support Email):** 20gns14@gmail.com  
+**지원 이메일(Support Email):** [g.ns.0700g@gmail.com]
 **응답 시간(Response Time):** 영업일 기준 3일 이내  
 **운영 시간(Business Hours):** Mon–Fri, 10:00–17:00 KST
 
@@ -45,7 +45,7 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
 ## Privacy & Data
 
 - **개인정보처리방침(Privacy Policy) -Lyrics Overlay & Tag Editorr :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
-- **데이터 삭제 요청(Data Deletion Request):** 20gns14@gmail.com
+- **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
 
 > 개인정보처리방침 링크는 **공개적으로 접근 가능하고, 지오차단이 없으며, PDF가 아닌 웹페이지**여야 심사 문제가 줄어듭니다. :contentReference[oaicite:1]{index=1}
 
