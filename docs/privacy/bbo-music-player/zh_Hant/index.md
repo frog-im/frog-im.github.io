@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **應用程式名稱：** Lyrics Overlay & Tag Editorr  
 - **開發者：** frog-im  
-- **聯絡方式：** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **聯絡方式：** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **生效日：** 2025-10-30
 
 > 本政策參考適用之法規制定，包括韓國《個人資訊保護法（PIPA）》、GDPR/UK GDPR、瑞士 FADP，以及美國各州隱私法。如各司法管轄區另有要求，則以該等要求為準。
@@ -132,7 +132,7 @@ last_updated: 2025-10-30
 
 ## 10. 聯絡方式
 
-- Email： [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- Email： [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ last_updated: 2025-10-30
 
 - **App 內連結：** 於 **設定 → 隱私（Privacy）** 開啟本頁。  
 - **地區差異：** 在 EEA/UK/CH 會顯示隱私選項；**於 KR 等部分地區，如無法定要求，按鈕可能不顯示額外選項**。
+
