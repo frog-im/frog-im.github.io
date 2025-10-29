@@ -54,7 +54,7 @@ last_updated: 2025-10-29
 ---
 
 ## G. Liên hệ về quyền riêng tư
-- **Email:** 20gns14@gmail.com
+- **Email:** [g.ns.0700g@gmail.com]
 
 ---
 
@@ -76,3 +76,4 @@ last_updated: 2025-10-29
 
 ## Thay đổi
 - Thông báo này có thể thay đổi. Với thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng hoặc cập nhật tài liệu này.
+
