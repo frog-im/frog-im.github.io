@@ -9,7 +9,7 @@ last_updated: 2025-10-30
 
 - **Tên ứng dụng:** Lyrics Overlay & Tag Editorr  
 - **Nhà phát triển:** frog-im  
-- **Liên hệ:** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **Liên hệ:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Ngày hiệu lực:** 2025-10-30
 
 > Chính sách này được soạn thảo tham chiếu các luật hiện hành, gồm Luật Bảo vệ Thông tin Cá nhân của Hàn Quốc (PIPA), GDPR/UK GDPR, FADP của Thụy Sĩ và các luật quyền riêng tư cấp bang của Hoa Kỳ. Nếu có yêu cầu bổ sung theo từng khu vực tài phán, các yêu cầu đó sẽ được ưu tiên áp dụng.
@@ -132,7 +132,7 @@ Chúng tôi soạn và duy trì chính xác phần **“Data safety”** trong P
 
 ## 10. Liên hệ
 
-- Email: [20gns14@gmail.com](mailto:20gns14@gmail.com)
+- Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
@@ -147,3 +147,4 @@ Với thay đổi trọng yếu, chúng tôi sẽ thông báo **ít nhất 7 ng�
 
 - **Liên kết trong ứng dụng:** mở trang này từ **Cài đặt → Quyền riêng tư (Privacy)**.  
 - **Hành vi theo khu vực:** tại EEA/Vương quốc Anh/Thụy Sĩ sẽ hiển thị Privacy Options; **tại Hàn Quốc và một số nơi khác, nút có thể không hiển thị tùy chọn bổ sung** nếu pháp luật không yêu cầu.
+
