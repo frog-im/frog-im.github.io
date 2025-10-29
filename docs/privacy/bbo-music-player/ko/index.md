@@ -1,16 +1,16 @@
 ---
-title: 개인정보처리방침 | Bbo Music Player
-description: Bbo Music Player 개인정보처리방침(한국어)
+title: 개인정보처리방침 | Lyrics Overlay & Tag Editorr
+description: Lyrics Overlay & Tag Editorr 개인정보처리방침(한국어)
 lang: ko
-last_updated: YYYY-MM-DD
+last_updated: 2025-10-30
 ---
 
-# 개인정보처리방침 (Bbo Music Player)
+# 개인정보처리방침 (Lyrics Overlay & Tag Editorr)
 
-- **앱명**: Bbo Music Player  
+- **앱명**: Lyrics Overlay & Tag Editorr  
 - **개발자**: frog-im  
 - **연락처**: [20gns14@gmail.com](mailto:20gns14@gmail.com)  
-- **시행일**: YYYY-MM-DD
+- **시행일**: 2025-10-30
 
 > 본 방침은 「개인정보 보호법」, GDPR/UK GDPR, 스위스 FADP, 미국 주별 프라이버시 법 등 적용 가능한 규정을 고려해 작성되었습니다. 관할권별 추가 요구 사항이 있는 경우 해당 요구를 우선합니다.
 
@@ -28,14 +28,36 @@ last_updated: YYYY-MM-DD
 ## 2. 처리하는 정보 항목
 
 ### 2-1) 사용자가 직접 선택한 파일
-- **오디오/커버 이미지 경로 및 내용**: 편집·저장 목적에 한해 **로컬에서만 처리**됩니다.
-- **FFmpegKit**을 활용한 인코딩·메타 편집·썸네일 추출 역시 **기기 내**에서 수행됩니다.
+- **오디오/커버 이미지 경로 및 내용**: 편집·저장 목적에 한해 **로컬에서만 처리**됩니다.  
+- **FFmpegKit**을 활용한 인코딩·메타 편집·썸네일 추출 역시 **기기 내**에서 수행됩니다.  
 - 앱은 사용자가 선택한 파일을 **당사 서버로 업로드하지 않습니다.**
 
-### 2-2) 로컬 설정 값
-- **오버레이 위치(x, y), 폰트 크기 등 UI 설정값**을 `shared_preferences`에 로컬 저장합니다.
-- **저장 위치**: 앱의 로컬 스토리지  
-- **삭제 방법**: 앱 설정에서 데이터 삭제 또는 앱 삭제
+### 2-2) 로컬 설정 및 저장 항목
+
+앱은 기능 수행과 편의 제공을 위해 아래와 같은 값을 **기기 로컬 저장소**에 저장합니다.  
+이 값들은 서버로 전송되지 않으며, **앱 삭제 또는 데이터 삭제 시 함께 제거됩니다.**
+
+#### (1) 환경설정(`shared_preferences`)
+| 구분 | 키/내용 | 목적 | 저장 위치 | 삭제 방법 |
+|---|---|---|---|---|
+| 오버레이 위치/폰트 | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | 자막(오버레이) 위치 및 글자 크기 복원 | 기기 내부 SharedPreferences | 앱 데이터 삭제 또는 앱 삭제 시 제거 |
+| 광고/개인정보 설정 | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | 광고 비개인화, 미국 RDP, COPPA, 연령태그, 광고등급 제한 설정 | 기기 내부 SharedPreferences | 동일 |
+
+#### (2) 임시 파일(시스템 임시 디렉터리)
+- **예시**: `cover_*.jpg`, `tmp_*.flac`  
+- **용도**: 커버 아트 추출, FLAC 태그 삽입, 임시 인코딩 작업  
+- **저장 위치**: 운영체제의 임시 폴더(`systemTemp`)  
+- **보존 기간**: 작업 완료 후 코드에서 삭제 시도, OS가 주기적으로 정리  
+
+#### (3) 사용자 선택 저장(SAF)
+- “다른 이름으로 저장” 기능을 통해 사용자가 지정한 경로(예: 다운로드, 클라우드 등)에 최종 오디오 파일이 저장될 수 있습니다.  
+- 이 파일은 **앱 외부 저장소**에 존재하므로, **앱 삭제 후에도 남습니다.** 사용자가 직접 삭제할 수 있습니다.
+
+#### (4) 광고 동의 상태(UMP SDK 캐시)
+- EEA/UK/CH 지역에서는 UMP SDK가 사용자의 **광고 동의 상태를 기기 내에 캐시**합니다.  
+- 앱 데이터 삭제 또는 “개인정보 옵션(Privacy Options)” 메뉴에서 초기화할 수 있습니다.
+
+---
 
 ### 2-3) 광고 및 동의 관련 정보(제3자 SDK)
 - **Google Mobile Ads SDK(AdMob), UMP**가 아래 데이터를 수집·처리할 수 있습니다.  
@@ -90,9 +112,9 @@ last_updated: YYYY-MM-DD
 
 ## 7. 안전성 확보 조치
 
-- 데이터 **최소 수집·최소 저장** 원칙
-- 임시 파일의 **제한적 사용** 및 처리 완료 후 삭제 시도
-- **OS 권한 범위** 내 처리
+- 데이터 **최소 수집·최소 저장** 원칙  
+- 임시 파일의 **제한적 사용** 및 처리 완료 후 삭제 시도  
+- **OS 권한 범위** 내 처리  
 - 제3자 전송 시 **TLS 등 전송구간 암호화**(제3자 SDK 표준)
 
 ---
@@ -111,7 +133,7 @@ last_updated: YYYY-MM-DD
 
 ## 10. 연락처
 
-- 문의: [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- 문의: [20gns14@gmail.com](mailto:20gns14@gmail.com)
 
 ---
 
