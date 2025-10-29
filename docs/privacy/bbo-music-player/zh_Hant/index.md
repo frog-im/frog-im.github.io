@@ -1,28 +1,149 @@
-﻿# bbo_music_player
+---
+title: 隱私權政策 | Lyrics Overlay & Tag Editorr
+description: Lyrics Overlay & Tag Editorr 隱私權政策（繁體中文）
+lang: zh_Hant
+last_updated: 2025-10-30
+---
 
-Beats By One
+# 隱私權政策（Lyrics Overlay & Tag Editorr）
 
-## Getting Started
+- **應用程式名稱：** Lyrics Overlay & Tag Editorr  
+- **開發者：** frog-im  
+- **聯絡方式：** [20gns14@gmail.com](mailto:20gns14@gmail.com)  
+- **生效日：** 2025-10-30
 
-This project is a starting point for a Flutter application.
+> 本政策參考適用之法規制定，包括韓國《個人資訊保護法（PIPA）》、GDPR/UK GDPR、瑞士 FADP，以及美國各州隱私法。如各司法管轄區另有要求，則以該等要求為準。
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 1. 處理目的與範圍
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+本 App 提供 **裝置內音訊檔案之中繼資料（標題、藝人等）編輯** 與 **歌詞浮層（overlay）顯示** 功能。  
+本 App **不建立帳號**，亦 **不將使用者內容上傳** 至我們的伺服器；預設均 **在使用者裝置端** 處理。
 
+惟為 **廣告投放** 與 **法令遵循** 之目的，第三方合作夥伴（如 Google Mobile Ads SDK（AdMob）、UMP）得蒐集/處理 **廣告識別碼** 等資訊。關於同意蒐集與隱私選項，遵循 **Google UMP（User Messaging Platform）** 之規格。
 
-## Open-source disclosures
+---
 
-This app uses code of **FFmpeg** licensed under **LGPL v2.1**.
-Source code and build info are available for at least 3 years:
+## 2. 處理之資訊項目
 
-- Release: https://github.com/frog-im/bbo_music_player/releases/tag/v1.0.0
-- Build config: `open-source/ffmpeg/ffmpeg-config.txt`
-- Build info: `open-source/ffmpeg/BUILD-INFO.txt`
-- Reproduce: `open-source/ffmpeg/REPRODUCE.md`
+### 2-1）使用者明確選擇之檔案
+- **音訊/封面影像之路徑與內容：** 僅為編輯/儲存之目的而 **在本機處理**。  
+- **FFmpegKit** 亦僅於本機用於編碼、中繼資料編輯與縮圖擷取。  
+- 本 App **不會** 將使用者選擇之檔案 **上傳至我們的伺服器**。
 
+### 2-2）本機設定與儲存項目
+
+為了提供功能與便利性，本 App 會 **在裝置本機** 儲存下列數值。  
+此等數值 **不會** 傳送至我們的伺服器，並會於 **刪除 App 資料或解除安裝** 時一併移除。
+
+#### （1）偏好設定（`shared_preferences`）
+| 類別 | 鍵/內容 | 目的 | 儲存位置 | 刪除方式 |
+|---|---|---|---|---|
+| 浮層位置/字體 | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | 還原歌詞浮層位置與字體大小 | 裝置端 SharedPreferences | 刪除 App 資料或解除安裝 |
+| 廣告/隱私設定 | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | 非個人化廣告（NPA）、美國 RDP、COPPA 標籤、年齡標籤、廣告內容分級上限 | 裝置端 SharedPreferences | 同上 |
+
+#### （2）暫存檔（系統暫存目錄）
+- **例：** `cover_*.jpg`、`tmp_*.flac`  
+- **用途：** 封面擷取、FLAC 標籤寫入、暫時編碼處理  
+- **位置：** 作業系統暫存資料夾（`systemTemp`）  
+- **保存期間：** 處理完成後由程式嘗試刪除，OS 亦可能定期清理
+
+#### （3）使用者選擇之另存位置（SAF）
+- 透過「另存新檔」功能，最終音訊檔可寫入使用者指定之路徑（如下載資料夾、雲端）。  
+- 該等檔案位於 **外部儲存**，**解除安裝後仍可能保留**；使用者可自行刪除。
+
+#### （4）同意狀態（UMP SDK 快取）
+- 在 EEA/UK/CH，UMP SDK 會 **將廣告同意狀態緩存於本機**。  
+- 可透過刪除 App 資料或於 App 內 **「隱私選項（Privacy Options）」** 進行重設（如有提供）。
+
+---
+
+### 2-3）廣告與同意相關資訊（第三方 SDK）
+- **Google Mobile Ads SDK（AdMob）、UMP** 可能蒐集/處理：**廣告識別碼（AAID/IDFA）**、**IP 範圍**、**裝置/應用資訊**、**廣告互動訊號**、**同意狀態** 等。  
+- **目的：** 廣告投放、顯示頻率控制、防詐騙、績效衡量、法令遵循  
+- **需同意之地區（EEA/UK/CH）：** 透過 UMP 介面蒐集同意，必要時提供 **隱私選項** 畫面。  
+  在無相應要求之地區（如 KR），此選項 **可能不顯示**。
+
+---
+
+## 3. 處理與保存期間
+
+- **本機設定：** 於使用者刪除 App 資料或解除安裝前，持續保留於裝置  
+- **暫存檔：** 產生於編碼/擷取過程，處理完畢後刪除，或短期留存於 OS 快取  
+- **廣告/同意資料（第三方）：** 依 **Google** 之政策辦理
+
+---
+
+## 4. 第三方提供與跨境傳輸
+
+為廣告與同意管理之目的，使用者資訊 **可能傳送至 Google 基礎設施並於其上處理**。
+
+| 項目 | 內容 |
+|---|---|
+| **接收方** | Google LLC 及其關係企業/次處理者 |
+| **移轉地區** | 美國（及 Google 基礎設施所在之其他地區） |
+| **目的** | 廣告投放、效能/衡量、法令遵循、同意管理 |
+| **移轉項目** | 廣告識別碼、IP 範圍、裝置/應用資訊、廣告互動、同意狀態等 |
+| **保存/利用期間** | 依 Google 政策 |
+| **拒絕同意之影響** | 個人化功能可能受限，或僅顯示非個人化廣告 |
+
+本 App 遵循 **Google Play「資料安全」** 模組之揭露要求，並使揭露內容與實際處理相符。
+
+---
+
+## 5. 使用者權利及行使方式
+
+- **停用個人化廣告 / 變更同意**  
+  - 於支援地區（EEA/UK/CH）：可於 **設定 → 隱私選項（Privacy Options）** 調整偏好。  
+  - 其他地區：可於作業系統設定中 **重設廣告 ID/限制追蹤**。
+- **重設本機資訊：** 刪除 App 資料或解除安裝將重設浮層座標、字體大小等本機設定。  
+- 依 **GDPR/UK GDPR/瑞士 FADP/美國各州隱私法** 所保障之權利（存取、更正、刪除、可攜、限制處理、撤回同意等），得按各法定程序行使。  
+  對於由 Google 處理之廣告相關資料，請循 **Google 之程序** 辦理。
+
+---
+
+## 6. 兒少之個人資料
+
+本 App **非以兒童/青少年為對象**。未達法定最低年齡者應停止使用，並在家長/監護人協助下使用 OS 階層之廣告限制功能。必要時可套用 **TFUA（兒童導向標籤）** 或同等保護選項。
+
+---
+
+## 7. 資安維護措施
+
+- 蒐集與保存之 **資料最小化** 原則  
+- **限縮暫存檔** 使用並於處理完成後嘗試刪除  
+- 僅於 **OS 權限範圍內** 進行處理  
+- 向第三方傳輸時採 **傳輸中加密**（TLS 或同級），符合 SDK 之標準
+
+---
+
+## 8. 資料揭露（Google Play「資料安全」）
+
+我們於 Play Console 維護 **「資料安全」** 區塊之正確性，並於變更時迅速更新。
+
+---
+
+## 9. 開放原始碼告示
+
+本 App 使用 **FFmpeg** 等開放原始碼軟體。App 內提供之說明檔（如 `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`）載明取得原始碼之方式；如有請求，我們將依該檔案指引提供。
+
+---
+
+## 10. 聯絡方式
+
+- Email： [20gns14@gmail.com](mailto:20gns14@gmail.com)
+
+---
+
+## 11. 變更告知
+
+因法規或服務調整，本政策可能修訂；變更事項將公告於 **App 內** 與本 **政策頁面**。  
+重大變更將於 **生效日前至少 7 日** 預告。
+
+---
+
+## 附錄：使用者說明
+
+- **App 內連結：** 於 **設定 → 隱私（Privacy）** 開啟本頁。  
+- **地區差異：** 在 EEA/UK/CH 會顯示隱私選項；**於 KR 等部分地區，如無法定要求，按鈕可能不顯示額外選項**。
