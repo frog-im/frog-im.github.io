@@ -1,28 +1,79 @@
-﻿# bbo_music_player
+---
+title: Cross-Border Transfer Notice | Lyrics Overlay & Tag Editorr
+description: Cross-border data transfer notice for AdMob advertising (English)
+lang: en
+last_updated: 2025-10-29
+---
 
-Beats By One
+# Cross-Border Transfer Notice (AdMob-based)
 
-## Getting Started
+This app (“**Lyrics Overlay & Tag Editorr**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## A. Recipient and Contact
+- **Recipient:** Google LLC and its affiliates (service provider of AdMob)  
+- **Service/Role:** ad serving, advertising/measurement features, related log processing  
+- **Website:** `admob.google.com`  
+- **Privacy inquiries:** [Google Privacy Help Center link or other privacy inquiry route provided by Google]  
+- **Note:** On iOS, the use of the advertising identifier (IDFA) is subject to platform policies and the user’s consent status.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Reference: Google may use information collected from partner apps/sites (device identifiers, IP, app activity, etc.) for advertising and measurement.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## B. Destination Countries
+- The United States and other countries/regions where Google or its affiliates have data processing capabilities (e.g., in Europe or Asia).
 
-## Open-source disclosures
+---
 
-This app uses code of **FFmpeg** licensed under **LGPL v2.1**.
-Source code and build info are available for at least 3 years:
+## C. Timing and Method of Transfer
+- **Timing:** when the app runs and when ad requests/impressions/clicks/measurement occur  
+- **Method:** transmission over networks with encryption in transit (HTTPS/TLS)  
+- **Safeguards:** processed under applicable international transfer frameworks and contractual safeguards (e.g., adequacy decisions, Standard Contractual Clauses)
 
-- Release: https://github.com/frog-im/bbo_music_player/releases/tag/v1.0.0
-- Build config: `open-source/ffmpeg/ffmpeg-config.txt`
-- Build info: `open-source/ffmpeg/BUILD-INFO.txt`
-- Reproduce: `open-source/ffmpeg/REPRODUCE.md`
+---
+
+## D. Purpose and Categories of Data
+- **Purpose:** ad delivery, personalization status, performance measurement, analytics, service quality and stability improvement  
+- **Examples of data:** advertising identifiers (AAID/IDFA), app version/settings, basic device/network information, cookie-like identifiers, usage logs (including ad interaction and crash/error signals), coarse location (city/country level).  
+  The specific data collected is governed by Google’s partner data use documentation.
+
+---
+
+## E. Retention
+- Retained as necessary for the above purposes or as required by applicable laws, then deleted or de-identified.
+
+---
+
+## F. Right to Refuse or Withdraw Consent
+- **In-app path:** in **Privacy Options**, you can choose non-personalized ads (NPA).  
+  In regions such as EEA/UK/CH, you can select and reset consent via a consent management screen (CMP/UMP).  
+- Refusal or withdrawal of consent may limit certain personalization features. Core app functions remain available.
+
+---
+
+## G. Contact for Privacy Inquiries
+- **Email:** 20gns14@gmail.com
+
+---
+
+## Country-Specific Notices
+
+### Korea (PIPA)
+- For cross-border transfers, we disclose the recipient, destination, timing/method, purposes/categories, retention, and any disadvantages from refusal. This Notice is designed to meet those requirements.
+
+### Japan (APPI)
+- For third-party provision to foreign entities, we provide information on the **destination country** and its **protective regime**, or on **appropriate safeguards**. Transfers may be based on consent where required. Google’s international transfer mechanisms and safeguards are as described above.
+
+### Türkiye (KVKK)
+- Cross-border transfers may require an adequacy decision, written undertakings ensuring sufficient safeguards with Board approval, or explicit consent. We will provide details in this Notice and via support channels where applicable.
+
+---
+
+## Third-party Provision
+- We share only the minimum information necessary with the third party (the **Recipient** above) for legal compliance and service provision. See Google’s documentation for how partner data is used.
+
+## Changes
+- This Notice may change. For important changes, we will provide in-app notice or update this document.
 
