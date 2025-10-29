@@ -54,7 +54,7 @@ This app (“**Lyrics Overlay & Tag Editorr**”) uses **Google AdMob** to provi
 ---
 
 ## G. Contact for Privacy Inquiries
-- **Email:** 20gns14@gmail.com
+- **Email:** [g.ns.0700g@gmail.com]
 
 ---
 
@@ -76,4 +76,5 @@ This app (“**Lyrics Overlay & Tag Editorr**”) uses **Google AdMob** to provi
 
 ## Changes
 - This Notice may change. For important changes, we will provide in-app notice or update this document.
+
 
