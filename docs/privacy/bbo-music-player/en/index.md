@@ -1,13 +1,13 @@
 ---
-title: Privacy Policy | Lyrics Overlay & Tag Editorr
-description: Lyrics Overlay & Tag Editorr Privacy Policy (English)
+title: Privacy Policy | Lyrics Overlay & Tag Editor
+description: Lyrics Overlay & Tag Editor Privacy Policy (English)
 lang: en
 last_updated: 2025-10-30
 ---
 
-# Privacy Policy (Lyrics Overlay & Tag Editorr)
+# Privacy Policy (Lyrics Overlay & Tag Editor)
 
-- **App name:** Lyrics Overlay & Tag Editorr  
+- **App name:** Lyrics Overlay & Tag Editor  
 - **Developer:** frog-im  
 - **Contact:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Effective date:** 2025-10-30
@@ -147,4 +147,5 @@ For material changes, we will provide notice **at least 7 days before** the effe
 
 - **In-app link:** open this page from **Settings → Privacy**.  
 - **Regional behavior:** in EEA/UK/CH, Privacy Options are shown. **In KR and some other regions, the button may not show additional options** where not legally required.
+
 
