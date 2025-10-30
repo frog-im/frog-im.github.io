@@ -1,13 +1,13 @@
 ---
-title: 개인정보처리방침 | Lyrics Overlay & Tag Editorr
-description: Lyrics Overlay & Tag Editorr 개인정보처리방침(한국어)
+title: 개인정보처리방침 | Lyrics Overlay & Tag Editor
+description: Lyrics Overlay & Tag Editor 개인정보처리방침(한국어)
 lang: ko
 last_updated: 2025-10-30
 ---
 
-# 개인정보처리방침 (Lyrics Overlay & Tag Editorr)
+# 개인정보처리방침 (Lyrics Overlay & Tag Editor)
 
-- **앱명**: Lyrics Overlay & Tag Editorr  
+- **앱명**: Lyrics Overlay & Tag Editor  
 - **개발자**: frog-im  
 - **연락처**: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **시행일**: 2025-10-30
