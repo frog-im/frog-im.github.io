@@ -1,13 +1,13 @@
 ---
-title: นโยบายความเป็นส่วนตัว | Lyrics Overlay & Tag Editorr
-description: นโยบายความเป็นส่วนตัวของ Lyrics Overlay & Tag Editorr (ภาษาไทย)
+title: นโยบายความเป็นส่วนตัว | Lyrics Overlay & Tag Editor
+description: นโยบายความเป็นส่วนตัวของ Lyrics Overlay & Tag Editor (ภาษาไทย)
 lang: th
 last_updated: 2025-10-30
 ---
 
-# นโยบายความเป็นส่วนตัว (Lyrics Overlay & Tag Editorr)
+# นโยบายความเป็นส่วนตัว (Lyrics Overlay & Tag Editor)
 
-- **ชื่อแอป:** Lyrics Overlay & Tag Editorr  
+- **ชื่อแอป:** Lyrics Overlay & Tag Editor  
 - **ผู้พัฒนา:** frog-im  
 - **ติดต่อ:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **วันที่มีผลบังคับใช้:** 2025-10-30
@@ -147,4 +147,5 @@ last_updated: 2025-10-30
 
 - **ลิงก์ภายในแอป:** เปิดหน้านี้ได้จาก **การตั้งค่า → ความเป็นส่วนตัว (Privacy)**  
 - **ลักษณะการทำงานตามภูมิภาค:** ใน EEA/UK/CH จะแสดง Privacy Options **ใน KR และบางภูมิภาค ปุ่มอาจไม่แสดงตัวเลือกเพิ่มเติม** เมื่อกฎหมายไม่กำหนด
+
 
