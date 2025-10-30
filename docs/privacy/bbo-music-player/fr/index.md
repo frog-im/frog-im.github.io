@@ -1,13 +1,13 @@
 ---
-title: Politique de confidentialité | Lyrics Overlay & Tag Editorr
-description: Politique de confidentialité de Lyrics Overlay & Tag Editorr (Français)
+title: Politique de confidentialité | Lyrics Overlay & Tag Editor
+description: Politique de confidentialité de Lyrics Overlay & Tag Editor (Français)
 lang: fr
 last_updated: 2025-10-30
 ---
 
-# Politique de confidentialité (Lyrics Overlay & Tag Editorr)
+# Politique de confidentialité (Lyrics Overlay & Tag Editor)
 
-- **Nom de l’app :** Lyrics Overlay & Tag Editorr  
+- **Nom de l’app :** Lyrics Overlay & Tag Editor  
 - **Développeur :** frog-im  
 - **Contact :** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com) 
 - **Date d’entrée en vigueur :** 2025-10-30
@@ -147,4 +147,5 @@ En cas de modifications importantes, un préavis sera donné **au moins 7 jours 
 
 - **Lien in-app :** ouvrir cette page via **Réglages → Confidentialité**.  
 - **Comportement régional :** dans l’EEE/Royaume-Uni/Suisse, les Options de confidentialité sont affichées. **En KR et dans certaines autres régions, le bouton peut ne pas afficher d’options supplémentaires** lorsqu’aucune obligation légale ne l’exige.
+
 
