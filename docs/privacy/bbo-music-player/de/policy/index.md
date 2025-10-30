@@ -1,5 +1,5 @@
 ---
-title: Hinweis zur grenzüberschreitenden Datenübermittlung | Lyrics Overlay & Tag Editorr
+title: Hinweis zur grenzüberschreitenden Datenübermittlung | Lyrics Overlay & Tag Editor
 description: Internationaler Übermittlungshinweis für AdMob-Werbung (Deutsch)
 lang: de
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Hinweis zur grenzüberschreitenden Datenübermittlung (AdMob)
 
-Diese App („**Lyrics Overlay & Tag Editorr**“) verwendet **Google AdMob** zur Bereitstellung und Messung von In-App-Werbung. Im Rahmen dieser Dienste können personenbezogene Daten in andere Länder übermittelt werden.
+Diese App („**Lyrics Overlay & Tag Editor**“) verwendet **Google AdMob** zur Bereitstellung und Messung von In-App-Werbung. Im Rahmen dieser Dienste können personenbezogene Daten in andere Länder übermittelt werden.
 
 ---
 
@@ -76,4 +76,5 @@ Diese App („**Lyrics Overlay & Tag Editorr**“) verwendet **Google AdMob** zu
 
 ## Änderungen
 - Dieser Hinweis kann sich ändern. Bei wesentlichen Änderungen informieren wir in der App oder aktualisieren dieses Dokument.
+
 
