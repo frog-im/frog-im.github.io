@@ -1,5 +1,5 @@
 ---
-title: 国外移転に関する告知 | Lyrics Overlay & Tag Editorr
+title: 国外移転に関する告知 | Lyrics Overlay & Tag Editor
 description: AdMob 広告に関する国際データ移転告知（日本語）
 lang: ja
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # 国外移転に関する告知（AdMob ベース）
 
-本アプリ（「**Lyrics Overlay & Tag Editorr**」）は、**Google AdMob** を利用してアプリ内広告の提供および測定を行います。これに関連して、個人データが国外へ **移転** される場合があります。
+本アプリ（「**Lyrics Overlay & Tag Editor**」）は、**Google AdMob** を利用してアプリ内広告の提供および測定を行います。これに関連して、個人データが国外へ **移転** される場合があります。
 
 ---
 
@@ -76,4 +76,5 @@ last_updated: 2025-10-29
 
 ## 変更
 - 本告知は変更されることがあります。重要な変更がある場合、アプリ内での告知または本ドキュメントの更新により周知します。
+
 
