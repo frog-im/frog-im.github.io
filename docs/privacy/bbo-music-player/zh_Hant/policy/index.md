@@ -1,5 +1,5 @@
 ---
-title: 跨境資料移轉告知 | Lyrics Overlay & Tag Editorr
+title: 跨境資料移轉告知 | Lyrics Overlay & Tag Editor
 description: 基於 AdMob 的廣告用途國際資料移轉告知（繁體中文）
 lang: zh_Hant
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # 跨境資料移轉告知（AdMob 基礎）
 
-本 App（「**Lyrics Overlay & Tag Editorr**」）使用 **Google AdMob** 提供並衡量應用程式內之廣告。於此過程中，個人資料 **可能移轉至境外**。
+本 App（「**Lyrics Overlay & Tag Editor**」）使用 **Google AdMob** 提供並衡量應用程式內之廣告。於此過程中，個人資料 **可能移轉至境外**。
 
 ---
 
@@ -76,4 +76,5 @@ last_updated: 2025-10-29
 
 ## 政策變更
 - 本告知可能調整；對重大變更，我們將於 App 內提示或更新本文件。
+
 
