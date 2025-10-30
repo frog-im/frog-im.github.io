@@ -1,5 +1,5 @@
 ---
-title: Aviso de Transferência Internacional de Dados | Lyrics Overlay & Tag Editorr
+title: Aviso de Transferência Internacional de Dados | Lyrics Overlay & Tag Editor
 description: Aviso sobre transferência internacional de dados para publicidade com AdMob (Português do Brasil)
 lang: pt_BR
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Aviso de Transferência Internacional de Dados (baseado em AdMob)
 
-Este app (“**Lyrics Overlay & Tag Editorr**”) utiliza **Google AdMob** para fornecer e medir publicidade in-app. No curso desses serviços, dados pessoais podem ser **transferidos para fora** do seu país.
+Este app (“**Lyrics Overlay & Tag Editor**”) utiliza **Google AdMob** para fornecer e medir publicidade in-app. No curso desses serviços, dados pessoais podem ser **transferidos para fora** do seu país.
 
 ---
 
@@ -76,4 +76,5 @@ Este app (“**Lyrics Overlay & Tag Editorr**”) utiliza **Google AdMob** para 
 
 ## Alterações
 - Este Aviso pode mudar. Para alterações importantes, informaremos no app ou atualizaremos este documento.
+
 
