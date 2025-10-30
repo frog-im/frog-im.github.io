@@ -1,13 +1,13 @@
 ---
-title: Kebijakan Privasi | Lyrics Overlay & Tag Editorr
-description: Kebijakan Privasi Lyrics Overlay & Tag Editorr (Bahasa Indonesia)
+title: Kebijakan Privasi | Lyrics Overlay & Tag Editor
+description: Kebijakan Privasi Lyrics Overlay & Tag Editor (Bahasa Indonesia)
 lang: id
 last_updated: 2025-10-30
 ---
 
-# Kebijakan Privasi (Lyrics Overlay & Tag Editorr)
+# Kebijakan Privasi (Lyrics Overlay & Tag Editor)
 
-- **Nama aplikasi:** Lyrics Overlay & Tag Editorr  
+- **Nama aplikasi:** Lyrics Overlay & Tag Editor  
 - **Pengembang:** frog-im  
 - **Kontak:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Tanggal berlaku:** 2025-10-30
@@ -147,4 +147,5 @@ Untuk perubahan material, pemberitahuan akan diberikan **setidaknya 7 hari sebel
 
 - **Tautan dalam aplikasi:** buka halaman ini dari **Pengaturan → Privasi**.  
 - **Perilaku regional:** di EEA/UK/CH, Opsi Privasi ditampilkan. **Di KR dan beberapa wilayah lain, tombol mungkin tidak menampilkan opsi tambahan** bila tidak diwajibkan secara hukum.
+
 
