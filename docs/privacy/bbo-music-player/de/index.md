@@ -1,13 +1,13 @@
 ---
-title: Datenschutzerklärung | Lyrics Overlay & Tag Editorr
-description: Datenschutzerklärung von Lyrics Overlay & Tag Editorr (Deutsch)
+title: Datenschutzerklärung | Lyrics Overlay & Tag Editor
+description: Datenschutzerklärung von Lyrics Overlay & Tag Editor (Deutsch)
 lang: de
 last_updated: 2025-10-30
 ---
 
-# Datenschutzerklärung (Lyrics Overlay & Tag Editorr)
+# Datenschutzerklärung (Lyrics Overlay & Tag Editor)
 
-- **App-Name:** Lyrics Overlay & Tag Editorr  
+- **App-Name:** Lyrics Overlay & Tag Editor  
 - **Entwickler:** frog-im  
 - **Kontakt:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
 - **Geltungsbeginn:** 2025-10-30
@@ -147,4 +147,5 @@ Wesentliche Änderungen kündigen wir **mindestens 7 Tage vor** dem Wirksamkeits
 
 - **In-App-Link:** über **Einstellungen → Privacy** erreichbar.  
 - **Regionaler Ablauf:** In EWR/UK/CH werden Privacy Options angezeigt. **In KR und manchen weiteren Regionen erscheinen ggf. keine zusätzlichen Optionen**, sofern rechtlich nicht erforderlich.
+
 
