@@ -15,7 +15,7 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 ---
 
 ## Apps
-- **Lyrics Overlay & Tag Editorr**  
+- **Lyrics Overlay & Tag Editor**  
   Google Play: 
 
 ---
@@ -44,7 +44,7 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
 
 ## Privacy & Data
 
-- **개인정보처리방침(Privacy Policy) -Lyrics Overlay & Tag Editorr :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
+- **개인정보처리방침(Privacy Policy) -Lyrics Overlay & Tag Editor :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
 - **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
 
 
