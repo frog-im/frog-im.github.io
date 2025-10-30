@@ -1,5 +1,5 @@
 ---
-title: Thông báo chuyển dữ liệu xuyên biên giới | Lyrics Overlay & Tag Editorr
+title: Thông báo chuyển dữ liệu xuyên biên giới | Lyrics Overlay & Tag Editor
 description: Thông báo về chuyển dữ liệu quốc tế cho quảng cáo AdMob (Tiếng Việt)
 lang: vi
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Thông báo chuyển dữ liệu xuyên biên giới (dựa trên AdMob)
 
-Ứng dụng (“**Lyrics Overlay & Tag Editorr**”) sử dụng **Google AdMob** để phân phối và đo lường quảng cáo trong ứng dụng. Trong quá trình này, dữ liệu cá nhân có thể được **chuyển ra ngoài** quốc gia của bạn.
+Ứng dụng (“**Lyrics Overlay & Tag Editor**”) sử dụng **Google AdMob** để phân phối và đo lường quảng cáo trong ứng dụng. Trong quá trình này, dữ liệu cá nhân có thể được **chuyển ra ngoài** quốc gia của bạn.
 
 ---
 
@@ -76,4 +76,5 @@ last_updated: 2025-10-29
 
 ## Thay đổi
 - Thông báo này có thể thay đổi. Với thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng hoặc cập nhật tài liệu này.
+
 
