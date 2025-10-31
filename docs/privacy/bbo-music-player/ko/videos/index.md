@@ -13,7 +13,7 @@ description: Screen recording demo for Lyrics Overlay & Tag Editor
   playsinline
   preload="metadata"
   muted
-  style="max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 12px;"
+  style="max-width: 60%; height: auto; display: block; margin: 24px auto; border-radius: 12px;"
 >
   <source src="./Screen_Recording_20251031_210037_Lyrics%20Overlay%20%26%20Tag%20Editor.mp4" type="video/mp4" />
   Your browser does not support HTML5 video.
