@@ -1,5 +1,5 @@
 ---
-title: Lyrics Overlay & Tag Editor — Demo
+title: LyriFloat
 description: Screen recording demo for Lyrics Overlay & Tag Editor
 ---
 
