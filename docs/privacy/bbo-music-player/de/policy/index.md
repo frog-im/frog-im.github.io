@@ -1,5 +1,5 @@
 ---
-title: Hinweis zur grenzüberschreitenden Datenübermittlung | Lyrics Overlay & Tag Editor
+title: Hinweis zur grenzüberschreitenden Datenübermittlung | LyriFloat
 description: Internationaler Übermittlungshinweis für AdMob-Werbung (Deutsch)
 lang: de
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Hinweis zur grenzüberschreitenden Datenübermittlung (AdMob)
 
-Diese App („**Lyrics Overlay & Tag Editor**“) verwendet **Google AdMob** zur Bereitstellung und Messung von In-App-Werbung. Im Rahmen dieser Dienste können personenbezogene Daten in andere Länder übermittelt werden.
+Diese App („**LyriFloat**“) verwendet **Google AdMob** zur Bereitstellung und Messung von In-App-Werbung. Im Rahmen dieser Dienste können personenbezogene Daten in andere Länder übermittelt werden.
 
 ---
 
@@ -76,5 +76,6 @@ Diese App („**Lyrics Overlay & Tag Editor**“) verwendet **Google AdMob** zur
 
 ## Änderungen
 - Dieser Hinweis kann sich ändern. Bei wesentlichen Änderungen informieren wir in der App oder aktualisieren dieses Dokument.
+
 
 
