@@ -1,5 +1,5 @@
 ---
-title: Pemberitahuan Transfer Data Lintas Batas | Lyrics Overlay & Tag Editor
+title: Pemberitahuan Transfer Data Lintas Batas | LyriFloat
 description: Pemberitahuan transfer data internasional untuk periklanan AdMob (Bahasa Indonesia)
 lang: id
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Pemberitahuan Transfer Data Lintas Batas (berbasis AdMob)
 
-Aplikasi ini (“**Lyrics Overlay & Tag Editor**”) menggunakan **Google AdMob** untuk penyajian dan pengukuran iklan dalam aplikasi. Dalam penyelenggaraan layanan tersebut, data pribadi dapat **ditransfer ke luar** negara Anda.
+Aplikasi ini (“**LyriFloat**”) menggunakan **Google AdMob** untuk penyajian dan pengukuran iklan dalam aplikasi. Dalam penyelenggaraan layanan tersebut, data pribadi dapat **ditransfer ke luar** negara Anda.
 
 ---
 
@@ -76,4 +76,5 @@ Aplikasi ini (“**Lyrics Overlay & Tag Editor**”) menggunakan **Google AdMob*
 
 ## Perubahan
 - Pemberitahuan ini dapat berubah. Untuk perubahan penting, kami akan memberi tahu di dalam aplikasi atau memperbarui dokumen ini.
+
 
