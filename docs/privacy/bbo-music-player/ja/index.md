@@ -1,13 +1,13 @@
 ---
-title: プライバシーポリシー | Lyrics Overlay & Tag Editor
-description: Lyrics Overlay & Tag Editor のプライバシーポリシー（日本語）
+title: プライバシーポリシー | LyriFloat
+description: LyriFloat のプライバシーポリシー（日本語）
 lang: ja
 last_updated: 2025-10-30
 ---
 
-# プライバシーポリシー（Lyrics Overlay & Tag Editor）
+# プライバシーポリシー（LyriFloat）
 
-- **アプリ名:** Lyrics Overlay & Tag Editor  
+- **アプリ名:** LyriFloat
 - **開発者:** frog-im  
 - **連絡先:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **施行日:** 2025-10-30
@@ -147,5 +147,6 @@ Play Console の **「データ セーフティ」** セクションを正確に
 
 - **アプリ内リンク:** 設定の **「Privacy」**（または **Privacy Options**）から本ページを開けます。  
 - **地域別の動作:** EEA/UK/CH では Privacy Options が表示されますが、**韓国など一部地域では法的要件がないため追加オプションが表示されない** 場合があります。
+
 
 
