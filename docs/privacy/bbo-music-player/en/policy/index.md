@@ -1,5 +1,5 @@
 ---
-title: Cross-Border Transfer Notice | Lyrics Overlay & Tag Editor
+title: Cross-Border Transfer Notice | LyriFloat
 description: Cross-border data transfer notice for AdMob advertising (English)
 lang: en
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Cross-Border Transfer Notice (AdMob-based)
 
-This app (“**Lyrics Overlay & Tag Editor**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
+This app (“**LyriFloat**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
 
 ---
 
@@ -76,6 +76,7 @@ This app (“**Lyrics Overlay & Tag Editor**”) uses **Google AdMob** to provid
 
 ## Changes
 - This Notice may change. For important changes, we will provide in-app notice or update this document.
+
 
 
 
