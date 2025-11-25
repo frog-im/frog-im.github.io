@@ -1,13 +1,13 @@
 ---
-title: Gizlilik Politikası | Lyrics Overlay & Tag Editorr
-description: Lyrics Overlay & Tag Editorr Gizlilik Politikası (Türkçe)
+title: Gizlilik Politikası | LyriFloat
+description: LyriFloat Gizlilik Politikası (Türkçe)
 lang: tr
 last_updated: 2025-10-30
 ---
 
-# Gizlilik Politikası (Lyrics Overlay & Tag Editorr)
+# Gizlilik Politikası (LyriFloat)
 
-- **Uygulama adı:** Lyrics Overlay & Tag Editorr  
+- **Uygulama adı:** LyriFloat
 - **Geliştirici:** frog-im  
 - **İletişim:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Yürürlük tarihi:** 2025-10-30
@@ -147,4 +147,5 @@ Mevzuat veya hizmet değişiklikleri nedeniyle bu Politikayı güncelleyebiliriz
 
 - **Uygulama içi bağlantı:** **Ayarlar → Gizlilik** ekranından bu sayfayı açabilirsiniz.  
 - **Bölgesel davranış:** AEA/BK/İsviçre’de Gizlilik Seçenekleri gösterilir. **KR ve bazı bölgelerde, yasal gereklilik yoksa buton ek seçenek göstermeyebilir**.
+
 
