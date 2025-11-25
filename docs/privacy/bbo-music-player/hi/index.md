@@ -1,13 +1,13 @@
 ---
-title: गोपनीयता नीति | Lyrics Overlay & Tag Editor
-description: Lyrics Overlay & Tag Editor की गोपनीयता नीति (हिंदी)
+title: गोपनीयता नीति | LyriFloat
+description: LyriFloat की गोपनीयता नीति (हिंदी)
 lang: hi
 last_updated: 2025-10-30
 ---
 
-# गोपनीयता नीति (Lyrics Overlay & Tag Editor)
+# गोपनीयता नीति (LyriFloat)
 
-- **ऐप नाम:** Lyrics Overlay & Tag Editor 
+- **ऐप नाम:** LyriFloat
 - **डेवलपर:** frog-im  
 - **संपर्क:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **प्रभावी तिथि:** 2025-10-30
@@ -147,5 +147,6 @@ last_updated: 2025-10-30
 
 - **इन-ऐप लिंक:** **Settings → Privacy** से इस पृष्ठ को खोलें।  
 - **क्षेत्रीय व्यवहार:** EEA/UK/CH में Privacy Options दिखेंगे। **KR आदि कुछ क्षेत्रों में, कानूनी आवश्यकता न होने पर बटन दबाने पर अतिरिक्त विकल्प दिखाई नहीं भी दे सकते हैं**।
+
 
 
