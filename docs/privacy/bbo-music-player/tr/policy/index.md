@@ -1,5 +1,5 @@
 ---
-title: Sınır Ötesi Veri Aktarımı Bildirimi | Lyrics Overlay & Tag Editorr
+title: Sınır Ötesi Veri Aktarımı Bildirimi | LyriFloat
 description: AdMob reklamcılığı için uluslararası veri aktarımı bildirimi (Türkçe)
 lang: tr
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Sınır Ötesi Veri Aktarımı Bildirimi (AdMob temelli)
 
-Bu uygulama (“**Lyrics Overlay & Tag Editorr**”), uygulama içi reklamların sunulması ve ölçümü için **Google AdMob** kullanır. Bu hizmetler kapsamında kişisel veriler **ülke dışına aktarılabilir**.
+Bu uygulama (“**LyriFloat**”), uygulama içi reklamların sunulması ve ölçümü için **Google AdMob** kullanır. Bu hizmetler kapsamında kişisel veriler **ülke dışına aktarılabilir**.
 
 ---
 
@@ -76,4 +76,5 @@ Bu uygulama (“**Lyrics Overlay & Tag Editorr**”), uygulama içi reklamların
 
 ## Değişiklikler
 - Bu Bildirim değiştirilebilir. Önemli değişikliklerde uygulama içinden bilgilendirme yapar veya bu belgeyi güncelleriz.
+
 
