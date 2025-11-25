@@ -1,13 +1,13 @@
 ---
-title: Chính sách quyền riêng tư | Lyrics Overlay & Tag Editor
-description: Chính sách quyền riêng tư của Lyrics Overlay & Tag Editor (Tiếng Việt)
+title: Chính sách quyền riêng tư | LyriFloat
+description: Chính sách quyền riêng tư của LyriFloat (Tiếng Việt)
 lang: vi
 last_updated: 2025-10-30
 ---
 
-# Chính sách quyền riêng tư (Lyrics Overlay & Tag Editor)
+# Chính sách quyền riêng tư (LyriFloat)
 
-- **Tên ứng dụng:** Lyrics Overlay & Tag Editor  
+- **Tên ứng dụng:** LyriFloat
 - **Nhà phát triển:** frog-im  
 - **Liên hệ:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Ngày hiệu lực:** 2025-10-30
@@ -147,5 +147,6 @@ Với thay đổi trọng yếu, chúng tôi sẽ thông báo **ít nhất 7 ng�
 
 - **Liên kết trong ứng dụng:** mở trang này từ **Cài đặt → Quyền riêng tư (Privacy)**.  
 - **Hành vi theo khu vực:** tại EEA/Vương quốc Anh/Thụy Sĩ sẽ hiển thị Privacy Options; **tại Hàn Quốc và một số nơi khác, nút có thể không hiển thị tùy chọn bổ sung** nếu pháp luật không yêu cầu.
+
 
 
