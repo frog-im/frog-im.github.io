@@ -1,13 +1,13 @@
 ---
-title: Informativa sulla privacy | Lyrics Overlay & Tag Editor
-description: Informativa sulla privacy di Lyrics Overlay & Tag Editor (Italiano)
+title: Informativa sulla privacy | LyriFloat
+description: Informativa sulla privacy di LyriFloat (Italiano)
 lang: it
 last_updated: 2025-10-30
 ---
 
-# Informativa sulla privacy (Lyrics Overlay & Tag Editor)
+# Informativa sulla privacy (LyriFloat)
 
-- **Nome app:** Lyrics Overlay & Tag Editor  
+- **Nome app:** LyriFloat
 - **Sviluppatore:** frog-im  
 - **Contatto:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com) 
 - **Data di entrata in vigore:** 2025-10-30
@@ -147,5 +147,6 @@ In caso di modifiche sostanziali, verrà fornito un preavviso **di almeno 7 gior
 
 - **Link in-app:** aprire questa pagina da **Impostazioni → Privacy**.  
 - **Comportamento regionale:** in SEE/UK/CH vengono mostrate le Opzioni privacy. **In KR e in alcune altre regioni, il pulsante potrebbe non mostrare opzioni aggiuntive** se non richiesto dalla legge.
+
 
 
