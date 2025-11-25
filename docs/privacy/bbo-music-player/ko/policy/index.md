@@ -69,8 +69,8 @@
 ## 정책 변경
 - 본 정책은 변경될 수 있으며, 중요한 변경 시 앱 내 공지 또는 본 문서 업데이트로 고지합니다.
 ---
-title: 개인정보처리방침 | Lyrics Overlay & Tag Editor
-description: Lyrics Overlay & Tag Editor 개인정보처리방침(한국어)
+title: 개인정보처리방침 | LyriFloat
+description: LyriFloat 개인정보처리방침(한국어)
 lang: ko
 last_updated: 2025-10-30
 ---
