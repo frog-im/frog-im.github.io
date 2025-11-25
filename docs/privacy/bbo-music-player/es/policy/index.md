@@ -1,5 +1,5 @@
 ---
-title: Aviso sobre Transferencias Transfronterizas | Lyrics Overlay & Tag Editor
+title: Aviso sobre Transferencias Transfronterizas | LyriFloat
 description: Aviso de transferencia internacional de datos para publicidad con AdMob (Español)
 lang: es
 last_updated: 2025-10-29
@@ -7,7 +7,7 @@ last_updated: 2025-10-29
 
 # Aviso sobre Transferencias Transfronterizas (basado en AdMob)
 
-Esta app (“**Lyrics Overlay & Tag Editor**”) utiliza **Google AdMob** para ofrecer y medir publicidad dentro de la app. En el curso de estos servicios, los datos personales pueden transferirse fuera de su país.
+Esta app (“**LyriFloat**”) utiliza **Google AdMob** para ofrecer y medir publicidad dentro de la app. En el curso de estos servicios, los datos personales pueden transferirse fuera de su país.
 
 ---
 
@@ -76,5 +76,6 @@ Esta app (“**Lyrics Overlay & Tag Editor**”) utiliza **Google AdMob** para o
 
 ## Cambios
 - Este Aviso puede modificarse. Para cambios importantes, informaremos dentro de la app o actualizaremos este documento.
+
 
 
