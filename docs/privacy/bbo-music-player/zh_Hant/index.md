@@ -1,13 +1,13 @@
 ---
-title: 隱私權政策 | Lyrics Overlay & Tag Editor
-description: Lyrics Overlay & Tag Editor 隱私權政策（繁體中文）
+title: 隱私權政策 | LyriFloat
+description: LyriFloat 隱私權政策（繁體中文）
 lang: zh_Hant
 last_updated: 2025-10-30
 ---
 
-# 隱私權政策（Lyrics Overlay & Tag Editor）
+# 隱私權政策（LyriFloat）
 
-- **應用程式名稱：** Lyrics Overlay & Tag Editor  
+- **應用程式名稱：** LyriFloat
 - **開發者：** frog-im  
 - **聯絡方式：** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **生效日：** 2025-10-30
@@ -147,5 +147,6 @@ last_updated: 2025-10-30
 
 - **App 內連結：** 於 **設定 → 隱私（Privacy）** 開啟本頁。  
 - **地區差異：** 在 EEA/UK/CH 會顯示隱私選項；**於 KR 等部分地區，如無法定要求，按鈕可能不顯示額外選項**。
+
 
 
