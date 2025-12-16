@@ -1,5 +1,5 @@
 ---
-title: Sınırlararası Veri Aktarımı Bildirimi | LyriFloat
+title: Sınırlararası Veri Aktarımı Bildirimi | Subtitle Player & Editor
 description: AdMob reklamları için sınırlararası veri aktarımı bildirimi (Türkçe)
 lang: tr
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Sınırlararası Veri Aktarımı Bildirimi (AdMob Tabanlı)
 
-Bu uygulama (“**LyriFloat**”), uygulama içi reklamları sunmak ve ölçmek için **Google AdMob** kullanır. Bu hizmetlerin sunulması sırasında kişisel verileriniz ülkeniz dışındaki ülkelere aktarılabilir.
+Bu uygulama (“**Subtitle Player & Editor**”), uygulama içi reklamları sunmak ve ölçmek için **Google AdMob** kullanır. Bu hizmetlerin sunulması sırasında kişisel verileriniz ülkeniz dışındaki ülkelere aktarılabilir.
 
 ---
 
@@ -76,3 +76,4 @@ Bu uygulama (“**LyriFloat**”), uygulama içi reklamları sunmak ve ölçmek 
 
 ## Değişiklikler
 - Bu Bildirim değiştirilebilir. Önemli değişiklikler olması halinde, uygulama içi bildirim veya bu belgenin güncellenmesi yoluyla sizi bilgilendiririz.
+
