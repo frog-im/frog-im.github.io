@@ -1,5 +1,5 @@
 ---
-title: Pemberitahuan Transfer Data Lintas Batas | LyriFloat
+title: Pemberitahuan Transfer Data Lintas Batas | Subtitle Player & Editor
 description: Pemberitahuan transfer data lintas batas untuk iklan AdMob (Bahasa Indonesia)
 lang: id
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Pemberitahuan Transfer Data Lintas Batas (berbasis AdMob)
 
-Aplikasi ini (“**LyriFloat**”) menggunakan **Google AdMob** untuk menayangkan dan mengukur iklan di dalam aplikasi. Dalam penyediaan layanan tersebut, data pribadi Anda dapat ditransfer ke luar negara tempat Anda berada.
+Aplikasi ini (“**Subtitle Player & Editor**”) menggunakan **Google AdMob** untuk menayangkan dan mengukur iklan di dalam aplikasi. Dalam penyediaan layanan tersebut, data pribadi Anda dapat ditransfer ke luar negara tempat Anda berada.
 
 ---
 
@@ -76,3 +76,4 @@ Aplikasi ini (“**LyriFloat**”) menggunakan **Google AdMob** untuk menayangka
 
 ## Perubahan
 - Pemberitahuan ini dapat berubah. Jika terdapat perubahan penting, kami akan memberi tahu Anda melalui pemberitahuan di dalam aplikasi atau dengan memperbarui dokumen ini.
+
