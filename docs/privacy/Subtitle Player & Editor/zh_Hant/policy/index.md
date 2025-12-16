@@ -1,5 +1,5 @@
 ---
-title: 跨境資料傳輸通知 | LyriFloat
+title: 跨境資料傳輸通知 | Subtitle Player & Editor
 description: 針對 AdMob 廣告之個人資料跨境傳輸說明（繁體中文）
 lang: zh-hant
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # 跨境資料傳輸通知（以 AdMob 為基礎）
 
-本應用程式（「**LyriFloat**」）使用 **Google AdMob** 提供與衡量應用程式內廣告。在提供相關服務的過程中，個人資料可能會被傳輸至您所在國家／地區以外的地方。
+本應用程式（「**Subtitle Player & Editor**」）使用 **Google AdMob** 提供與衡量應用程式內廣告。在提供相關服務的過程中，個人資料可能會被傳輸至您所在國家／地區以外的地方。
 
 ---
 
@@ -76,3 +76,4 @@ last_updated: 2025-12-12
 
 ## 變更
 - 本通知內容可能變更。如有重大變更，我們將透過應用程式內公告或更新本文檔的方式通知您。
+
