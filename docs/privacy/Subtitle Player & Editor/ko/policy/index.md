@@ -1,5 +1,5 @@
 ---
-title: 국외 이전 안내 | LyriFloat
+title: 국외 이전 안내 | Subtitle Player & Editor
 description: AdMob 광고를 위한 개인정보 국외 이전 안내 (한국어)
 lang: ko
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # 국외 이전 안내 (AdMob 기반)
 
-본 앱(“**LyriFloat**”)은 **Google AdMob**을 사용하여 앱 내 광고를 제공하고 성과를 측정합니다. 이 과정에서 개인정보가 사용자의 국가 밖으로 이전될 수 있습니다.
+본 앱(“**Subtitle Player & Editor**”)은 **Google AdMob**을 사용하여 앱 내 광고를 제공하고 성과를 측정합니다. 이 과정에서 개인정보가 사용자의 국가 밖으로 이전될 수 있습니다.
 
 ---
 
@@ -76,3 +76,4 @@ last_updated: 2025-12-12
 
 ## 변경
 - 본 안내는 변경될 수 있습니다. 중요한 변경이 있을 경우 앱 내 공지 또는 이 문서 업데이트를 통해 알려드립니다.
+
