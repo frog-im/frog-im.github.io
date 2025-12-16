@@ -1,5 +1,5 @@
 ---
-title: Cross-Border Transfer Notice | LyriFloat
+title: Cross-Border Transfer Notice | Subtitle Player & Editor
 description: Cross-border data transfer notice for AdMob advertising (English)
 lang: en
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Cross-Border Transfer Notice (AdMob-based)
 
-This app (“**LyriFloat**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
+This app (“**Subtitle Player & Editor**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
 
 ---
 
@@ -76,3 +76,4 @@ This app (“**LyriFloat**”) uses **Google AdMob** to provide and measure in-a
 
 ## Changes
 - This Notice may change. For important changes, we will provide in-app notice or update this document.
+
