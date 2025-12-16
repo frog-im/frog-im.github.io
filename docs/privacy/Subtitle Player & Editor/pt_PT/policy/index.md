@@ -1,59 +1,59 @@
 ---
 title: Aviso de Transferência Internacional de Dados | Subtitle Player & Editor
-description: Aviso sobre transferência internacional de dados para publicidade AdMob (português - Portugal)
-lang: pt-pt
+description: Aviso de transferência internacional de dados para publicidade via AdMob (Português - Portugal)
+lang: pt-PT
 last_updated: 2025-12-12
 ---
 
 # Aviso de Transferência Internacional de Dados (baseado em AdMob)
 
-Esta aplicação (“**Subtitle Player & Editor**”) utiliza o **Google AdMob** para apresentar e medir publicidade na aplicação. No âmbito desta prestação de serviços, os seus dados pessoais podem ser transferidos para fora do seu país.
+Esta aplicação (“**Subtitle Player & Editor**”) utiliza o **Google AdMob** para disponibilizar e medir publicidade na aplicação. No âmbito da prestação destes serviços, dados pessoais podem ser transferidos para fora do seu país.
 
 ---
 
 ## A. Destinatário e Contacto
-- **Destinatário:** Google LLC e suas afiliadas (fornecedor do serviço AdMob)  
-- **Serviço/Função:** apresentação de anúncios, funcionalidades de publicidade/medição e tratamento de registos relacionados  
+- **Destinatário:** Google LLC e as suas afiliadas (prestadoras do serviço AdMob)  
+- **Serviço/Função:** veiculação de anúncios, funcionalidades de publicidade/medição, tratamento de registos relacionados  
 - **Website:** `admob.google.com`  
-- **Contactos de privacidade:** utilize os canais indicados pela Google para pedidos relacionados com privacidade (por exemplo, o Centro de Ajuda de Privacidade).  
-- **Nota:** No iOS, a utilização do identificador de publicidade (IDFA) está sujeita às políticas da plataforma e ao estado de consentimento do utilizador.
+- **Questões de privacidade:** Centro de Ajuda de Privacidade do Google ou outros canais de privacidade disponibilizados pelo Google  
+- **Nota:** no iOS, a utilização do identificador de publicidade (IDFA) está sujeita às políticas da plataforma e ao estado de consentimento do utilizador.
 
-> Referência: A Google pode utilizar informações recolhidas a partir de aplicações/sites parceiros (identificadores de dispositivo, IP, atividade na aplicação, etc.) para fins de publicidade e medição.
+> Referência: o Google pode utilizar informações recolhidas de aplicações/sites parceiros (identificadores do dispositivo, IP, atividade na aplicação, etc.) para publicidade e medição.
 
 ---
 
 ## B. Países de Destino
-- Estados Unidos da América e outros países/regiões onde a Google ou as suas afiliadas disponham de infraestruturas de tratamento de dados (por exemplo, na Europa ou na Ásia).
+- Estados Unidos e outros países/regiões onde o Google ou as suas afiliadas tenham capacidades de tratamento de dados (por exemplo, na Europa ou na Ásia).
 
 ---
 
-## C. Momento e Método da Transferência
-- **Momento:** quando a aplicação é executada e quando ocorrem pedidos de anúncios, impressões, cliques ou medições de desempenho  
-- **Método:** transmissão através de redes com encriptação em trânsito (HTTPS/TLS)  
-- **Salvaguardas:** tratamento efetuado ao abrigo de mecanismos de transferência internacional e garantias contratuais aplicáveis (por exemplo, decisões de adequação, Cláusulas Contratuais-Tipo)
+## C. Momento e Método de Transferência
+- **Momento:** quando a aplicação é executada e quando ocorrem pedidos/impressões/cliques/medições de anúncios  
+- **Método:** transmissão em rede com encriptação em trânsito (HTTPS/TLS)  
+- **Salvaguardas:** tratado ao abrigo de mecanismos aplicáveis de transferência internacional e salvaguardas contratuais (por exemplo, decisões de adequação, Cláusulas Contratuais-Tipo)
 
 ---
 
 ## D. Finalidade e Categorias de Dados
-- **Finalidade:** apresentação de anúncios, gestão do estado de personalização, medição de desempenho, análises, melhoria da qualidade e estabilidade do serviço  
-- **Exemplos de dados:** identificadores de publicidade (AAID/IDFA), versão/definições da aplicação, informações básicas do dispositivo/rede, identificadores semelhantes a cookies, registos de utilização (incluindo interações com anúncios e sinais de falhas/erros), localização aproximada (nível de cidade/país).  
-  As categorias específicas de dados recolhidos são regidas pela documentação da Google sobre utilização de dados de parceiros.
+- **Finalidade:** entrega de anúncios, estado de personalização, medição de desempenho, análise, melhoria da qualidade e estabilidade do serviço  
+- **Exemplos de dados:** identificadores de publicidade (AAID/IDFA), versão/definições da aplicação, informação básica do dispositivo/rede, identificadores do tipo cookie, registos de utilização (incluindo interação com anúncios e sinais de falha/erro), localização aproximada (nível de cidade/país).  
+  Os dados específicos recolhidos são regidos pela documentação do Google sobre utilização de dados de parceiros.
 
 ---
 
 ## E. Conservação
-- Os dados são conservados pelo tempo necessário para as finalidades acima indicadas ou pelo período exigido pela legislação aplicável, sendo depois apagados ou anonimizados.
+- Conservado conforme necessário para as finalidades acima ou conforme exigido por lei aplicável e, depois, eliminado ou desidentificado.
 
 ---
 
-## F. Direito de Recusar ou Retirar o Consentimento
-- **No interior da aplicação:** em **Opções de Privacidade**, pode escolher anúncios não personalizados (NPA).  
-  Em regiões como o EEE/Reino Unido/Suíça, é possível definir e redefinir o consentimento através de um painel de gestão (CMP/UMP).  
-- A recusa ou retirada do consentimento pode limitar determinadas funcionalidades de personalização, mas as funcionalidades principais da aplicação continuarão disponíveis.
+## F. Direito de Recusar ou Retirar Consentimento
+- **Caminho na aplicação:** em **Opções de Privacidade**, pode escolher anúncios não personalizados (NPA).  
+  Em regiões como EEE/Reino Unido/Suíça, pode selecionar e repor o consentimento através de um ecrã de gestão de consentimento (CMP/UMP).  
+- A recusa ou retirada do consentimento pode limitar determinadas funcionalidades de personalização. As funcionalidades principais da aplicação permanecem disponíveis.
 
 ---
 
-## G. Contactos para Questões de Privacidade
+## G. Contacto para Questões de Privacidade
 - **Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
@@ -61,20 +61,18 @@ Esta aplicação (“**Subtitle Player & Editor**”) utiliza o **Google AdMob**
 ## Avisos Específicos por País
 
 ### Coreia (PIPA)
-Nos termos da lei coreana de proteção de dados (PIPA), para transferências internacionais de dados pessoais, divulgamos o destinatário, o país/região de destino, o momento e o método de transferência, as finalidades/categorias de dados, o período de conservação e eventuais consequências da recusa. Este Aviso foi elaborado para cumprir esses requisitos.
+- Para transferências internacionais, divulgamos o destinatário, o destino, o momento/método, as finalidades/categorias, a conservação e quaisquer desvantagens decorrentes da recusa. Este Aviso foi concebido para cumprir esses requisitos.
 
 ### Japão (APPI)
-Nos termos da lei japonesa de proteção de dados (APPI), quando fornecemos dados pessoais a terceiros em países estrangeiros, indicamos o **país/região de destino** e o respetivo regime de proteção, ou as **salvaguardas adequadas** aplicáveis. Quando necessário, a transferência internacional pode basear-se no consentimento do titular dos dados. Os mecanismos de transferência internacional e as salvaguardas da Google são os descritos acima.
+- Para fornecimento a terceiros a entidades estrangeiras, disponibilizamos informação sobre o **país de destino** e o seu **regime de proteção**, ou sobre **salvaguardas adequadas**. As transferências podem basear-se em consentimento quando exigido. Os mecanismos e salvaguardas internacionais do Google são os descritos acima.
 
 ### Türkiye (KVKK)
-As transferências internacionais de dados pessoais podem exigir uma decisão de adequação, compromissos escritos que assegurem garantias suficientes aprovados pela Autoridade, ou o consentimento explícito do titular. Sempre que aplicável, forneceremos detalhes adicionais neste Aviso e através dos nossos canais de apoio.
+- Transferências internacionais podem exigir decisão de adequação, compromissos por escrito que assegurem salvaguardas suficientes com aprovação do Conselho, ou consentimento explícito. Forneceremos detalhes neste Aviso e através de canais de suporte quando aplicável.
 
 ---
 
 ## Fornecimento a Terceiros
-Fornecemos ao terceiro acima identificado (“Destinatário”) apenas a informação mínima necessária para cumprir requisitos legais e prestar o serviço. Para saber como a Google utiliza dados de parceiros, consulte a sua documentação oficial.
-
----
+- Partilhamos apenas a informação mínima necessária com o terceiro (o **Destinatário** acima) para conformidade legal e prestação do serviço. Consulte a documentação do Google sobre como os dados de parceiros são utilizados.
 
 ## Alterações
-Este Aviso pode ser atualizado. Em caso de alterações importantes, apresentaremos um aviso na aplicação ou atualizaremos este documento.
+- Este Aviso pode ser alterado. Para alterações importantes, forneceremos aviso na aplicação ou atualizaremos este documento.
