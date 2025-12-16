@@ -1,5 +1,5 @@
 ---
-title: Avis de Transfert Transfrontalier | LyriFloat
+title: Avis de Transfert Transfrontalier | Subtitle Player & Editor
 description: Avis relatif au transfert transfrontalier de données pour la publicité AdMob (français)
 lang: fr
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Avis de Transfert Transfrontalier (basé sur AdMob)
 
-Cette application (« **LyriFloat** ») utilise **Google AdMob** pour fournir et mesurer la publicité intégrée à l’application. Dans le cadre de ces services, des données personnelles peuvent être transférées en dehors de votre pays.
+Cette application (« **Subtitle Player & Editor** ») utilise **Google AdMob** pour fournir et mesurer la publicité intégrée à l’application. Dans le cadre de ces services, des données personnelles peuvent être transférées en dehors de votre pays.
 
 ---
 
@@ -76,3 +76,4 @@ Cette application (« **LyriFloat** ») utilise **Google AdMob** pour fournir et
 
 ## Modifications
 - Le présent avis peut être modifié. En cas de modification importante, nous fournirons un avis dans l’application ou mettrons à jour ce document.
+
