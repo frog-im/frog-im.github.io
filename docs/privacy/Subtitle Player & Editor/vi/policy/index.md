@@ -1,5 +1,5 @@
 ---
-title: Thông Báo Chuyển Giao Dữ Liệu Xuyên Biên Giới | LyriFloat
+title: Thông Báo Chuyển Giao Dữ Liệu Xuyên Biên Giới | Subtitle Player & Editor
 description: Thông báo về chuyển giao dữ liệu xuyên biên giới cho quảng cáo AdMob (tiếng Việt)
 lang: vi
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Thông Báo Chuyển Giao Dữ Liệu Xuyên Biên Giới (dựa trên AdMob)
 
-Ứng dụng này (“**LyriFloat**”) sử dụng **Google AdMob** để hiển thị và đo lường quảng cáo trong ứng dụng. Trong quá trình cung cấp dịch vụ, dữ liệu cá nhân của bạn có thể được chuyển ra ngoài lãnh thổ quốc gia nơi bạn sinh sống.
+Ứng dụng này (“**Subtitle Player & Editor**”) sử dụng **Google AdMob** để hiển thị và đo lường quảng cáo trong ứng dụng. Trong quá trình cung cấp dịch vụ, dữ liệu cá nhân của bạn có thể được chuyển ra ngoài lãnh thổ quốc gia nơi bạn sinh sống.
 
 ---
 
@@ -76,3 +76,4 @@ last_updated: 2025-12-12
 
 ## Thay đổi
 - Thông báo này có thể được sửa đổi. Khi có thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng hoặc cập nhật tài liệu này.
+
