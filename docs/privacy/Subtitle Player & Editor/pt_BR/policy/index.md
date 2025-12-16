@@ -1,5 +1,5 @@
 ---
-title: Aviso de Transferência Internacional de Dados | LyriFloat
+title: Aviso de Transferência Internacional de Dados | Subtitle Player & Editor
 description: Aviso sobre transferência internacional de dados para publicidade com AdMob (português - Brasil)
 lang: pt-br
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Aviso de Transferência Internacional de Dados (baseado em AdMob)
 
-Este app (“**LyriFloat**”) utiliza o **Google AdMob** para exibir e medir anúncios dentro do aplicativo. No fornecimento desses serviços, dados pessoais podem ser transferidos para fora do seu país.
+Este app (“**Subtitle Player & Editor**”) utiliza o **Google AdMob** para exibir e medir anúncios dentro do aplicativo. No fornecimento desses serviços, dados pessoais podem ser transferidos para fora do seu país.
 
 ---
 
@@ -76,3 +76,4 @@ Este app (“**LyriFloat**”) utiliza o **Google AdMob** para exibir e medir an
 
 ## Alterações
 - Este Aviso pode ser atualizado. Em caso de alterações importantes, disponibilizaremos aviso no app ou atualizaremos este documento.
+
