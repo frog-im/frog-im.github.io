@@ -1,5 +1,5 @@
 ---
-title: Informativa sul Trasferimento Transfrontaliero | LyriFloat
+title: Informativa sul Trasferimento Transfrontaliero | Subtitle Player & Editor
 description: Informativa sul trasferimento internazionale dei dati per la pubblicità AdMob (italiano)
 lang: it
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Informativa sul Trasferimento Transfrontaliero (basata su AdMob)
 
-Questa app (“**LyriFloat**”) utilizza **Google AdMob** per fornire e misurare la pubblicità all’interno dell’app. Nell’ambito di tali servizi, i dati personali possono essere trasferiti al di fuori del tuo Paese.
+Questa app (“**Subtitle Player & Editor**”) utilizza **Google AdMob** per fornire e misurare la pubblicità all’interno dell’app. Nell’ambito di tali servizi, i dati personali possono essere trasferiti al di fuori del tuo Paese.
 
 ---
 
@@ -76,3 +76,4 @@ Questa app (“**LyriFloat**”) utilizza **Google AdMob** per fornire e misurar
 
 ## Modifiche
 - La presente Informativa può essere aggiornata. In caso di modifiche rilevanti, forniremo un avviso all’interno dell’app o aggiorneremo questo documento.
+
