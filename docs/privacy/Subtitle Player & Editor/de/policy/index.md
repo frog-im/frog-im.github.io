@@ -1,5 +1,5 @@
 ---
-title: Hinweis zur grenzüberschreitenden Datenübermittlung | LyriFloat
+title: Hinweis zur grenzüberschreitenden Datenübermittlung | Subtitle Player & Editor
 description: Hinweis zur grenzüberschreitenden Datenübermittlung für AdMob-Werbung (Deutsch)
 lang: de
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Hinweis zur grenzüberschreitenden Datenübermittlung (AdMob-basiert)
 
-Diese App („**LyriFloat**“) verwendet **Google AdMob**, um In-App-Werbung bereitzustellen und zu messen. Im Rahmen dieser Dienste können personenbezogene Daten in Länder außerhalb Ihres Wohnsitzstaates übertragen werden.
+Diese App („**Subtitle Player & Editor**“) verwendet **Google AdMob**, um In-App-Werbung bereitzustellen und zu messen. Im Rahmen dieser Dienste können personenbezogene Daten in Länder außerhalb Ihres Wohnsitzstaates übertragen werden.
 
 ---
 
@@ -76,3 +76,4 @@ Diese App („**LyriFloat**“) verwendet **Google AdMob**, um In-App-Werbung be
 
 ## Änderungen
 - Dieser Hinweis kann geändert werden. Bei wichtigen Änderungen informieren wir Sie innerhalb der App oder durch eine Aktualisierung dieses Dokuments.
+
