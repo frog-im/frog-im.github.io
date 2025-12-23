@@ -5,7 +5,7 @@ description: Screen recording demo for subtitle player & Editor
 
 # Demo: subtitle player & Editor
 
-> Screen_Recording_20251223_002643_One_UI_Home.mp4
+> Screen_Recording_20251223_002643_One UI Home.mp4
 
 <video
   controls
