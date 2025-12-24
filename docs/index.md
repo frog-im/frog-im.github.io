@@ -48,7 +48,10 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
 
 ## Privacy & Data
 
-- **개인정보처리방침(Privacy Policy) -Lyrics Overlay & Tag Editor :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
+- **개인정보처리방침(Privacy Policy)
+  - Power Audio Tag Editor :** [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/bbo-music-player/ko/)
+  - Power Subtitle Editor & Player: [https://yourdomain.com/privacy/  ](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/)
+  - 
 - **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
 
 
