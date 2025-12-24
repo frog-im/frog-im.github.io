@@ -15,8 +15,12 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 ---
 
 ## Apps
-- **LyriFloat**  
-  Google Play: (https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid)
+- **LyriFloat (Power Audio Tag Editor) **  
+  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share)
+
+
+  - **air_caption (Power Subtitle Editor & Player) **  
+  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share)
 
 ---
 
