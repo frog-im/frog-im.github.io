@@ -2,17 +2,17 @@
 title: Privacy Policy | Subtitle Tool
 description: Subtitle Tool (Subtitle Player & Editor) Privacy Policy (English)
 lang: en
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
 # Privacy Policy (Subtitle Tool / Subtitle Player & Editor)
 
-- **App name:** Subtitle Player & Editor (also referred to as **“Subtitle Tool”** in this Policy)  
-- **Developer:** frog-im  
-- **Contact:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Effective date:** 2025-12-12  
+- **App name:** Subtitle Player & Editor (also referred to as **Subtitle Tool** in this Policy)
+- **Developer:** frog-im
+- **Contact:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Effective date:** 2026-03-11
 
-> This Policy is drafted with reference to applicable laws including the Korean Personal Information Protection Act (PIPA), the GDPR/UK GDPR, the Swiss FADP, and relevant U.S. state privacy laws. If there are jurisdiction-specific requirements, those requirements take precedence.
+> This Policy is prepared with reference to applicable laws including the Korean Personal Information Protection Act (PIPA), the GDPR / UK GDPR, the Swiss FADP, and relevant U.S. state privacy laws. If mandatory local rules apply, those rules take precedence.
 
 ---
 
@@ -20,15 +20,22 @@ last_updated: 2025-12-12
 
 This app provides:
 
-- **Subtitle playback and editing** (e.g., SRT, VTT, ASS, SSA, LRC)  
-- **Video + subtitle playback** from files selected by the user  
-- **Floating subtitle / lyrics overlay** displayed over other apps (Android)
+- Subtitle playback and editing
+- Video + subtitle playback from files selected by the user
+- Floating subtitle / lyrics overlay shown over other apps on Android
 
-The app does **not** create a user account and does **not** upload user media or subtitle content to our own servers.  
-Processing is performed **on the user’s device** by default.
+Supported subtitle handling may include formats such as:
 
-However, for **advertising**, **consent management**, and **legal compliance** purposes, third-party partners (such as **Google Mobile Ads SDK (AdMob)** and **Google UMP**) may collect and process information including **advertising identifiers** and related signals.  
-Consent collection and privacy choices follow the **Google UMP (User Messaging Platform)** specifications where applicable.
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
+
+The app does **not** create a user account and does **not** upload user subtitle or media files to the developer's own servers. Subtitle parsing, editing, previewing, and most playback-related processing are performed **locally on the device**.
+
+However, for advertising, consent management, and legal compliance, third-party SDKs such as **Google Mobile Ads SDK (AdMob)** and **Google UMP** may process certain information such as advertising identifiers, device signals, and consent choices.
 
 ---
 
@@ -36,261 +43,270 @@ Consent collection and privacy choices follow the **Google UMP (User Messaging P
 
 ### 2-1) Files Explicitly Chosen by the User
 
-The app interacts only with **files the user explicitly selects**, such as:
+The app interacts with files the user explicitly selects, including:
 
-- **Subtitle files**  
-  - Examples: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`  
-  - **Use:**  
-    - Displaying subtitles/lyrics in a floating overlay or inside the app  
-    - Editing subtitle timing and text and saving to a new file  
-  - **Processing:** Performed **locally on the device** (parsing and saving via libraries such as `subtitle`)
+- **Subtitle files**
+  - Examples: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Uses:
+    - Subtitle playback inside the app
+    - Subtitle editing
+    - Overlay subtitle display
+    - Subtitle conversion and export
 
-- **Media files (optional)**  
-  - Examples: local video/audio files selected by the user (e.g., via file picker)  
-  - **Use:** Playing video/audio together with selected subtitles inside the app  
-  - **Processing:** Decoding and playback are done **locally** (e.g., using `better_player` or similar libraries)
+- **Media files**
+  - Examples: local video or audio files chosen by the user
+  - Uses:
+    - Video + subtitle playback
+    - Overlay timing alignment against currently playing media
 
-> **Important:**  
-> - The app does **not** upload user-selected subtitles or media files to our own servers.  
-> - Paths and contents are used strictly for playback, overlay display, and user-initiated editing.
+Important points:
+
+- User-selected files are processed locally on the device.
+- The app does not upload those files to the developer's own servers.
+- File paths and contents are used only for playback, overlay, editing, saving, and user-requested actions.
 
 ### 2-2) Local Settings and Stored Values
 
-For the app to function and provide a consistent user experience, certain settings are stored **locally on the device** using `SharedPreferences` or equivalent OS mechanisms.
+To provide persistent settings and restore prior state, the app stores some values locally on the device using `SharedPreferences` or similar OS-provided local storage.
 
-These values are **not** sent to our own servers and are **removed when the app or its data is deleted**.
+These values are not sent to the developer's own servers and are normally removed if the app's data is cleared or the app is uninstalled.
 
-#### (1) Overlay position, size, and style (`SharedPreferences`)
+#### (1) Overlay settings
 
-| Type | Key (example) | Purpose | Storage | Deletion |
-|---|---|---|---|---|
-| Overlay position (Y) | `overlay_box_y` | Restore vertical position of subtitle overlay box | Device SharedPreferences | Removed when app data or app is deleted |
-| Overlay position (X / left alignment) | `overlay_box_x` | Horizontal alignment / offset (typically fixed or 0) | Same | Same |
-| Overlay font size | `overlay_text_font` | Keep user-selected subtitle font size for both overlay and in-app player | Same | Same |
-| Overlay font color | `overlay_text_color` | Keep text color for overlay | Same | Same |
-| Overlay outline usage | `overlay_outline_enabled` | Whether to draw outline around overlay text | Same | Same |
-| Overlay outline color | `overlay_outline_color` | Color of the text outline | Same | Same |
-| Overlay outline width | `overlay_outline_width` | Thickness of the text outline | Same | Same |
-| Overlay width/height | `overlay_box_w`, `overlay_box_h` | Default or user-tuned overlay size in dp | Same | Same |
-| Overlay ad counter | `overlay_interstitial_count` | Internal counter for showing ads periodically (e.g., every 3rd overlay launch) | Same | Same |
+Examples include:
 
-These keys are used to:
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
 
-- Restore the last used overlay position on the screen  
-- Synchronize subtitle style between **Overlay Box Editor**, **video player**, and **Android overlay app**  
-- Control how often full-screen or rewarded ads are **attempted** (e.g., “every third overlay usage”)
+Purpose:
 
-#### (2) Ads / privacy-related preferences
+- Restore overlay position
+- Restore subtitle style for overlay and in-app subtitle playback
+- Keep outline / font / orientation preferences
+- Control ad display frequency logic for some overlay-related flows
 
-Depending on your region and app settings, the app may store flags such as:
+#### (2) Recent playback or overlay positions
 
-- `pref_npa_always` (non-personalized ads preference)  
-- `pref_us_rdp` (U.S. Restricted Data Processing)  
-- `pref_child_directed` / `pref_under_age` (child-directed / age-related tagging for ads)  
-- `pref_max_ad_rating` (maximum allowed ad content rating)
+Examples include:
 
-**Purpose:**  
-- To remember your privacy and ad-related choices, and to configure AdMob / UMP in a way that respects those choices.
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
 
-**Storage / deletion:**  
-- Stored locally through `SharedPreferences`.  
-- Removed when app data is cleared or the app is uninstalled.
+Purpose:
 
-#### (3) Temporary files
+- Restore or suggest recent subtitle/overlay starting positions
+- Resume video + subtitle playback more conveniently
 
-During normal operation, the app may create **temporary files**, for example:
+#### (3) Ad and privacy preference values
 
-- Parsed/converted subtitle contents used internally  
-- Small caches created by third-party libraries or file pickers
+Examples may include:
 
-These temporary files:
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
 
-- Reside in OS-managed cache or temporary folders  
-- Are deleted by the app where practical, and may also be cleaned up by the OS over time  
-- Are **not** uploaded to our own servers
+Purpose:
 
-#### (4) User-selected save locations
+- Store ad privacy choices
+- Apply UMP / AdMob privacy and ad configuration settings
 
-When you use “Save As” or similar features:
+#### (4) User-created subtitle output
 
-- The app may **write subtitle files** to a directory you choose (e.g., Downloads or another folder chosen via a system file picker).  
-- Such files reside in **external or user-managed storage** and may **remain after app deletion**.  
-- You can delete these files manually via your file manager or cloud storage interface.
+When the user saves or exports subtitle files, the app may write new subtitle files to a location selected by the user, such as:
 
-#### (5) Consent State (UMP SDK Cache)
+- Downloads
+- Another folder selected through a system picker
+- A user-managed storage location
 
-In certain regions (EEA/UK/CH and others as determined by Google UMP):
+These user-saved files may remain on the device after app deletion unless the user deletes them manually.
 
-- The **UMP SDK** may cache your ad consent state locally on the device.  
-- This can typically be reset by:
-  - Clearing the app’s data, or  
-  - Using an in-app **Privacy Options / Consent** screen where provided.
+#### (5) Temporary files and caches
+
+The app and third-party libraries may create temporary or cache files for normal operation, such as:
+
+- file picker cache data
+- temporary subtitle conversion data
+- playback-related cache data
+
+These are intended for local operation only and are not uploaded to the developer's own servers.
+
+#### (6) UMP consent state cache
+
+In regions where Google UMP applies, the SDK may cache consent state locally on the device.
+
+This can generally be reset by:
+
+- clearing app data, or
+- changing consent choices inside the app where a privacy options entry is available
+
+### 2-3) Android Overlay and Permission-Related Processing
+
+On Android, the floating subtitle overlay may use:
+
+- `SYSTEM_ALERT_WINDOW` / display-over-other-apps permission
+- `POST_NOTIFICATIONS` permission
+- a foreground service notification required for the overlay service
+
+Purpose:
+
+- display subtitle overlay above other apps
+- keep the overlay service running
+- allow Android to show required overlay / service notifications
+- read media notification information when needed for subtitle progression support
+
+These permissions are used only for app features the user chooses to use.
+
+### 2-4) Ads, Consent, and Related Data (Third-party SDKs)
+
+The app uses Google ad / consent SDKs, including:
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+The app may show:
+
+- banner ads
+- interstitial ads
+- rewarded or rewarded-interstitial ads
+
+These SDKs may process data such as:
+
+- advertising identifiers (for example, AAID / IDFA where applicable)
+- IP-based and network-related information
+- device and app metadata
+- ad interaction signals
+- consent choices
+
+Purposes may include:
+
+- ad delivery
+- ad measurement and reporting
+- frequency capping
+- fraud prevention
+- legal compliance
+
+The developer aims to configure these SDKs in a manner consistent with the user's consent choices and applicable law.
 
 ---
 
-### 2-3) Ads, Consent, and Related Data (Third-party SDKs)
+## 3. How We Process and Retain Data
 
-The app uses **Google Mobile Ads SDK (AdMob)** and **Google UMP** for:
+- **Local settings and recent position data**
+  - retained on the device until app data is cleared or the app is removed
 
-- Displaying ads (including **rewarded ads** for some operations such as subtitle saving)  
-- Managing ad-related consent where required by law
+- **Temporary files / cache**
+  - retained only as needed for operation, then removed by the app where practical or later cleaned by the OS
 
-These third-party SDKs may collect or process, for example:
+- **User-saved subtitle files**
+  - remain in the save location chosen by the user until deleted by the user
 
-- **Advertising identifiers** (e.g., AAID / IDFA)  
-- **IP-based information**, approximate location, and general network info  
-- Device and app information (OS version, app version, language, crash logs relevant to ads)  
-- Ad interaction and engagement signals (e.g., impressions, clicks, completed views in rewarded ads)  
-- Consent choices recorded via UMP
-
-**Purposes:**
-
-- Ad delivery and reporting  
-- Frequency capping  
-- Fraud and abuse prevention  
-- Legal compliance (e.g., consent and age-related flags)
-
-Regions such as **EEA/UK/CH**:
-
-- Consent is requested through **UMP prompts** where required.  
-- A **Privacy Options** button may be shown to revisit your choices.
-
-Regions without such explicit legal requirements (e.g., Korea):
-
-- The UI may **not** show a separate Privacy Options button if not required,  
-  but OS-level settings (e.g., ad ID reset) remain available.
+- **Ad / consent data handled by third parties**
+  - retained according to Google policies and applicable law
 
 ---
 
-## 3. Processing and Retention
+## 4. Third-party Processing and Cross-Border Transfers
 
-- **Local settings (SharedPreferences):**  
-  - Retained on the device until you clear app data or uninstall the app.
-
-- **Temporary files:**  
-  - Created and used during subtitle operations and playback.  
-  - Deleted where practical by the app; also subject to OS-level cache cleanup.
-
-- **User-saved subtitle files:**  
-  - Written to destinations you choose (e.g., Downloads, other folders, or cloud locations).  
-  - Remain under your control, and are **not removed automatically** when uninstalling the app.
-
-- **Ads / consent data (third-party):**  
-  - Stored, processed, and retained in accordance with **Google’s policies** and applicable law.
-
----
-
-## 4. Third-party Transfers and Cross-Border Data Flows
-
-For advertising and consent management, certain data is processed by **Google** and its partners.
+For ads and consent management, some information may be processed by Google and related partners.
 
 | Item | Details |
 |---|---|
-| **Recipient** | Google LLC and its affiliates/sub-processors |
-| **Destination** | The United States and other regions where Google’s infrastructure is located |
-| **Purpose** | Ad delivery, performance measurement, fraud prevention, consent management, and legal compliance |
-| **Data** | Advertising identifiers, IP-based info, device/app info, ad interaction signals, consent state, etc. |
-| **Retention** | Per Google’s policies and applicable laws |
-| **Effect of refusal** | Personalized ads may be limited; non-personalized ads or fewer ads may be shown |
+| Recipient | Google LLC and related affiliates / processors |
+| Purpose | Ad delivery, measurement, fraud prevention, consent management, and legal compliance |
+| Possible data | Advertising identifiers, device/app info, IP-based info, ad interaction data, consent state |
+| Destination | United States and other regions where Google infrastructure operates |
+| Retention | According to Google policies and applicable law |
 
-We aim to keep our **Google Play Data safety** disclosures consistent with how the app and its SDKs actually process data.
+The developer aims to keep app store privacy disclosures consistent with actual SDK behavior.
 
 ---
 
-## 5. Your Rights and How to Exercise Them
+## 5. Your Rights and Choices
 
 Depending on your jurisdiction, you may have rights such as:
 
-- Access to your personal data  
-- Rectification or erasure  
-- Restriction of processing  
-- Data portability  
-- Objection to certain processing  
-- Withdrawal of consent (where consent is the legal basis)
+- access
+- correction
+- deletion
+- restriction
+- portability
+- objection
+- withdrawal of consent where consent is the legal basis
 
-**In practice:**
+Practical controls include:
 
-- **Ads and consent choices**  
-  - In UMP-supported regions (e.g., EEA/UK/CH): adjust choices in **Settings → Privacy Options** (if provided in the app UI).  
-  - Otherwise, use OS settings to **reset the advertising ID** or limit ad personalization.
+- changing ad / privacy choices in the app where available
+- clearing app data to remove local settings and cached preferences
+- uninstalling the app
+- deleting exported subtitle files manually from user storage
+- using OS-level controls such as notification settings, ad ID reset, or ad personalization settings
 
-- **Local settings and overlay configuration**  
-  - Clearing app data or uninstalling the app resets:  
-    - Overlay coordinates and size  
-    - Font size, color, outline settings  
-    - Stored ad/privacy preferences
-
-For ad-related data processed by Google, please refer to and use **Google’s own tools and processes** (e.g., Google account ad settings, UMP dialog, etc.).
+For data processed by Google, users should also refer to Google's own privacy and account tools where relevant.
 
 ---
 
-## 6. Children’s Privacy
+## 6. Children's Privacy
 
-This app is **not directed to children**.
+This app is not intended primarily for children.
 
-- The app’s primary purpose is **subtitle/lyrics editing and floating overlay**, which presumes use by older teens or adults.  
-- If a child under the legally required minimum age uses the app, they should stop using it and use OS-level ad-limiting features with a guardian.  
-
-Where appropriate, the developer may enable **child-directed flags (e.g., TFUA)** or equivalent settings in ad SDKs to better protect minors, in line with platform policies.
+Its main purpose is subtitle playback, editing, overlay display, and related utility features. Where appropriate, ad SDK configuration may apply age-related or child-directed flags consistent with platform requirements and the developer's settings.
 
 ---
 
 ## 7. Security Measures
 
-Within the app’s architecture and scope, we seek to:
+Within the limits of the app's architecture, the developer seeks to:
 
-- Minimize data collection to what is necessary for subtitle and overlay functionality  
-- Keep processing **on-device** wherever possible  
-- Limit file access strictly to files you explicitly choose through system file pickers  
-- Use **system-level permissions** transparently (e.g., overlay permission, notification permission on Android)  
-- Rely on **TLS or equivalent encryption in transit** for network traffic handled by third-party SDKs (such as ad and consent frameworks)
+- minimize collection by keeping most subtitle and media processing on-device
+- use system file pickers and user-initiated file access
+- use system permissions transparently
+- rely on encrypted network transport used by third-party SDKs where applicable
 
----
-
-## 8. Data Safety (Google Play)
-
-For distribution through app stores such as **Google Play**, we:
-
-- Prepare and maintain a **Data safety** section that accurately reflects how the app and its third-party SDKs handle data  
-- Update the disclosure without undue delay if there are material changes in processing (e.g., enabling analytics or crash reporting SDKs in future versions)
+No method of storage or transmission is perfectly secure, but the app is designed to avoid unnecessary collection by the developer.
 
 ---
 
-## 9. Open-source Notices
+## 8. Open-source Software
 
-This app uses open-source software (for example, libraries for:
+The app uses open-source software, including libraries related to:
 
-- Subtitle parsing and serialization  
-- Video playback  
-- Overlay windows  
-- WebView integrations  
-- Localization and UI components)
+- subtitle parsing and serialization
+- file picking
+- local preferences
+- overlay windows
+- video playback
+- WebView
 
-Open-source licenses and notices are provided **inside the app** (e.g., in an “Open Source Licenses” section).  
-Where required, source code access instructions for relevant components will be provided in the corresponding notice files.
+Open-source notices are available inside the app. For some components, the app may use a locally modified copy of an open-source package while preserving the original license notice.
 
 ---
 
-## 10. Contact
+## 9. Contact
 
-If you have questions about this Policy or privacy-related requests:
+If you have questions or privacy-related requests:
 
 - **Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
-Please include the app name **“Subtitle Player & Editor (Subtitle Tool)”** in your inquiry so we can identify the correct app.
+Please include the app name **Subtitle Player & Editor** in your message.
 
 ---
 
-## 11. Changes to This Policy
+## 10. Changes to This Policy
 
-We may update this Policy due to:
+This Policy may be updated if:
 
-- Changes in laws or regulations  
-- Updates to app features (for example, adding new SDKs or services)  
-- Internal policy adjustments
+- app features change
+- permissions or SDK usage change
+- legal or platform requirements change
 
-**Minor updates:**  
-- Will be posted within the in-app privacy section and on the policy page.
+Material changes will be reflected in the updated policy page and, where appropriate, in the app.
 
-**Material changes:**  
-- We will provide notice **at least 7 days before** the new effective date, where required by law or platform policy.
