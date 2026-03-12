@@ -1,296 +1,311 @@
 ---
 title: Política de Privacidade | Subtitle Tool
-description: Subtitle Tool (Subtitle Player & Editor) Política de Privacidade (Português)
+description: Política de Privacidade do Subtitle Tool (Subtitle Player & Editor) - Português
 lang: pt
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
 # Política de Privacidade (Subtitle Tool / Subtitle Player & Editor)
 
-- **Nome do app:** Subtitle Player & Editor (também referido como **“Subtitle Tool”** nesta Política)  
-- **Desenvolvedor:** frog-im  
-- **Contato:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Data de vigência:** 2025-12-12  
+- **Nome da aplicação:** Subtitle Player & Editor (também referido como **Subtitle Tool** nesta Política)
+- **Programador:** frog-im
+- **Contacto:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Data de entrada em vigor:** 2026-03-11
 
-> Esta Política foi redigida com referência a leis aplicáveis, incluindo a Lei de Proteção de Informações Pessoais da Coreia (PIPA), o GDPR/UK GDPR, a FADP suíça e leis estaduais relevantes dos EUA. Quando houver requisitos específicos por jurisdição, esses requisitos prevalecerão.
+> Esta Política foi preparada com referência às leis aplicáveis, incluindo a Lei Coreana de Proteção de Informações Pessoais (PIPA), o RGPD / UK GDPR, a FADP suíça e as leis estaduais relevantes de privacidade dos EUA. Se se aplicarem regras locais obrigatórias, essas regras prevalecem.
 
 ---
 
-## 1. Finalidade e Escopo
+## 1. Finalidade e Âmbito
 
-Este app oferece:
+Esta aplicação fornece:
 
-- **Reprodução e edição de legendas** (ex.: SRT, VTT, ASS, SSA, LRC)  
-- **Reprodução de vídeo + legendas** a partir de arquivos selecionados pelo usuário  
-- **Sobreposição flutuante de legendas/letras** exibida sobre outros apps (Android)
+- Reprodução e edição de legendas
+- Reprodução de vídeo + legendas a partir de ficheiros selecionados pelo utilizador
+- Sobreposição flutuante de legendas / letras apresentada sobre outras aplicações no Android
 
-O app **não** cria conta de usuário e **não** envia mídias ou conteúdo de legendas do usuário para nossos próprios servidores.  
-O processamento é realizado **no dispositivo do usuário** por padrão.
+O tratamento de legendas suportado pode incluir formatos como:
 
-No entanto, para fins de **publicidade**, **gerenciamento de consentimento** e **conformidade legal**, parceiros terceiros (como o **Google Mobile Ads SDK (AdMob)** e o **Google UMP**) podem coletar e processar informações, incluindo **identificadores de publicidade** e sinais relacionados.  
-A coleta de consentimento e as escolhas de privacidade seguem as especificações do **Google UMP (User Messaging Platform)** quando aplicável.
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
+
+A aplicação **não** cria uma conta de utilizador e **não** carrega os ficheiros de legendas ou multimédia do utilizador para os servidores próprios do programador. A análise, edição, pré-visualização de legendas e a maior parte do processamento relacionado com a reprodução são efetuados **localmente no dispositivo**.
+
+No entanto, para publicidade, gestão de consentimento e conformidade legal, SDKs de terceiros como o **Google Mobile Ads SDK (AdMob)** e o **Google UMP** podem processar determinadas informações, tais como identificadores publicitários, sinais do dispositivo e escolhas de consentimento.
 
 ---
 
 ## 2. Categorias de Informações que Processamos
 
-### 2-1) Arquivos Explicitamente Escolhidos pelo Usuário
+### 2-1) Ficheiros Explicitamente Escolhidos pelo Utilizador
 
-O app interage apenas com **arquivos que o usuário seleciona explicitamente**, tais como:
+A aplicação interage com ficheiros explicitamente selecionados pelo utilizador, incluindo:
 
-- **Arquivos de legenda**  
-  - Exemplos: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`  
-  - **Uso:**  
-    - Exibir legendas/letras em uma sobreposição flutuante ou dentro do app  
-    - Editar tempo e texto das legendas e salvar em um novo arquivo  
-  - **Processamento:** realizado **localmente no dispositivo** (análise e salvamento via bibliotecas como `subtitle`)
+- **Ficheiros de legendas**
+  - Exemplos: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Utilizações:
+    - Reprodução de legendas dentro da aplicação
+    - Edição de legendas
+    - Apresentação de legendas em sobreposição
+    - Conversão e exportação de legendas
 
-- **Arquivos de mídia (opcional)**  
-  - Exemplos: arquivos locais de vídeo/áudio selecionados pelo usuário (ex.: via seletor de arquivos)  
-  - **Uso:** reproduzir vídeo/áudio junto com as legendas selecionadas dentro do app  
-  - **Processamento:** decodificação e reprodução são feitas **localmente** (ex.: usando `better_player` ou bibliotecas semelhantes)
+- **Ficheiros multimédia**
+  - Exemplos: ficheiros locais de vídeo ou áudio escolhidos pelo utilizador
+  - Utilizações:
+    - Reprodução de vídeo + legendas
+    - Alinhamento temporal da sobreposição com o conteúdo multimédia atualmente em reprodução
 
-> **Importante:**  
-> - O app **não** envia legendas ou arquivos de mídia selecionados pelo usuário para nossos próprios servidores.  
-> - Caminhos e conteúdos são usados estritamente para reprodução, exibição em sobreposição e edição iniciada pelo usuário.
+Pontos importantes:
 
-### 2-2) Configurações Locais e Valores Armazenados
+- Os ficheiros selecionados pelo utilizador são processados localmente no dispositivo.
+- A aplicação não carrega esses ficheiros para os servidores próprios do programador.
+- Os caminhos e conteúdos dos ficheiros são utilizados apenas para reprodução, sobreposição, edição, gravação e ações solicitadas pelo utilizador.
 
-Para o app funcionar e fornecer uma experiência consistente, algumas configurações são armazenadas **localmente no dispositivo** usando `SharedPreferences` ou mecanismos equivalentes do sistema.
+### 2-2) Definições Locais e Valores Armazenados
 
-Esses valores **não** são enviados para nossos próprios servidores e são **removidos quando o app ou seus dados são excluídos**.
+Para fornecer definições persistentes e restaurar o estado anterior, a aplicação armazena alguns valores localmente no dispositivo utilizando `SharedPreferences` ou armazenamento local semelhante fornecido pelo sistema operativo.
 
-#### (1) Posição, tamanho e estilo da sobreposição (`SharedPreferences`)
+Estes valores não são enviados para os servidores próprios do programador e são normalmente removidos se os dados da aplicação forem apagados ou se a aplicação for desinstalada.
 
-| Tipo | Chave (exemplo) | Finalidade | Armazenamento | Exclusão |
-|---|---|---|---|---|
-| Posição da sobreposição (Y) | `overlay_box_y` | Restaurar a posição vertical da caixa de legendas | SharedPreferences do dispositivo | Removido ao limpar dados ou desinstalar |
-| Posição da sobreposição (X / alinhamento à esquerda) | `overlay_box_x` | Alinhamento horizontal / deslocamento (normalmente fixo ou 0) | Mesmo | Mesmo |
-| Tamanho da fonte | `overlay_text_font` | Manter o tamanho de fonte para a sobreposição e o player | Mesmo | Mesmo |
-| Cor do texto | `overlay_text_color` | Manter a cor do texto na sobreposição | Mesmo | Mesmo |
-| Uso de contorno | `overlay_outline_enabled` | Desenhar contorno no texto ou não | Mesmo | Mesmo |
-| Cor do contorno | `overlay_outline_color` | Cor do contorno do texto | Mesmo | Mesmo |
-| Largura do contorno | `overlay_outline_width` | Espessura do contorno | Mesmo | Mesmo |
-| Largura/altura da caixa | `overlay_box_w`, `overlay_box_h` | Tamanho padrão ou ajustado pelo usuário (dp) | Mesmo | Mesmo |
-| Contador de anúncios | `overlay_interstitial_count` | Contador interno para exibir anúncios periodicamente | Mesmo | Mesmo |
+#### (1) Definições da sobreposição
 
-Essas chaves são usadas para:
+Exemplos incluem:
 
-- Restaurar a última posição utilizada da sobreposição na tela  
-- Sincronizar o estilo das legendas entre **Overlay Box Editor**, **player de vídeo** e a **sobreposição Android**  
-- Controlar com que frequência anúncios em tela cheia ou recompensados são **tentados** (ex.: “a cada 3 usos da sobreposição”)
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
 
-#### (2) Preferências relacionadas a anúncios/privacidade
+Finalidade:
 
-Dependendo da região e das configurações do app, podem ser armazenadas flags como:
+- Restaurar a posição da sobreposição
+- Restaurar o estilo das legendas para a sobreposição e para a reprodução de legendas na aplicação
+- Manter preferências de contorno / tipo de letra / orientação
+- Controlar a lógica de frequência de apresentação de anúncios em alguns fluxos relacionados com a sobreposição
 
-- `pref_npa_always` (preferência de anúncios não personalizados)  
-- `pref_us_rdp` (U.S. Restricted Data Processing)  
-- `pref_child_directed` / `pref_under_age` (marcação de direcionamento a crianças / idade)  
-- `pref_max_ad_rating` (classificação máxima de conteúdo de anúncios)
+#### (2) Posições recentes de reprodução ou sobreposição
 
-**Finalidade:**  
-- Lembrar suas escolhas de privacidade e anúncios e configurar AdMob/UMP para respeitar essas escolhas.
+Exemplos incluem:
 
-**Armazenamento/exclusão:**  
-- Armazenado localmente via `SharedPreferences`.  
-- Removido ao limpar dados do app ou desinstalar.
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
 
-#### (3) Arquivos temporários
+Finalidade:
 
-Durante o uso normal, o app pode criar **arquivos temporários**, por exemplo:
+- Restaurar ou sugerir posições iniciais recentes de legendas/sobreposição
+- Retomar a reprodução de vídeo + legendas de forma mais conveniente
 
-- Conteúdos de legenda analisados/convertidos usados internamente  
-- Pequenos caches criados por bibliotecas de terceiros ou seletores de arquivos
+#### (3) Valores de preferência de anúncios e privacidade
 
-Esses arquivos temporários:
+Os exemplos podem incluir:
 
-- Ficam em pastas de cache/temporárias gerenciadas pelo sistema  
-- São excluídos pelo app quando viável e também podem ser limpos pelo sistema ao longo do tempo  
-- **Não** são enviados para nossos próprios servidores
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
 
-#### (4) Locais de salvamento escolhidos pelo usuário
+Finalidade:
 
-Ao usar “Salvar como” ou recursos semelhantes:
+- Armazenar escolhas de privacidade relacionadas com anúncios
+- Aplicar definições de privacidade e configuração de anúncios do UMP / AdMob
 
-- O app pode **gravar arquivos de legenda** em um diretório escolhido por você (ex.: Downloads ou outra pasta selecionada via seletor do sistema).  
-- Esses arquivos ficam em **armazenamento externo ou gerenciado pelo usuário** e podem **permanecer após a desinstalação**.  
-- Você pode removê-los manualmente pelo gerenciador de arquivos ou interface de nuvem.
+#### (4) Ficheiros de legendas criados pelo utilizador
 
-#### (5) Estado de Consentimento (cache do SDK UMP)
+Quando o utilizador grava ou exporta ficheiros de legendas, a aplicação pode escrever novos ficheiros de legendas num local selecionado pelo utilizador, como por exemplo:
 
-Em determinadas regiões (EEE/Reino Unido/Suíça e outras conforme definido pelo Google UMP):
+- Transferências
+- Outra pasta selecionada através de um seletor do sistema
+- Um local de armazenamento gerido pelo utilizador
 
-- O **SDK UMP** pode armazenar em cache seu estado de consentimento localmente no dispositivo.  
-- Isso normalmente pode ser redefinido por:
-  - Limpar os dados do app, ou  
-  - Usar uma tela interna de **Opções de Privacidade/Consentimento**, quando disponível.
+Estes ficheiros guardados pelo utilizador podem permanecer no dispositivo após a eliminação da aplicação, salvo se o utilizador os apagar manualmente.
+
+#### (5) Ficheiros temporários e cache
+
+A aplicação e bibliotecas de terceiros podem criar ficheiros temporários ou de cache para o funcionamento normal, tais como:
+
+- dados de cache do seletor de ficheiros
+- dados temporários de conversão de legendas
+- dados de cache relacionados com a reprodução
+
+Estes destinam-se apenas ao funcionamento local e não são carregados para os servidores próprios do programador.
+
+#### (6) Cache do estado de consentimento UMP
+
+Nas regiões em que o Google UMP se aplica, o SDK pode armazenar localmente no dispositivo o estado do consentimento em cache.
+
+Isto pode geralmente ser reposto através de:
+
+- limpeza dos dados da aplicação, ou
+- alteração das escolhas de consentimento dentro da aplicação, quando estiver disponível uma entrada de opções de privacidade
+
+### 2-3) Processamento Relacionado com a Sobreposição Android e Permissões
+
+No Android, a sobreposição flutuante de legendas pode utilizar:
+
+- a permissão `SYSTEM_ALERT_WINDOW` / mostrar sobre outras aplicações
+- a permissão `POST_NOTIFICATIONS`
+- uma notificação de serviço em primeiro plano necessária para o serviço de sobreposição
+
+Finalidade:
+
+- apresentar a sobreposição de legendas sobre outras aplicações
+- manter o serviço de sobreposição em execução
+- permitir que o Android apresente as notificações necessárias de sobreposição / serviço
+- ler informações de notificações multimédia quando necessário para suporte à progressão das legendas
+
+Estas permissões são utilizadas apenas para funcionalidades da aplicação que o utilizador escolhe utilizar.
+
+### 2-4) Anúncios, Consentimento e Dados Relacionados (SDKs de Terceiros)
+
+A aplicação utiliza SDKs de anúncios / consentimento da Google, incluindo:
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+A aplicação pode apresentar:
+
+- anúncios de banner
+- anúncios intersticiais
+- anúncios recompensados ou intersticiais recompensados
+
+Estes SDKs podem processar dados como:
+
+- identificadores publicitários (por exemplo, AAID / IDFA, quando aplicável)
+- informações baseadas em IP e relacionadas com a rede
+- metadados do dispositivo e da aplicação
+- sinais de interação com anúncios
+- escolhas de consentimento
+
+As finalidades podem incluir:
+
+- apresentação de anúncios
+- medição e relatórios de anúncios
+- limitação de frequência
+- prevenção de fraude
+- conformidade legal
+
+O programador procura configurar estes SDKs de forma consistente com as escolhas de consentimento do utilizador e com a legislação aplicável.
 
 ---
 
-### 2-3) Anúncios, Consentimento e Dados Relacionados (SDKs de Terceiros)
+## 3. Como Processamos e Conservamos os Dados
 
-O app usa **Google Mobile Ads SDK (AdMob)** e **Google UMP** para:
+- **Definições locais e dados de posições recentes**
+  - conservados no dispositivo até que os dados da aplicação sejam apagados ou a aplicação seja removida
 
-- Exibir anúncios (incluindo **anúncios recompensados** para algumas operações, como salvar legendas)  
-- Gerenciar consentimento relacionado a anúncios quando exigido por lei
+- **Ficheiros temporários / cache**
+  - conservados apenas durante o tempo necessário para o funcionamento, sendo depois removidos pela aplicação quando praticável ou limpos mais tarde pelo sistema operativo
 
-Esses SDKs de terceiros podem coletar ou processar, por exemplo:
+- **Ficheiros de legendas guardados pelo utilizador**
+  - permanecem no local de gravação escolhido pelo utilizador até serem apagados pelo mesmo
 
-- **Identificadores de publicidade** (ex.: AAID/IDFA)  
-- **Informações baseadas em IP**, localização aproximada e informações gerais de rede  
-- Informações do dispositivo e do app (versão do SO, versão do app, idioma, logs de falhas relevantes para anúncios)  
-- Sinais de interação/engajamento com anúncios (ex.: impressões, cliques, visualizações completas em anúncios recompensados)  
-- Escolhas de consentimento registradas via UMP
-
-**Finalidades:**
-
-- Entrega e relatórios de anúncios  
-- Frequency capping  
-- Prevenção de fraude e abuso  
-- Conformidade legal (ex.: consentimento e flags de idade)
-
-Em regiões como **EEE/Reino Unido/Suíça**:
-
-- O consentimento é solicitado por **prompts UMP** quando exigido.  
-- Um botão de **Opções de Privacidade** pode ser exibido para revisar escolhas.
-
-Em regiões sem tais exigências explícitas (ex.: Coreia):
-
-- A interface pode **não** mostrar um botão separado de Opções de Privacidade se não for necessário,  
-  mas configurações do sistema (ex.: redefinir ID de anúncios) continuam disponíveis.
+- **Dados de anúncios / consentimento tratados por terceiros**
+  - conservados de acordo com as políticas da Google e com a legislação aplicável
 
 ---
 
-## 3. Processamento e Retenção
+## 4. Processamento por Terceiros e Transferências Transfronteiriças
 
-- **Configurações locais (SharedPreferences):**  
-  - Retidas no dispositivo até você limpar os dados do app ou desinstalar.
-
-- **Arquivos temporários:**  
-  - Criados e usados durante operações com legendas e reprodução.  
-  - Excluídos quando viável pelo app; também sujeitos à limpeza de cache do sistema.
-
-- **Arquivos de legendas salvos pelo usuário:**  
-  - Gravados nos destinos que você escolher (ex.: Downloads, outras pastas ou locais em nuvem).  
-  - Permanecem sob seu controle e **não são removidos automaticamente** ao desinstalar.
-
-- **Dados de anúncios/consentimento (terceiros):**  
-  - Armazenados, processados e retidos conforme **políticas do Google** e a lei aplicável.
-
----
-
-## 4. Transferências a Terceiros e Fluxos Internacionais
-
-Para publicidade e gerenciamento de consentimento, certos dados são processados pelo **Google** e seus parceiros.
+Para anúncios e gestão do consentimento, algumas informações podem ser processadas pela Google e por parceiros relacionados.
 
 | Item | Detalhes |
 |---|---|
-| **Destinatário** | Google LLC e suas afiliadas/subprocessadores |
-| **Destino** | Estados Unidos e outras regiões onde a infraestrutura do Google está localizada |
-| **Finalidade** | Entrega de anúncios, medição de desempenho, prevenção de fraude, gerenciamento de consentimento e conformidade legal |
-| **Dados** | Identificadores de publicidade, info baseada em IP, info de dispositivo/app, sinais de interação com anúncios, estado de consentimento etc. |
-| **Retenção** | Conforme as políticas do Google e leis aplicáveis |
-| **Efeito da recusa** | Anúncios personalizados podem ser limitados; anúncios não personalizados ou menos anúncios podem ser exibidos |
+| Destinatário | Google LLC e afiliadas / subcontratantes relacionados |
+| Finalidade | Apresentação de anúncios, medição, prevenção de fraude, gestão do consentimento e conformidade legal |
+| Dados possíveis | Identificadores publicitários, informações do dispositivo/aplicação, informações baseadas em IP, dados de interação com anúncios, estado de consentimento |
+| Destino | Estados Unidos e outras regiões onde a infraestrutura da Google opera |
+| Conservação | De acordo com as políticas da Google e com a legislação aplicável |
 
-Buscamos manter as divulgações de **Data safety do Google Play** consistentes com o processamento real do app e de seus SDKs.
-
----
-
-## 5. Seus Direitos e Como Exercê-los
-
-Dependendo da sua jurisdição, você pode ter direitos como:
-
-- Acesso aos seus dados pessoais  
-- Retificação ou exclusão  
-- Restrição de processamento  
-- Portabilidade  
-- Oposição a certos processamentos  
-- Retirada de consentimento (quando o consentimento for a base legal)
-
-**Na prática:**
-
-- **Escolhas de anúncios e consentimento**  
-  - Em regiões suportadas pelo UMP (ex.: EEE/Reino Unido/Suíça): ajuste em **Configurações → Opções de Privacidade** (se disponibilizado no app).  
-  - Caso contrário, use configurações do sistema para **redefinir o ID de anúncios** ou limitar personalização.
-
-- **Configurações locais e sobreposição**  
-  - Limpar dados do app ou desinstalar redefine:  
-    - Coordenadas e tamanho da sobreposição  
-    - Tamanho/cor/contorno da fonte  
-    - Preferências de anúncios/privacidade armazenadas
-
-Para dados de anúncios processados pelo Google, consulte e utilize as ferramentas e processos do próprio Google (ex.: configurações de anúncios da conta Google, diálogo UMP etc.).
+O programador procura manter as divulgações de privacidade na loja de aplicações consistentes com o comportamento real dos SDKs.
 
 ---
 
-## 6. Privacidade de Crianças
+## 5. Os Seus Direitos e Escolhas
 
-Este app **não é direcionado a crianças**.
+Dependendo da sua jurisdição, poderá ter direitos como:
 
-- A finalidade principal é **editar legendas/letras e usar sobreposição flutuante**, o que presume uso por adolescentes mais velhos ou adultos.  
-- Se uma criança abaixo da idade mínima exigida por lei usar o app, deve interromper o uso e utilizar recursos de limitação de anúncios do sistema com um responsável.
+- acesso
+- retificação
+- eliminação
+- limitação
+- portabilidade
+- oposição
+- retirada do consentimento quando o consentimento for a base legal
 
-Quando apropriado, o desenvolvedor pode ativar flags **child-directed** (ex.: TFUA) ou configurações equivalentes em SDKs de anúncios para melhor proteger menores, conforme políticas da plataforma.
+Os controlos práticos incluem:
+
+- alterar escolhas de anúncios / privacidade na aplicação, quando disponíveis
+- limpar os dados da aplicação para remover definições locais e preferências em cache
+- desinstalar a aplicação
+- eliminar manualmente ficheiros de legendas exportados do armazenamento do utilizador
+- utilizar controlos ao nível do sistema operativo, tais como definições de notificações, reposição do ID de anúncios ou definições de personalização de anúncios
+
+Para os dados processados pela Google, os utilizadores também devem consultar as ferramentas de privacidade e conta da própria Google, quando relevante.
+
+---
+
+## 6. Privacidade das Crianças
+
+Esta aplicação não se destina principalmente a crianças.
+
+O seu principal objetivo é a reprodução de legendas, edição, apresentação em sobreposição e funcionalidades utilitárias relacionadas. Quando apropriado, a configuração dos SDKs de anúncios pode aplicar sinalizadores relacionados com a idade ou direcionados a crianças, em conformidade com os requisitos da plataforma e com as definições do programador.
 
 ---
 
 ## 7. Medidas de Segurança
 
-Dentro da arquitetura e do escopo do app, buscamos:
+Dentro dos limites da arquitetura da aplicação, o programador procura:
 
-- Minimizar coleta de dados ao necessário para legendas e sobreposição  
-- Manter processamento **no dispositivo** sempre que possível  
-- Limitar acesso a arquivos estritamente aos que você selecionar explicitamente via seletores do sistema  
-- Usar permissões do sistema de forma transparente (ex.: permissão de sobreposição, permissão de notificações no Android)  
-- Confiar em **TLS** ou criptografia equivalente em trânsito para tráfego de rede de SDKs de terceiros (anúncios/consentimento)
+- minimizar a recolha, mantendo a maior parte do processamento de legendas e multimédia no dispositivo
+- utilizar seletores de ficheiros do sistema e acesso a ficheiros iniciado pelo utilizador
+- utilizar permissões do sistema de forma transparente
+- depender, quando aplicável, do transporte de rede cifrado utilizado pelos SDKs de terceiros
 
----
-
-## 8. Data Safety (Google Play)
-
-Para distribuição em lojas como o **Google Play**, nós:
-
-- Preparamos e mantemos uma seção de **Data safety** que reflete com precisão como o app e SDKs de terceiros tratam dados  
-- Atualizamos a divulgação sem demora indevida quando houver mudanças materiais (ex.: ativação futura de analytics ou crash reporting)
+Nenhum método de armazenamento ou transmissão é completamente seguro, mas a aplicação foi concebida para evitar a recolha desnecessária por parte do programador.
 
 ---
 
-## 9. Avisos de Código Aberto
+## 8. Software de Código Aberto
 
-Este app usa software de código aberto (por exemplo, bibliotecas para:
+A aplicação utiliza software de código aberto, incluindo bibliotecas relacionadas com:
 
-- Análise e serialização de legendas  
-- Reprodução de vídeo  
-- Janelas de sobreposição  
-- Integrações WebView  
-- Localização e componentes de UI)
+- análise e serialização de legendas
+- seleção de ficheiros
+- preferências locais
+- janelas de sobreposição
+- reprodução de vídeo
+- WebView
 
-Licenças e avisos de código aberto são fornecidos **dentro do app** (ex.: em “Licenças de Código Aberto”).  
-Quando exigido, instruções de acesso ao código-fonte para componentes relevantes serão fornecidas nos arquivos de aviso correspondentes.
+Os avisos de código aberto estão disponíveis dentro da aplicação. Para alguns componentes, a aplicação pode utilizar uma cópia modificada localmente de um pacote de código aberto, preservando o aviso de licença original.
 
 ---
 
-## 10. Contato
+## 9. Contacto
 
-Se você tiver dúvidas sobre esta Política ou solicitações relacionadas à privacidade:
+Se tiver questões ou pedidos relacionados com privacidade:
 
 - **Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
-Inclua o nome do app **“Subtitle Player & Editor (Subtitle Tool)”** na mensagem para identificarmos o app correto.
+Inclua o nome da aplicação **Subtitle Player & Editor** na sua mensagem.
 
 ---
 
-## 11. Alterações nesta Política
+## 10. Alterações a esta Política
 
-Podemos atualizar esta Política devido a:
+Esta Política pode ser atualizada se:
 
-- Mudanças em leis ou regulamentos  
-- Atualizações de recursos do app (ex.: adição de novos SDKs/serviços)  
-- Ajustes internos de política
+- as funcionalidades da aplicação mudarem
+- as permissões ou a utilização dos SDKs mudarem
+- os requisitos legais ou da plataforma mudarem
 
-**Atualizações menores:**  
-- Serão publicadas na seção de privacidade do app e na página da política.
-
-**Mudanças materiais:**  
-- Forneceremos aviso **com pelo menos 7 dias** de antecedência da nova data de vigência, quando exigido por lei ou por políticas da plataforma.
+As alterações materiais serão refletidas na página de política atualizada e, quando apropriado, na aplicação.
