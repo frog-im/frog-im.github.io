@@ -1,155 +1,311 @@
 ---
-title: Informativa sulla Privacy | Subtitle Tool
-description: Informativa sulla privacy di Subtitle Player & Editor (Subtitle Tool)
+title: Informativa sulla privacy | Subtitle Tool
+description: Informativa sulla privacy di Subtitle Tool (Subtitle Player & Editor) - Italiano
 lang: it
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
-# Informativa sulla Privacy (Subtitle Player & Editor / «Subtitle Tool»)
+# Informativa sulla privacy (Subtitle Tool / Subtitle Player & Editor)
 
-- **Nome dell’app:** Subtitle Player & Editor (di seguito, «Subtitle Tool»)  
-- **Sviluppatore:** frog-im  
-- **Contatto:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Data di efficacia:** 2025-12-12  
+- **Nome dell’app:** Subtitle Player & Editor (indicato anche come **Subtitle Tool** nella presente Informativa)
+- **Sviluppatore:** frog-im
+- **Contatto:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Data di entrata in vigore:** 2026-03-11
 
-> La presente Informativa è redatta facendo riferimento a normative applicabili quali la legge coreana sulla protezione delle informazioni personali (PIPA), il GDPR/UK GDPR, la legge svizzera FADP e le leggi statunitensi in materia di privacy a livello statale.  
-> In caso di requisiti specifici per una determinata giurisdizione, tali requisiti prevalgono sulle disposizioni di questa Informativa.
-
----
-
-## 1. Finalità e Ambito di Applicazione
-
-Questa app fornisce funzioni di **modifica dei metadati dei file audio** (titolo, artista, ecc.) archiviati sul dispositivo e una funzione di **sovrapposizione di testi/lyrics e sottotitoli**.  
-L’app **non crea un account utente** e **non carica** i contenuti dell’utente su nostri server. Il trattamento avviene di norma **in locale sul dispositivo dell’utente**.
-
-Tuttavia, per finalità di **pubblicità** e di **adempimento di obblighi legali**, partner terzi (ad es. Google Mobile Ads SDK (AdMob) e UMP) possono raccogliere e trattare informazioni quali **identificatori pubblicitari**.  
-La raccolta del consenso e la gestione delle preferenze sulla privacy seguono le specifiche di **Google UMP (User Messaging Platform)**.
+> La presente Informativa è redatta con riferimento alle leggi applicabili, tra cui il Korean Personal Information Protection Act (PIPA), il GDPR / UK GDPR, la Swiss FADP e le pertinenti leggi statali sulla privacy degli Stati Uniti. Se si applicano norme locali obbligatorie, tali norme prevalgono.
 
 ---
 
-## 2. Categorie di Informazioni Trattate
+## 1. Finalità e ambito di applicazione
 
-### 2-1) File Selezionati Esplicitamente dall’Utente
+Questa app offre:
 
-- **Percorsi e contenuti di file audio / immagini di copertina:** trattati **esclusivamente in locale** sul dispositivo per finalità di modifica e salvataggio.  
-- **FFmpegKit** viene utilizzato in locale per operazioni di codifica, modifica dei metadati ed estrazione di miniature.  
-- L’app **non carica** tali file selezionati dall’utente sui nostri server.
+- riproduzione e modifica dei sottotitoli
+- riproduzione di video + sottotitoli da file selezionati dall’utente
+- overlay flottante di sottotitoli / testi mostrato sopra altre app su Android
 
-### 2-2) Impostazioni Locali e Valori Memorizzati
+La gestione dei sottotitoli supportata può includere formati quali:
 
-Per garantire le funzionalità principali e il comfort dell’utente, l’app memorizza i seguenti valori **in locale sul dispositivo**.  
-Questi valori non vengono inviati ai nostri server e vengono **eliminati quando l’app o i suoi dati vengono rimossi**.
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
 
-#### (1) Preferenze (`shared_preferences`)
+L’app **non** crea un account utente e **non** carica i file di sottotitoli o multimediali dell’utente sui server del sviluppatore. Il parsing, la modifica, l’anteprima dei sottotitoli e la maggior parte dell’elaborazione relativa alla riproduzione vengono eseguiti **localmente sul dispositivo**.
 
-| Tipo | Chiave/Contenuto | Finalità | Archiviazione | Cancellazione |
-|---|---|---|---|---|
-| Posizione/font dell’overlay | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | Ripristinare la posizione dell’overlay e la dimensione del font | SharedPreferences sul dispositivo | Eliminati alla cancellazione dei dati dell’app o alla disinstallazione |
-| Impostazioni annunci/privacy | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | Annunci non personalizzati, segnale U.S. RDP, tag child-directed (COPPA), etichetta di età, limite di classificazione dei contenuti pubblicitari | SharedPreferences sul dispositivo | Come a sinistra |
-
-#### (2) File Temporanei (directory temporanea del sistema)
-
-- **Esempi:** `cover_*.jpg`, `tmp_*.flac`  
-- **Utilizzo:** estrazione di copertine, tagging FLAC, codifica temporanea  
-- **Posizione:** cartella temporanea del sistema operativo (`systemTemp`)  
-- **Conservazione:** l’app tenta di eliminarli al termine dell’elaborazione; possono inoltre essere rimossi dalle procedure di pulizia del sistema operativo.
-
-#### (3) Salvataggio Selezionato dall’Utente (SAF)
-
-- Quando l’utente utilizza la funzione «Salva con nome», i file audio finali possono essere scritti in posizioni da lui indicate (ad es. cartella Download, archiviazione cloud).  
-- Questi file risiedono nella **memoria esterna** e **possono restare anche dopo la disinstallazione dell’app**. L’utente può eliminarli manualmente.
-
-#### (4) Stato del Consenso (Cache UMP)
-
-- Nelle regioni SEE/Regno Unito/Svizzera, l’SDK UMP **memorizza localmente in cache lo stato del consenso agli annunci dell’utente**.  
-- Tale stato può essere reimpostato cancellando i dati dell’app oppure tramite la schermata **Opzioni sulla privacy** presente nell’app (se disponibile).
+Tuttavia, per finalità pubblicitarie, gestione del consenso e conformità legale, SDK di terze parti come **Google Mobile Ads SDK (AdMob)** e **Google UMP** possono trattare alcune informazioni, come identificatori pubblicitari, segnali del dispositivo e scelte di consenso.
 
 ---
 
-### 2-3) Dati Relativi a Annunci e Consenso (SDK di Terze Parti)
+## 2. Categorie di informazioni che trattiamo
 
-- **Google Mobile Ads SDK (AdMob) e UMP** possono raccogliere e trattare, ad esempio: **identificatori pubblicitari (AAID/IDFA)**, **intervalli di indirizzi IP**, **informazioni su dispositivo/app**, **segnali di interazione con gli annunci**, **stato del consenso**, ecc.  
-- **Finalità:** erogazione di annunci, limitazione della frequenza, prevenzione delle frodi, misurazione delle prestazioni, adempimenti legali.  
-- **Regioni che richiedono il consenso (SEE/Regno Unito/Svizzera):** il consenso viene raccolto tramite le schermate UMP e, ove richiesto, viene fornita una schermata di **Opzioni sulla privacy**.  
-  Nelle regioni prive di tali requisiti (ad es. Corea), questa opzione **potrebbe non essere mostrata**.
+### 2-1) File selezionati esplicitamente dall’utente
+
+L’app interagisce con i file selezionati esplicitamente dall’utente, tra cui:
+
+- **File di sottotitoli**
+  - Esempi: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Utilizzi:
+    - riproduzione dei sottotitoli all’interno dell’app
+    - modifica dei sottotitoli
+    - visualizzazione dei sottotitoli in overlay
+    - conversione ed esportazione dei sottotitoli
+
+- **File multimediali**
+  - Esempi: file video o audio locali scelti dall’utente
+  - Utilizzi:
+    - riproduzione video + sottotitoli
+    - allineamento temporale dell’overlay con il contenuto multimediale attualmente in riproduzione
+
+Punti importanti:
+
+- I file selezionati dall’utente vengono elaborati localmente sul dispositivo.
+- L’app non carica tali file sui server del sviluppatore.
+- I percorsi e i contenuti dei file vengono utilizzati solo per riproduzione, overlay, modifica, salvataggio e azioni richieste dall’utente.
+
+### 2-2) Impostazioni locali e valori memorizzati
+
+Per fornire impostazioni persistenti e ripristinare lo stato precedente, l’app memorizza alcuni valori localmente sul dispositivo utilizzando `SharedPreferences` o un analogo archivio locale fornito dal sistema operativo.
+
+Tali valori non vengono inviati ai server del sviluppatore e vengono normalmente rimossi se i dati dell’app vengono cancellati o se l’app viene disinstallata.
+
+#### (1) Impostazioni dell’overlay
+
+Gli esempi includono:
+
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
+
+Finalità:
+
+- ripristinare la posizione dell’overlay
+- ripristinare lo stile dei sottotitoli per l’overlay e per la riproduzione dei sottotitoli nell’app
+- mantenere le preferenze relative a contorno / carattere / orientamento
+- controllare la logica della frequenza di visualizzazione degli annunci in alcuni flussi correlati all’overlay
+
+#### (2) Posizioni recenti di riproduzione o overlay
+
+Gli esempi includono:
+
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
+
+Finalità:
+
+- ripristinare o suggerire recenti posizioni iniziali di sottotitoli/overlay
+- riprendere più comodamente la riproduzione video + sottotitoli
+
+#### (3) Valori di preferenza relativi ad annunci e privacy
+
+Gli esempi possono includere:
+
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
+
+Finalità:
+
+- memorizzare le scelte di privacy relative agli annunci
+- applicare le impostazioni di privacy e configurazione pubblicitaria di UMP / AdMob
+
+#### (4) Output di sottotitoli creati dall’utente
+
+Quando l’utente salva o esporta file di sottotitoli, l’app può scrivere nuovi file di sottotitoli in una posizione selezionata dall’utente, ad esempio:
+
+- Download
+- un’altra cartella selezionata tramite un selettore di sistema
+- una posizione di archiviazione gestita dall’utente
+
+Questi file salvati dall’utente possono rimanere sul dispositivo dopo l’eliminazione dell’app, a meno che l’utente non li elimini manualmente.
+
+#### (5) File temporanei e cache
+
+L’app e le librerie di terze parti possono creare file temporanei o di cache per il normale funzionamento, come:
+
+- dati di cache del file picker
+- dati temporanei di conversione dei sottotitoli
+- dati di cache relativi alla riproduzione
+
+Questi sono destinati esclusivamente al funzionamento locale e non vengono caricati sui server del sviluppatore.
+
+#### (6) Cache dello stato di consenso UMP
+
+Nelle regioni in cui si applica Google UMP, l’SDK può memorizzare localmente sul dispositivo lo stato del consenso.
+
+Generalmente questo può essere reimpostato mediante:
+
+- cancellazione dei dati dell’app, oppure
+- modifica delle scelte di consenso all’interno dell’app, ove sia disponibile una voce relativa alle opzioni sulla privacy
+
+### 2-3) Elaborazione relativa all’overlay Android e ai permessi
+
+Su Android, l’overlay flottante dei sottotitoli può utilizzare:
+
+- il permesso `SYSTEM_ALERT_WINDOW` / visualizzazione sopra altre app
+- il permesso `POST_NOTIFICATIONS`
+- una notifica di servizio in primo piano richiesta per il servizio overlay
+
+Finalità:
+
+- mostrare l’overlay dei sottotitoli sopra altre app
+- mantenere in esecuzione il servizio overlay
+- consentire ad Android di mostrare le notifiche necessarie per overlay / servizio
+- leggere le informazioni delle notifiche multimediali quando necessario per supportare la progressione dei sottotitoli
+
+Questi permessi vengono utilizzati solo per le funzionalità dell’app che l’utente sceglie di usare.
+
+### 2-4) Annunci, consenso e dati correlati (SDK di terze parti)
+
+L’app utilizza SDK Google per annunci / consenso, tra cui:
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+L’app può mostrare:
+
+- banner pubblicitari
+- annunci interstiziali
+- annunci con ricompensa o interstiziali con ricompensa
+
+Questi SDK possono trattare dati come:
+
+- identificatori pubblicitari (ad esempio AAID / IDFA, ove applicabile)
+- informazioni basate su IP e relative alla rete
+- metadati del dispositivo e dell’app
+- segnali di interazione con gli annunci
+- scelte di consenso
+
+Le finalità possono includere:
+
+- erogazione degli annunci
+- misurazione e reportistica pubblicitaria
+- limitazione della frequenza
+- prevenzione delle frodi
+- conformità legale
+
+Lo sviluppatore si impegna a configurare tali SDK in modo coerente con le scelte di consenso dell’utente e con la legge applicabile.
 
 ---
 
-## 3. Trattamento e Periodi di Conservazione
+## 3. Come trattiamo e conserviamo i dati
 
-- **Impostazioni locali:** memorizzate sul dispositivo fino a quando l’utente non cancella i dati dell’app o disinstalla l’app stessa.  
-- **File temporanei:** creati durante la codifica/estrazione, vengono eliminati dopo l’elaborazione oppure possono essere conservati temporaneamente nelle cache del sistema.  
-- **Dati relativi ad annunci/consenso (terze parti):** sono conservati e cancellati in conformità alle **policy di Google**.
+- **Impostazioni locali e dati relativi a posizioni recenti**
+  - conservati sul dispositivo fino a quando i dati dell’app non vengono cancellati o l’app non viene rimossa
+
+- **File temporanei / cache**
+  - conservati solo per il tempo necessario al funzionamento, quindi rimossi dall’app ove praticabile o successivamente puliti dal sistema operativo
+
+- **File di sottotitoli salvati dall’utente**
+  - rimangono nella posizione di salvataggio scelta dall’utente finché l’utente non li elimina
+
+- **Dati pubblicitari / di consenso gestiti da terze parti**
+  - conservati secondo le politiche di Google e la legge applicabile
 
 ---
 
-## 4. Trasferimenti a Terzi e Flussi Transfrontalieri
+## 4. Trattamento da parte di terzi e trasferimenti transfrontalieri
 
-Per finalità pubblicitarie e di gestione del consenso, alcune informazioni sull’utente possono essere trasmesse all’infrastruttura di Google e ivi trattate.
+Per annunci e gestione del consenso, alcune informazioni possono essere trattate da Google e dai partner correlati.
 
 | Voce | Dettagli |
 |---|---|
-| **Destinatario** | Google LLC e le sue affiliate/sotto-responsabili del trattamento |
-| **Destinazione** | Stati Uniti (e altre regioni in cui è ospitata l’infrastruttura di Google) |
-| **Finalità** | Erogazione di annunci, misurazione/prestazioni, conformità legale, gestione del consenso |
-| **Dati** | Identificatori pubblicitari, intervalli IP, informazioni su dispositivo/app, interazioni con annunci, stato del consenso, ecc. |
-| **Conservazione** | In conformità alle policy di Google |
-| **Effetto del rifiuto** | La pubblicità personalizzata può essere limitata; possono essere mostrati annunci non personalizzati |
+| Destinatario | Google LLC e affiliate / responsabili del trattamento correlati |
+| Finalità | Erogazione degli annunci, misurazione, prevenzione delle frodi, gestione del consenso e conformità legale |
+| Possibili dati | Identificatori pubblicitari, informazioni su dispositivo/app, informazioni basate su IP, dati di interazione con gli annunci, stato del consenso |
+| Destinazione | Stati Uniti e altre regioni in cui opera l’infrastruttura di Google |
+| Conservazione | Secondo le politiche di Google e la legge applicabile |
 
-Rispettiamo i requisiti della sezione **«Sicurezza dei dati» di Google Play** e manteniamo tali dichiarazioni allineate al trattamento effettivo.
-
----
-
-## 5. Diritti dell’Utente e Modalità di Esercizio
-
-- **Disattivazione degli annunci personalizzati / modifica del consenso**  
-  - Nelle regioni supportate (SEE/Regno Unito/Svizzera): è possibile modificare le preferenze in **Impostazioni → Opzioni sulla privacy**.  
-  - In altre regioni: è possibile utilizzare le impostazioni del sistema operativo per **reimpostare gli ID pubblicitari / limitare il tracciamento degli annunci**.
-- **Reimpostazione delle informazioni locali:** la cancellazione dei dati dell’app o la disinstallazione reimposta le coordinate dell’overlay, la dimensione del font e altre impostazioni locali.  
-- I diritti previsti dal **GDPR/UK GDPR/FADP svizzero e dalle leggi statunitensi sulla privacy** (accesso, rettifica, cancellazione, portabilità, limitazione, revoca del consenso ecc.) possono essere esercitati nella misura prevista da tali normative.  
-  Per i dati relativi agli annunci trattati da Google, si prega di utilizzare i **processi messi a disposizione da Google**.
+Lo sviluppatore si impegna a mantenere le informative sulla privacy negli store coerenti con il comportamento effettivo degli SDK.
 
 ---
 
-## 6. Privacy dei Minori
+## 5. I tuoi diritti e le tue scelte
 
-Questa app **non è destinata ai minori**.  
-Se un minore al di sotto dell’età minima legale utilizza l’app, dovrebbe interromperne l’uso e, insieme al proprio tutore, utilizzare le funzioni del sistema operativo per limitare la pubblicità.  
-Se del caso, possiamo applicare tag come **TFUA (child-directed tag)** o opzioni simili a tutela dei minori.
+A seconda della tua giurisdizione, potresti avere diritti quali:
 
----
+- accesso
+- rettifica
+- cancellazione
+- limitazione
+- portabilità
+- opposizione
+- revoca del consenso laddove il consenso costituisca la base giuridica
 
-## 7. Misure di Sicurezza
+I controlli pratici includono:
 
-- **Minimizzazione dei dati** nella raccolta e nell’archiviazione  
-- Uso limitato di file temporanei e loro eliminazione dopo il trattamento, quando possibile  
-- Trattamento rigorosamente **nei limiti dei permessi del sistema operativo**  
-- Crittografia **TLS o equivalente** durante la trasmissione a terzi (in linea con gli standard dei relativi SDK)
+- modifica delle scelte relative ad annunci / privacy nell’app, ove disponibili
+- cancellazione dei dati dell’app per rimuovere impostazioni locali e preferenze memorizzate nella cache
+- disinstallazione dell’app
+- eliminazione manuale dei file di sottotitoli esportati dall’archiviazione dell’utente
+- utilizzo dei controlli a livello di sistema operativo, come impostazioni delle notifiche, reimpostazione dell’ID pubblicitario o impostazioni di personalizzazione degli annunci
 
----
-
-## 8. Sicurezza dei Dati (Google Play)
-
-Compiliamo e manteniamo accuratamente la sezione **«Sicurezza dei dati»** nella Play Console e la aggiorniamo tempestivamente in caso di modifiche.
-
----
-
-## 9. Software Open Source
-
-L’app utilizza software open source come **FFmpeg**.  
-All’interno dell’app è presente un file informativo (ad es. `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`) che spiega come ottenere il codice sorgente.  
-Su richiesta, forniremo il codice sorgente secondo le modalità indicate in tale file.
+Per i dati trattati da Google, gli utenti dovrebbero inoltre fare riferimento, ove pertinente, agli strumenti di privacy e account di Google.
 
 ---
 
-## 10. Contatti
+## 6. Privacy dei minori
 
-- E-mail: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+Questa app non è destinata principalmente ai minori.
+
+La sua finalità principale è la riproduzione, la modifica e la visualizzazione in overlay dei sottotitoli, oltre alle relative funzioni di utilità. Ove appropriato, la configurazione degli SDK pubblicitari può applicare indicatori relativi all’età o rivolti ai minori in conformità con i requisiti della piattaforma e le impostazioni dello sviluppatore.
 
 ---
 
-## 11. Modifiche alla Presente Informativa
+## 7. Misure di sicurezza
 
-Potremo aggiornare la presente Informativa in seguito a modifiche legali o del servizio.  
-Le modifiche saranno pubblicate **all’interno dell’app** e su questa **pagina dedicata alla privacy**.  
-In caso di modifiche sostanziali, forniremo un preavviso **di almeno 7 giorni** prima della data di efficacia.
+Nei limiti dell’architettura dell’app, lo sviluppatore si impegna a:
+
+- ridurre al minimo la raccolta mantenendo sul dispositivo la maggior parte dell’elaborazione di sottotitoli e contenuti multimediali
+- utilizzare file picker di sistema e accesso ai file avviato dall’utente
+- utilizzare i permessi di sistema in modo trasparente
+- fare affidamento, ove applicabile, sul trasporto di rete cifrato utilizzato dagli SDK di terze parti
+
+Nessun metodo di archiviazione o trasmissione è completamente sicuro, ma l’app è progettata per evitare raccolte non necessarie da parte dello sviluppatore.
+
+---
+
+## 8. Software open source
+
+L’app utilizza software open source, comprese librerie relative a:
+
+- parsing e serializzazione dei sottotitoli
+- selezione dei file
+- preferenze locali
+- finestre overlay
+- riproduzione video
+- WebView
+
+Le informative open source sono disponibili all’interno dell’app. Per alcuni componenti, l’app può utilizzare una copia modificata localmente di un pacchetto open source, mantenendo l’avviso di licenza originale.
+
+---
+
+## 9. Contatti
+
+Se hai domande o richieste relative alla privacy:
+
+- **Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+
+Ti preghiamo di includere nella comunicazione il nome dell’app **Subtitle Player & Editor**.
+
+---
+
+## 10. Modifiche alla presente Informativa
+
+La presente Informativa può essere aggiornata se:
+
+- cambiano le funzionalità dell’app
+- cambiano i permessi o l’uso degli SDK
+- cambiano i requisiti legali o della piattaforma
+
+Le modifiche sostanziali saranno riportate nella pagina aggiornata dell’informativa e, ove opportuno, anche nell’app.
