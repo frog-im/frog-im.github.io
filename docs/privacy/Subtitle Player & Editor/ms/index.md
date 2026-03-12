@@ -1,189 +1,311 @@
 ---
 title: Dasar Privasi | Subtitle Tool
-description: Dasar Privasi Subtitle Tool (Bahasa Melayu)
+description: Dasar Privasi Subtitle Tool (Subtitle Player & Editor) - Bahasa Melayu
 lang: ms
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
 # Dasar Privasi (Subtitle Tool / Subtitle Player & Editor)
 
-- **Nama aplikasi:** Subtitle Tool (mungkin dipaparkan sebagai “Subtitle Player & Editor” di stor)  
-- **Pembangun:** frog-im  
-- **Emel hubungan:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Tarikh berkuat kuasa:** 2025-12-12  
+- **Nama aplikasi:** Subtitle Player & Editor (juga dirujuk sebagai **Subtitle Tool** dalam Dasar ini)
+- **Pembangun:** frog-im
+- **Hubungan:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Tarikh berkuat kuasa:** 2026-03-11
 
-> Dasar ini dirangka dengan merujuk kepada undang-undang yang berkaitan, termasuk Akta Perlindungan Maklumat Peribadi Korea (PIPA), GDPR / UK GDPR, FADP Switzerland dan beberapa undang-undang privasi negeri di Amerika Syarikat. Jika terdapat keperluan khusus mengikut bidang kuasa, keperluan tersebut akan mengatasi kandungan umum dasar ini.
-
----
-
-## 1. Tujuan dan skop
-
-Aplikasi ini menyediakan fungsi utama berikut:
-
-- **Edit metadata fail audio** (tajuk, artis dan sebagainya) yang disimpan pada peranti;  
-- Menunjukkan **lapisan terapung lirik/sarikata (lyrics overlay)** di atas aplikasi lain.
-
-Aplikasi ini **tidak membuat akaun pengguna** dan **tidak memuat naik kandungan pengguna** ke pelayan milik pembangun.  
-Pemprosesan lazimnya dilakukan **secara setempat pada peranti pengguna**.
-
-Walau bagaimanapun, untuk tujuan **pengiklanan** dan **pemenuhan keperluan undang-undang**, aplikasi ini menggunakan SDK pihak ketiga seperti **Google Mobile Ads SDK (AdMob)** dan **Google UMP**, yang mungkin memproses maklumat seperti **pengenal iklan (advertising identifiers)**.
-
-Proses pengumpulan persetujuan dan pilihan privasi mengikuti spesifikasi **Google UMP (User Messaging Platform)**.
+> Dasar ini disediakan dengan merujuk kepada undang-undang yang terpakai termasuk Akta Perlindungan Maklumat Peribadi Korea (PIPA), GDPR / UK GDPR, Swiss FADP, dan undang-undang privasi negeri-negeri berkaitan di A.S. Jika terdapat peraturan tempatan mandatori yang terpakai, peraturan tersebut akan diutamakan.
 
 ---
 
-## 2. Kategori maklumat yang diproses
+## 1. Tujuan dan Skop
 
-### 2-1) Fail yang dipilih secara jelas oleh pengguna
+Aplikasi ini menyediakan:
 
-- **Laluan dan kandungan audio/imej kulit album:**  
-  Digunakan hanya di peranti untuk tujuan membaca, menyunting metadata dan menyimpan semula.  
-- **FFmpegKit** digunakan secara setempat untuk pengekodan, penyuntingan metadata dan pengekstrakan thumbnail.  
-- Aplikasi ini **tidak memuat naik fail-fail ini** ke pelayan pembangun.
+- Main balik dan penyuntingan sari kata
+- Main balik video + sari kata daripada fail yang dipilih oleh pengguna
+- Lapisan sari kata / lirik terapung yang dipaparkan di atas aplikasi lain pada Android
 
-### 2-2) Tetapan tempatan dan nilai yang disimpan
+Pengendalian sari kata yang disokong mungkin termasuk format seperti:
 
-Bagi memastikan fungsi teras dan kemudahan pengguna, aplikasi menyimpan nilai berikut **secara tempatan pada peranti**.  
-Nilai ini **tidak dihantar** ke pelayan pembangun dan akan **dipadam apabila aplikasi atau data aplikasinya dipadamkan**.
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
 
-#### (1) Keutamaan (`shared_preferences`)
+Aplikasi ini **tidak** mewujudkan akaun pengguna dan **tidak** memuat naik fail sari kata atau fail media pengguna ke pelayan milik pembangun sendiri. Penghurai sari kata, penyuntingan, pratonton, dan kebanyakan pemprosesan berkaitan main balik dilakukan **secara setempat pada peranti**.
 
-| Jenis | Kekunci / kandungan | Tujuan | Lokasi simpanan | Pemadaman |
-|---|---|---|---|---|
-| Kedudukan & saiz fon lapisan | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | Mengembalikan kedudukan dan saiz tulisan lapisan lirik | SharedPreferences peranti | Dipadam apabila data aplikasi atau aplikasi dipadamkan |
-| Tetapan iklan / privasi | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | Menetapkan iklan bukan diperibadikan, tetapan RDP (AS), penandaan kandungan kanak-kanak, umur, dan had rating kandungan iklan | SharedPreferences peranti | Sama seperti di atas |
-
-#### (2) Fail sementara (direktori sementara sistem)
-
-- **Contoh:** `cover_*.jpg`, `tmp_*.flac`  
-- **Kegunaan:** pengekstrakan kulit album, penulisan tag FLAC, dan fail pengekodan sementara  
-- **Lokasi:** folder sementara sistem (`systemTemp`)  
-- **Tempoh simpanan:** aplikasi cuba memadam selepas selesai digunakan; selebihnya mungkin kekal buat sementara dalam cache sistem sehingga dibersihkan oleh OS
-
-#### (3) Lokasi simpanan yang dipilih pengguna (SAF)
-
-- Apabila pengguna memilih “Simpan sebagai” dan seumpamanya, fail audio akhir boleh ditulis ke lokasi yang ditetapkan pengguna (contohnya folder Muat Turun atau storan awan).  
-- Fail-fail ini disimpan di **storan luaran** dan **tidak akan dipadam secara automatik** apabila aplikasi dinyahpasang. Pengguna boleh memadamnya secara manual.
-
-#### (4) Status persetujuan (cache SDK UMP)
-
-- Di rantau EEA / UK / Switzerland, SDK UMP akan **menyimpan status persetujuan iklan pengguna secara tempatan**.  
-- Pengguna boleh menetapkan semula status ini dengan memadam data aplikasi atau melalui skrin **Pilihan Privasi (Privacy Options)** dalam aplikasi (jika disediakan).
+Walau bagaimanapun, bagi tujuan pengiklanan, pengurusan persetujuan, dan pematuhan undang-undang, SDK pihak ketiga seperti **Google Mobile Ads SDK (AdMob)** dan **Google UMP** boleh memproses maklumat tertentu seperti pengecam pengiklanan, isyarat peranti, dan pilihan persetujuan.
 
 ---
 
-### 2-3) Data berkaitan iklan dan persetujuan (SDK pihak ketiga)
+## 2. Kategori Maklumat yang Kami Proses
 
-**Google Mobile Ads SDK (AdMob)** dan **Google UMP** mungkin mengumpul / memproses:
+### 2-1) Fail yang Dipilih Secara Jelas oleh Pengguna
 
-- Pengenal iklan (AAID / IDFA);  
-- Maklumat alamat IP atau julat IP;  
-- Maklumat peranti dan aplikasi;  
-- Isyarat interaksi iklan (paparan, klik, dan lain-lain);  
-- Status persetujuan dan tetapan yang berkaitan.
+Aplikasi ini berinteraksi dengan fail yang dipilih secara jelas oleh pengguna, termasuk:
 
-**Tujuan pemprosesan:**
+- **Fail sari kata**
+  - Contoh: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Kegunaan:
+    - Main balik sari kata di dalam aplikasi
+    - Penyuntingan sari kata
+    - Paparan sari kata pada lapisan
+    - Penukaran dan eksport sari kata
 
-- Penyampaian dan pengurusan iklan;  
-- Had kekerapan paparan;  
-- Pencegahan penipuan atau penyalahgunaan;  
-- Pengukuran prestasi dan analisis;  
-- Pemenuhan keperluan undang-undang berkaitan privasi dan persetujuan.
+- **Fail media**
+  - Contoh: fail video atau audio setempat yang dipilih oleh pengguna
+  - Kegunaan:
+    - Main balik video + sari kata
+    - Penjajaran masa lapisan dengan media yang sedang dimainkan
 
-**Rantau yang memerlukan persetujuan (EEA / UK / Switzerland):**
+Perkara penting:
 
-- Persetujuan dikumpulkan melalui dialog UMP.  
-- Skrin **Pilihan Privasi (Privacy Options)** disediakan untuk membolehkan pengguna mengubah pilihan kemudian.
+- Fail yang dipilih oleh pengguna diproses secara setempat pada peranti.
+- Aplikasi ini tidak memuat naik fail tersebut ke pelayan milik pembangun sendiri.
+- Laluan fail dan kandungannya hanya digunakan untuk main balik, lapisan, penyuntingan, penyimpanan, dan tindakan yang diminta oleh pengguna.
 
-**Rantau lain (contohnya Korea Selatan):**
+### 2-2) Tetapan Tempatan dan Nilai yang Disimpan
 
-- Skrin ini mungkin **tidak dipaparkan**, jika tidak dikehendaki oleh undang-undang.
+Bagi menyediakan tetapan yang berterusan dan memulihkan keadaan terdahulu, aplikasi ini menyimpan beberapa nilai secara tempatan pada peranti menggunakan `SharedPreferences` atau storan tempatan seumpamanya yang disediakan oleh OS.
+
+Nilai-nilai ini tidak dihantar ke pelayan milik pembangun sendiri dan biasanya akan dipadamkan jika data aplikasi dibersihkan atau aplikasi dinyahpasang.
+
+#### (1) Tetapan lapisan
+
+Contohnya termasuk:
+
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
+
+Tujuan:
+
+- Memulihkan kedudukan lapisan
+- Memulihkan gaya sari kata untuk lapisan dan main balik sari kata dalam aplikasi
+- Mengekalkan keutamaan garis luar / fon / orientasi
+- Mengawal logik kekerapan paparan iklan bagi sesetengah aliran berkaitan lapisan
+
+#### (2) Kedudukan main balik atau lapisan terkini
+
+Contohnya termasuk:
+
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
+
+Tujuan:
+
+- Memulihkan atau mencadangkan kedudukan mula sari kata/lapisan terkini
+- Menyambung semula main balik video + sari kata dengan lebih mudah
+
+#### (3) Nilai keutamaan iklan dan privasi
+
+Contohnya mungkin termasuk:
+
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
+
+Tujuan:
+
+- Menyimpan pilihan privasi iklan
+- Menerapkan tetapan privasi dan konfigurasi iklan UMP / AdMob
+
+#### (4) Output sari kata yang dicipta oleh pengguna
+
+Apabila pengguna menyimpan atau mengeksport fail sari kata, aplikasi ini boleh menulis fail sari kata baharu ke lokasi yang dipilih oleh pengguna, seperti:
+
+- Muat turun
+- Folder lain yang dipilih melalui pemilih sistem
+- Lokasi storan yang diurus oleh pengguna
+
+Fail yang disimpan oleh pengguna ini mungkin kekal pada peranti selepas aplikasi dipadamkan melainkan pengguna memadamkannya secara manual.
+
+#### (5) Fail sementara dan cache
+
+Aplikasi ini dan pustaka pihak ketiga boleh mencipta fail sementara atau fail cache untuk operasi biasa, seperti:
+
+- data cache pemilih fail
+- data sementara penukaran sari kata
+- data cache berkaitan main balik
+
+Ini hanya bertujuan untuk operasi setempat dan tidak dimuat naik ke pelayan milik pembangun sendiri.
+
+#### (6) Cache status persetujuan UMP
+
+Di rantau yang tertakluk kepada Google UMP, SDK boleh menyimpan cache status persetujuan secara tempatan pada peranti.
+
+Perkara ini secara umum boleh ditetapkan semula dengan:
+
+- membersihkan data aplikasi, atau
+- menukar pilihan persetujuan di dalam aplikasi apabila entri pilihan privasi tersedia
+
+### 2-3) Pemprosesan Berkaitan Lapisan Android dan Kebenaran
+
+Pada Android, lapisan sari kata terapung boleh menggunakan:
+
+- kebenaran `SYSTEM_ALERT_WINDOW` / paparan di atas aplikasi lain
+- kebenaran `POST_NOTIFICATIONS`
+- pemberitahuan perkhidmatan latar hadapan yang diperlukan untuk perkhidmatan lapisan
+
+Tujuan:
+
+- memaparkan lapisan sari kata di atas aplikasi lain
+- memastikan perkhidmatan lapisan terus berjalan
+- membolehkan Android memaparkan pemberitahuan lapisan / perkhidmatan yang diperlukan
+- membaca maklumat pemberitahuan media apabila diperlukan untuk sokongan perkembangan sari kata
+
+Kebenaran ini hanya digunakan untuk ciri aplikasi yang dipilih oleh pengguna untuk digunakan.
+
+### 2-4) Iklan, Persetujuan, dan Data Berkaitan (SDK Pihak Ketiga)
+
+Aplikasi ini menggunakan SDK iklan / persetujuan Google, termasuk:
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+Aplikasi ini mungkin memaparkan:
+
+- iklan sepanduk
+- iklan interstisial
+- iklan ganjaran atau interstisial ganjaran
+
+SDK ini boleh memproses data seperti:
+
+- pengecam pengiklanan (contohnya, AAID / IDFA jika berkenaan)
+- maklumat berasaskan IP dan berkaitan rangkaian
+- metadata peranti dan aplikasi
+- isyarat interaksi iklan
+- pilihan persetujuan
+
+Tujuannya mungkin termasuk:
+
+- penyampaian iklan
+- pengukuran dan pelaporan iklan
+- had kekerapan
+- pencegahan penipuan
+- pematuhan undang-undang
+
+Pembangun berusaha untuk mengkonfigurasi SDK ini dengan cara yang selaras dengan pilihan persetujuan pengguna dan undang-undang yang terpakai.
 
 ---
 
-## 3. Cara pemprosesan dan tempoh penyimpanan
+## 3. Cara Kami Memproses dan Menyimpan Data
 
-- **Tetapan tempatan:**  
-  Disimpan pada peranti sehingga pengguna memadam data aplikasi atau menyahpasang aplikasi.  
-- **Fail sementara:**  
-  Dihasilkan semasa proses pengekodan/pengekstrakan; dipadam sebaik sahaja selesai jika boleh, namun sebahagian mungkin kekal sementara dalam cache sistem.  
-- **Data iklan/persetujuan (pihak ketiga):**  
-  Disimpan dan diproses oleh pihak ketiga (contohnya Google) mengikut dasar privasi mereka sendiri.
+- **Tetapan tempatan dan data kedudukan terkini**
+  - disimpan pada peranti sehingga data aplikasi dibersihkan atau aplikasi dibuang
+
+- **Fail sementara / cache**
+  - disimpan hanya setakat yang diperlukan untuk operasi, kemudian dipadamkan oleh aplikasi apabila praktikal atau dibersihkan kemudian oleh OS
+
+- **Fail sari kata yang disimpan oleh pengguna**
+  - kekal di lokasi simpanan yang dipilih oleh pengguna sehingga dipadamkan oleh pengguna
+
+- **Data iklan / persetujuan yang dikendalikan oleh pihak ketiga**
+  - disimpan mengikut dasar Google dan undang-undang yang terpakai
 
 ---
 
-## 4. Pemindahan kepada pihak ketiga & aliran data rentas sempadan
+## 4. Pemprosesan oleh Pihak Ketiga dan Pemindahan Rentas Sempadan
 
-Untuk tujuan pengiklanan dan pengurusan persetujuan, sesetengah maklumat mungkin dihantar dan diproses dalam infrastruktur Google, termasuk di luar negara asal pengguna.
+Bagi tujuan iklan dan pengurusan persetujuan, sesetengah maklumat mungkin diproses oleh Google dan rakan kongsi berkaitan.
 
 | Item | Butiran |
 |---|---|
-| **Penerima** | Google LLC dan syarikat gabungan / pemproses subkontrak |
-| **Destinasi data** | Amerika Syarikat dan kawasan lain yang mempunyai pusat data Google |
-| **Tujuan** | Penyampaian iklan, pengukuran prestasi, pencegahan penipuan, pematuhan undang-undang, pengurusan rekod persetujuan |
-| **Jenis data** | Pengenal iklan, maklumat IP, data peranti dan aplikasi, isyarat interaksi iklan, status persetujuan, dan lain-lain |
-| **Tempoh simpanan** | Mengikut dasar dalaman Google |
-| **Kesan penolakan** | Iklan diperibadikan mungkin terhad; iklan tidak diperibadikan mungkin masih dipaparkan |
+| Penerima | Google LLC dan sekutu / pemproses berkaitan |
+| Tujuan | Penyampaian iklan, pengukuran, pencegahan penipuan, pengurusan persetujuan, dan pematuhan undang-undang |
+| Data yang mungkin diproses | Pengecam pengiklanan, maklumat peranti/aplikasi, maklumat berasaskan IP, data interaksi iklan, status persetujuan |
+| Destinasi | Amerika Syarikat dan rantau lain tempat infrastruktur Google beroperasi |
+| Penyimpanan | Mengikut dasar Google dan undang-undang yang terpakai |
 
-Kami mematuhi keperluan pendedahan **“Data safety” Google Play** dan berusaha memastikan maklumat yang dipaparkan sepadan dengan pemprosesan sebenar dalam aplikasi.
-
----
-
-## 5. Hak anda dan cara menggunakannya
-
-- **Menolak iklan diperibadikan / mengubah persetujuan**  
-  - Di EEA / UK / Switzerland: gunakan menu **Tetapan → Pilihan Privasi** dalam aplikasi.  
-  - Di rantau lain: gunakan tetapan sistem operasi untuk menetapkan semula ID iklan, menghadkan penjejakan, atau mematikan iklan diperibadikan.  
-
-- **Menetapkan semula maklumat tempatan**  
-  - Memadam data aplikasi atau menyahpasang aplikasi akan membersihkan kedudukan lapisan, saiz fon dan tetapan tempatan lain.
-
-Selaras dengan **GDPR / UK GDPR / FADP Switzerland / undang-undang privasi beberapa negeri di AS**, anda mungkin mempunyai hak untuk mengakses, membetulkan, memadam, mengehadkan pemprosesan, mendapatkan salinan data (portabiliti), dan menarik balik persetujuan.  
-Bagi data iklan yang diproses oleh Google, sila gunakan **mekanisme rasmi Google**.
+Pembangun berusaha memastikan pendedahan privasi di gedung aplikasi selaras dengan tingkah laku sebenar SDK.
 
 ---
 
-## 6. Privasi kanak-kanak
+## 5. Hak dan Pilihan Anda
 
-Aplikasi ini **tidak ditujukan khas kepada kanak-kanak**.  
-Jika kanak-kanak di bawah umur minimum undang-undang menggunakan aplikasi, dia disarankan untuk berhenti menggunakan aplikasi dan, bersama penjaga, mengaktifkan ciri had iklan pada tahap sistem operasi.  
-Jika sesuai, kami mungkin menggunakan tetapan seperti **TFUA (penandaan kandungan kanak-kanak)** atau mekanisme perlindungan kanak-kanak lain.
+Bergantung pada bidang kuasa anda, anda mungkin mempunyai hak seperti:
 
----
+- akses
+- pembetulan
+- pemadaman
+- sekatan
+- kebolehportan
+- bantahan
+- penarikan balik persetujuan apabila persetujuan merupakan asas undang-undang
 
-## 7. Langkah-langkah keselamatan
+Kawalan praktikal termasuk:
 
-Kami berusaha untuk:
+- menukar pilihan iklan / privasi dalam aplikasi apabila tersedia
+- membersihkan data aplikasi untuk membuang tetapan tempatan dan keutamaan yang dicache
+- menyahpasang aplikasi
+- memadam fail sari kata yang dieksport secara manual daripada storan pengguna
+- menggunakan kawalan peringkat OS seperti tetapan pemberitahuan, tetapan semula ID iklan, atau tetapan pemperibadian iklan
 
-- Mengamalkan prinsip **minimisasi data** dalam pengumpulan dan storan;  
-- Mengehadkan penggunaan fail sementara dan memadamnya selepas digunakan;  
-- Mengehadkan pemprosesan kepada skop keizinan yang diberikan oleh sistem operasi;  
-- Menggunakan **penyulitan (contohnya TLS)** untuk penghantaran data kepada pihak ketiga (mengikut pelaksanaan SDK berkenaan).
-
----
-
-## 8. Data Safety di Google Play
-
-Kami menyediakan dan menyelenggara bahagian **“Data safety”** dalam Play Console dengan tepat dan akan mengemas kininya apabila amalan pemprosesan data kami berubah.
-
----
-
-## 9. Notis sumber terbuka
-
-Aplikasi ini menggunakan perisian sumber terbuka seperti **FFmpeg**.  
-Fail maklumat (contohnya `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`) di dalam aplikasi menerangkan cara mendapatkan kod sumber.  
-Atas permintaan, kami akan menyediakan kod sumber seperti yang diterangkan dalam fail tersebut.
+Bagi data yang diproses oleh Google, pengguna juga hendaklah merujuk kepada alat privasi dan akaun Google sendiri jika berkaitan.
 
 ---
 
-## 10. Maklumat hubungan
+## 6. Privasi Kanak-kanak
 
-- Emel: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+Aplikasi ini tidak ditujukan terutamanya kepada kanak-kanak.
+
+Tujuan utamanya ialah main balik sari kata, penyuntingan, paparan lapisan, dan ciri utiliti berkaitan. Jika sesuai, konfigurasi SDK iklan boleh menggunakan penanda berkaitan umur atau child-directed flags yang selaras dengan keperluan platform dan tetapan pembangun.
 
 ---
 
-## 11. Perubahan kepada Dasar ini
+## 7. Langkah Keselamatan
 
-Kami mungkin menyemak Dasar ini dari semasa ke semasa kerana perubahan undang-undang atau perubahan fungsi perkhidmatan.  
-Sebarang kemas kini akan diumumkan **di dalam aplikasi** dan pada halaman dasar ini.  
-Bagi perubahan yang besar, kami akan memberikan notis **sekurang-kurangnya 7 hari sebelum** tarikh kuat kuasa.
+Dalam had seni bina aplikasi ini, pembangun berusaha untuk:
+
+- meminimumkan pengumpulan dengan memastikan kebanyakan pemprosesan sari kata dan media kekal pada peranti
+- menggunakan pemilih fail sistem dan akses fail yang dimulakan oleh pengguna
+- menggunakan kebenaran sistem secara telus
+- bergantung pada pengangkutan rangkaian yang disulitkan yang digunakan oleh SDK pihak ketiga, jika berkenaan
+
+Tiada kaedah penyimpanan atau penghantaran yang benar-benar selamat, tetapi aplikasi ini direka untuk mengelakkan pengumpulan yang tidak perlu oleh pembangun.
+
+---
+
+## 8. Perisian Sumber Terbuka
+
+Aplikasi ini menggunakan perisian sumber terbuka, termasuk pustaka yang berkaitan dengan:
+
+- penghuraian dan pensirian sari kata
+- pemilihan fail
+- keutamaan tempatan
+- tetingkap lapisan
+- main balik video
+- WebView
+
+Notis sumber terbuka tersedia di dalam aplikasi. Bagi sesetengah komponen, aplikasi ini mungkin menggunakan salinan pakej sumber terbuka yang diubah suai secara tempatan sambil mengekalkan notis lesen asal.
+
+---
+
+## 9. Hubungi
+
+Jika anda mempunyai pertanyaan atau permintaan berkaitan privasi:
+
+- **E-mel:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+
+Sila sertakan nama aplikasi **Subtitle Player & Editor** dalam mesej anda.
+
+---
+
+## 10. Perubahan kepada Dasar Ini
+
+Dasar ini boleh dikemas kini jika:
+
+- ciri aplikasi berubah
+- kebenaran atau penggunaan SDK berubah
+- keperluan undang-undang atau platform berubah
+
+Perubahan material akan dicerminkan pada halaman dasar yang dikemas kini dan, jika sesuai, dalam aplikasi.
