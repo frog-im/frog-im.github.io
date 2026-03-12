@@ -1,155 +1,311 @@
 ---
-title: Politique de Confidentialité | Subtitle Tool
-description: Politique de confidentialité de Subtitle Player & Editor (Subtitle Tool)
+title: Politique de confidentialité | Subtitle Tool
+description: Politique de confidentialité de Subtitle Tool (Subtitle Player & Editor) - Français
 lang: fr
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
-# Politique de Confidentialité (Subtitle Player & Editor / « Subtitle Tool »)
+# Politique de confidentialité (Subtitle Tool / Subtitle Player & Editor)
 
-- **Nom de l’application :** Subtitle Player & Editor (ci-après « Subtitle Tool »)  
-- **Développeur :** frog-im  
-- **Contact :** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Date d’entrée en vigueur :** 2025-12-12  
+- **Nom de l’application :** Subtitle Player & Editor (également désigné comme **Subtitle Tool** dans la présente Politique)
+- **Développeur :** frog-im
+- **Contact :** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Date d’entrée en vigueur :** 2026-03-11
 
-> La présente Politique est rédigée en référence aux lois applicables, notamment la Loi coréenne sur la protection des informations personnelles (PIPA), le RGPD / RGPD du Royaume-Uni, la loi suisse FADP et diverses lois américaines relatives à la vie privée.  
-> En cas de divergence, les exigences spécifiques à une juridiction donnée prévalent.
-
----
-
-## 1. Objet et Champ d’Application
-
-Cette application propose des fonctions d’**édition des métadonnées de fichiers audio** (titre, artiste, etc.) stockés sur l’appareil ainsi qu’une fonction de **superposition de paroles / sous-titres**.  
-L’application **ne crée pas de compte utilisateur** et **ne téléverse pas** le contenu de l’utilisateur vers nos serveurs. Le traitement s’effectue **localement sur l’appareil** par défaut.
-
-Cependant, à des fins de **publicité** et de **conformité légale**, des partenaires tiers (par exemple Google Mobile Ads SDK (AdMob) et UMP) peuvent collecter et traiter des informations telles que des **identifiants publicitaires**.  
-La collecte du consentement et les choix de confidentialité suivent les spécifications de **Google UMP (User Messaging Platform)**.
+> Cette Politique est préparée en référence aux lois applicables, notamment la loi coréenne sur la protection des informations personnelles (PIPA), le RGPD / UK GDPR, la LPD suisse, ainsi que les lois pertinentes des États américains en matière de confidentialité. Si des règles locales obligatoires s’appliquent, ces règles prévalent.
 
 ---
 
-## 2. Catégories d’Informations que Nous Traitions
+## 1. Objet et portée
 
-### 2-1) Fichiers explicitement sélectionnés par l’utilisateur
+Cette application fournit :
 
-- **Chemins et contenus audio / images de couverture :** traités **localement** sur l’appareil uniquement pour l’édition et l’enregistrement.  
-- **FFmpegKit** est utilisé localement pour l’encodage, l’édition de métadonnées et l’extraction de vignettes.  
-- L’application **ne téléverse pas** ces fichiers sélectionnés par l’utilisateur vers nos serveurs.
+- la lecture et l’édition de sous-titres
+- la lecture vidéo + sous-titres à partir de fichiers sélectionnés par l’utilisateur
+- une superposition flottante de sous-titres / paroles affichée au-dessus d’autres applications sur Android
+
+La gestion des sous-titres prise en charge peut inclure des formats tels que :
+
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
+
+L’application ne crée **pas** de compte utilisateur et ne téléverse **pas** les fichiers de sous-titres ou de médias de l’utilisateur vers les propres serveurs du développeur. L’analyse, l’édition, l’aperçu des sous-titres et la plupart des traitements liés à la lecture sont effectués **localement sur l’appareil**.
+
+Cependant, à des fins de publicité, de gestion du consentement et de conformité légale, des SDK tiers tels que **Google Mobile Ads SDK (AdMob)** et **Google UMP** peuvent traiter certaines informations, telles que les identifiants publicitaires, les signaux de l’appareil et les choix de consentement.
+
+---
+
+## 2. Catégories d’informations que nous traitons
+
+### 2-1) Fichiers explicitement choisis par l’utilisateur
+
+L’application interagit avec les fichiers explicitement sélectionnés par l’utilisateur, notamment :
+
+- **Fichiers de sous-titres**
+  - Exemples : `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Utilisations :
+    - lecture des sous-titres dans l’application
+    - édition des sous-titres
+    - affichage des sous-titres en superposition
+    - conversion et exportation des sous-titres
+
+- **Fichiers multimédias**
+  - Exemples : fichiers vidéo ou audio locaux choisis par l’utilisateur
+  - Utilisations :
+    - lecture vidéo + sous-titres
+    - alignement temporel de la superposition avec le média en cours de lecture
+
+Points importants :
+
+- Les fichiers sélectionnés par l’utilisateur sont traités localement sur l’appareil.
+- L’application ne téléverse pas ces fichiers vers les propres serveurs du développeur.
+- Les chemins et contenus des fichiers sont utilisés uniquement pour la lecture, la superposition, l’édition, l’enregistrement et les actions demandées par l’utilisateur.
 
 ### 2-2) Paramètres locaux et valeurs stockées
 
-Pour le bon fonctionnement et le confort d’utilisation, l’application enregistre les valeurs suivantes **localement sur l’appareil**.  
-Ces données ne sont pas transmises à nos serveurs et sont **supprimées lorsque l’application ou ses données sont supprimées**.
+Afin de fournir des paramètres persistants et de restaurer l’état antérieur, l’application stocke certaines valeurs localement sur l’appareil à l’aide de `SharedPreferences` ou d’un stockage local similaire fourni par le système d’exploitation.
 
-#### (1) Préférences (`shared_preferences`)
+Ces valeurs ne sont pas envoyées vers les propres serveurs du développeur et sont normalement supprimées si les données de l’application sont effacées ou si l’application est désinstallée.
 
-| Type | Clé / Contenu | Finalité | Stockage | Suppression |
-|---|---|---|---|---|
-| Position / police de superposition | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | Restaurer la position de la superposition et la taille de police | SharedPreferences de l’appareil | Supprimées lors de l’effacement des données de l’app ou de sa désinstallation |
-| Paramètres pub / confidentialité | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | Annonces non personnalisées, signal U.S. RDP, balise COPPA, balise d’âge, limitation de la classification des contenus publicitaires | SharedPreferences de l’appareil | Idem ci-contre |
+#### (1) Paramètres de superposition
 
-#### (2) Fichiers temporaires (dossier temporaire du système)
+Exemples :
 
-- **Exemples :** `cover_*.jpg`, `tmp_*.flac`  
-- **Usage :** extraction de jaquettes, étiquetage FLAC, encodage temporaire  
-- **Emplacement :** dossier temporaire du système (`systemTemp`)  
-- **Durée de conservation :** supprimés par l’application après traitement lorsque cela est possible ; peuvent également être supprimés par les mécanismes de nettoyage du système.
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
 
-#### (3) Enregistrements choisis par l’utilisateur (SAF)
+Finalité :
 
-- Lorsqu’un utilisateur choisit « Enregistrer sous », les fichiers audio finaux peuvent être écrits dans des emplacements désignés par l’utilisateur (par exemple Téléchargements, stockage cloud).  
-- Ces fichiers résident dans le **stockage externe** et **peuvent subsister après la désinstallation**. L’utilisateur peut les supprimer manuellement.
+- restaurer la position de la superposition
+- restaurer le style des sous-titres pour la superposition et la lecture des sous-titres dans l’application
+- conserver les préférences de contour / police / orientation
+- contrôler la logique de fréquence d’affichage des publicités dans certains flux liés à la superposition
 
-#### (4) État du consentement (cache UMP)
+#### (2) Positions récentes de lecture ou de superposition
 
-- Dans les régions EEE / Royaume-Uni / Suisse, le SDK UMP **met en cache localement l’état du consentement publicitaire** de l’utilisateur.  
-- Il peut être réinitialisé en supprimant les données de l’application ou via l’écran **Options de confidentialité** lorsque celui-ci est disponible.
+Exemples :
+
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
+
+Finalité :
+
+- restaurer ou suggérer les positions de départ récentes pour les sous-titres/la superposition
+- reprendre plus facilement la lecture vidéo + sous-titres
+
+#### (3) Valeurs de préférences publicitaires et de confidentialité
+
+Exemples possibles :
+
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
+
+Finalité :
+
+- stocker les choix de confidentialité liés à la publicité
+- appliquer les paramètres de confidentialité et de configuration publicitaire de UMP / AdMob
+
+#### (4) Fichiers de sous-titres créés par l’utilisateur
+
+Lorsque l’utilisateur enregistre ou exporte des fichiers de sous-titres, l’application peut écrire de nouveaux fichiers de sous-titres à un emplacement sélectionné par l’utilisateur, tel que :
+
+- Téléchargements
+- un autre dossier sélectionné via un sélecteur système
+- un emplacement de stockage géré par l’utilisateur
+
+Ces fichiers enregistrés par l’utilisateur peuvent rester sur l’appareil après la suppression de l’application, sauf si l’utilisateur les supprime manuellement.
+
+#### (5) Fichiers temporaires et caches
+
+L’application et des bibliothèques tierces peuvent créer des fichiers temporaires ou de cache pour le fonctionnement normal, tels que :
+
+- données de cache du sélecteur de fichiers
+- données temporaires de conversion de sous-titres
+- données de cache liées à la lecture
+
+Ils sont destinés uniquement au fonctionnement local et ne sont pas téléversés vers les propres serveurs du développeur.
+
+#### (6) Cache de l’état de consentement UMP
+
+Dans les régions où Google UMP s’applique, le SDK peut mettre en cache localement sur l’appareil l’état du consentement.
+
+Cela peut généralement être réinitialisé en :
+
+- effaçant les données de l’application, ou
+- modifiant les choix de consentement dans l’application lorsqu’une entrée relative aux options de confidentialité est disponible
+
+### 2-3) Traitement lié à la superposition Android et aux autorisations
+
+Sur Android, la superposition flottante de sous-titres peut utiliser :
+
+- l’autorisation `SYSTEM_ALERT_WINDOW` / affichage au-dessus des autres applications
+- l’autorisation `POST_NOTIFICATIONS`
+- une notification de service en premier plan requise pour le service de superposition
+
+Finalité :
+
+- afficher la superposition de sous-titres au-dessus d’autres applications
+- maintenir le service de superposition en fonctionnement
+- permettre à Android d’afficher les notifications requises pour la superposition / le service
+- lire les informations des notifications multimédias lorsque cela est nécessaire pour la prise en charge de la progression des sous-titres
+
+Ces autorisations sont utilisées uniquement pour les fonctionnalités de l’application que l’utilisateur choisit d’utiliser.
+
+### 2-4) Publicités, consentement et données associées (SDK tiers)
+
+L’application utilise des SDK Google de publicité / consentement, notamment :
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+L’application peut afficher :
+
+- des bannières publicitaires
+- des publicités interstitielles
+- des publicités avec récompense ou interstitielles avec récompense
+
+Ces SDK peuvent traiter des données telles que :
+
+- des identifiants publicitaires (par exemple, AAID / IDFA le cas échéant)
+- des informations liées à l’adresse IP et au réseau
+- des métadonnées sur l’appareil et l’application
+- des signaux d’interaction avec les publicités
+- des choix de consentement
+
+Les finalités peuvent inclure :
+
+- la diffusion de publicités
+- la mesure et les rapports publicitaires
+- la limitation de fréquence
+- la prévention de la fraude
+- la conformité légale
+
+Le développeur s’efforce de configurer ces SDK d’une manière conforme aux choix de consentement de l’utilisateur et au droit applicable.
 
 ---
 
-### 2-3) Données liées aux annonces et au consentement (SDK tiers)
+## 3. Comment nous traitons et conservons les données
 
-- **Google Mobile Ads SDK (AdMob) et UMP** peuvent collecter et traiter, par exemple : **identifiants publicitaires (AAID/IDFA)**, **plages d’IP**, **informations sur l’appareil / l’application**, **signaux d’interaction avec les annonces**, **état du consentement**, etc.  
-- **Finalités :** diffusion d’annonces, limitation de fréquence, prévention de la fraude, mesure de performance, respect des obligations légales.  
-- **Régions nécessitant un consentement (EEE / Royaume-Uni / Suisse) :** le consentement est recueilli via des écrans UMP, et un écran **Options de confidentialité** est fourni lorsqu’il est requis.  
-  Dans d’autres régions (par ex. Corée), cette option **peut ne pas apparaître**.
+- **Paramètres locaux et données de position récente**
+  - conservés sur l’appareil jusqu’à ce que les données de l’application soient effacées ou que l’application soit supprimée
+
+- **Fichiers temporaires / cache**
+  - conservés uniquement aussi longtemps que nécessaire au fonctionnement, puis supprimés par l’application lorsque cela est possible en pratique, ou nettoyés ultérieurement par le système d’exploitation
+
+- **Fichiers de sous-titres enregistrés par l’utilisateur**
+  - restent dans l’emplacement de sauvegarde choisi par l’utilisateur jusqu’à leur suppression par celui-ci
+
+- **Données publicitaires / de consentement traitées par des tiers**
+  - conservées conformément aux politiques de Google et au droit applicable
 
 ---
 
-## 3. Traitement et Durée de Conservation
+## 4. Traitement par des tiers et transferts transfrontaliers
 
-- **Paramètres locaux :** conservés sur l’appareil jusqu’à ce que l’utilisateur supprime les données ou désinstalle l’application.  
-- **Fichiers temporaires :** créés lors de l’encodage / extraction, puis supprimés après traitement ; peuvent rester de manière temporaire dans les caches système.  
-- **Données d’annonces / de consentement (tiers) :** conservées et supprimées conformément aux **politiques de Google**.
-
----
-
-## 4. Transferts à des Tiers et Flux Transfrontaliers
-
-Pour la publicité et la gestion du consentement, certaines informations utilisateur peuvent être transmises à l’infrastructure de Google et y être traitées.
+Pour la publicité et la gestion du consentement, certaines informations peuvent être traitées par Google et des partenaires associés.
 
 | Élément | Détails |
 |---|---|
-| **Destinataire** | Google LLC et ses filiales / sous-traitants |
-| **Destination** | États-Unis (et autres régions où l’infrastructure de Google est hébergée) |
-| **Finalité** | Diffusion d’annonces, mesure et performance, conformité légale, gestion du consentement |
-| **Données** | Identifiants publicitaires, plages d’IP, infos appareil / app, interactions avec les annonces, état du consentement, etc. |
-| **Durée de conservation** | Conformément aux politiques de Google |
-| **Effet d’un refus** | Les annonces personnalisées peuvent être limitées ; des annonces non personnalisées peuvent être affichées |
+| Destinataire | Google LLC et sociétés affiliées / sous-traitants concernés |
+| Finalité | Diffusion de publicités, mesure, prévention de la fraude, gestion du consentement et conformité légale |
+| Données possibles | Identifiants publicitaires, informations sur l’appareil/l’application, informations fondées sur l’IP, données d’interaction publicitaire, état du consentement |
+| Destination | États-Unis et autres régions où l’infrastructure de Google opère |
+| Conservation | Conformément aux politiques de Google et au droit applicable |
 
-Nous respectons les exigences de la section **« Sécurité des données » de Google Play** et alignons ces déclarations sur les traitements réels.
-
----
-
-## 5. Vos Droits et la Manière de les Exercer
-
-- **Désactivation des annonces personnalisées / modification du consentement**  
-  - Dans les régions concernées (EEE / Royaume-Uni / Suisse) : modifiez vos préférences dans **Paramètres → Options de confidentialité**.  
-  - Dans les autres régions : utilisez les paramètres du système d’exploitation pour **réinitialiser les identifiants publicitaires / limiter le suivi publicitaire**.
-- **Réinitialisation des informations locales :** la suppression des données de l’application ou sa désinstallation réinitialise les coordonnées de superposition, la taille de police et les autres paramètres locaux.  
-- Les droits conférés par le **RGPD / RGPD du Royaume-Uni / FADP suisse / lois américaines sur la vie privée** (accès, rectification, effacement, portabilité, limitation, retrait du consentement, etc.) peuvent être exercés dans la mesure prévue par ces lois.  
-  Pour les données publicitaires traitées par Google, veuillez utiliser les **procédures mises en place par Google**.
+Le développeur s’efforce de maintenir des informations de confidentialité cohérentes dans les stores d’applications avec le comportement réel des SDK.
 
 ---
 
-## 6. Protection des Enfants
+## 5. Vos droits et vos choix
 
-Cette application **n’est pas destinée aux enfants**.  
-Si un enfant en dessous de l’âge minimum légal utilise l’application, il doit cesser de l’utiliser et recourir, avec son représentant légal, aux fonctions de limitation de la publicité offertes par le système d’exploitation.  
-Le cas échéant, nous pouvons appliquer des balises telles que **TFUA (balise « child-directed »)** ou des options similaires de protection des enfants.
+Selon votre juridiction, vous pouvez disposer de droits tels que :
 
----
+- accès
+- rectification
+- suppression
+- limitation
+- portabilité
+- opposition
+- retrait du consentement lorsque le consentement constitue la base légale
 
-## 7. Mesures de Sécurité
+Les moyens de contrôle pratiques comprennent :
 
-- **Minimisation des données** collectées et stockées  
-- Utilisation limitée de fichiers temporaires et suppression après traitement lorsque cela est possible  
-- Traitement strictement **dans le cadre des autorisations du système d’exploitation**  
-- Chiffrement **TLS ou équivalent** pour les transmissions à des tiers (conformément aux standards des SDK tiers)
+- la modification des choix relatifs à la publicité / à la confidentialité dans l’application lorsque cette possibilité existe
+- l’effacement des données de l’application pour supprimer les paramètres locaux et les préférences mises en cache
+- la désinstallation de l’application
+- la suppression manuelle des fichiers de sous-titres exportés depuis le stockage de l’utilisateur
+- l’utilisation des contrôles au niveau du système d’exploitation, tels que les paramètres de notification, la réinitialisation de l’identifiant publicitaire ou les paramètres de personnalisation des publicités
 
----
-
-## 8. Sécurité des Données (Google Play)
-
-Nous préparons et maintenons de manière exacte la section **« Sécurité des données »** dans la Play Console, et nous la mettons à jour rapidement en cas de changement.
-
----
-
-## 9. Mentions Relatives aux Logiciels Open Source
-
-L’application utilise des logiciels open source tels que **FFmpeg**.  
-Un fichier d’information (par exemple `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`) au sein de l’application explique comment obtenir le code source.  
-Sur demande, nous fournirons le code source conformément aux indications de ce fichier.
+Pour les données traitées par Google, les utilisateurs doivent également consulter les propres outils de confidentialité et de compte de Google, le cas échéant.
 
 ---
 
-## 10. Contact
+## 6. Confidentialité des enfants
 
-- E-mail : [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+Cette application n’est pas principalement destinée aux enfants.
+
+Son objectif principal est la lecture, l’édition et l’affichage en superposition de sous-titres, ainsi que des fonctions utilitaires associées. Le cas échéant, la configuration des SDK publicitaires peut appliquer des indicateurs liés à l’âge ou destinés aux enfants, conformément aux exigences de la plateforme et aux paramètres du développeur.
 
 ---
 
-## 11. Modifications de la Présente Politique
+## 7. Mesures de sécurité
 
-Nous pouvons réviser la présente Politique en raison de changements légaux ou de service.  
-Les mises à jour seront publiées **dans l’application** et sur cette **page de politique**.  
-En cas de changement important, un préavis sera fourni **au moins 7 jours avant** la date d’entrée en vigueur.
+Dans les limites de l’architecture de l’application, le développeur cherche à :
+
+- minimiser la collecte en conservant la majorité du traitement des sous-titres et des médias sur l’appareil
+- utiliser les sélecteurs de fichiers du système et l’accès aux fichiers initié par l’utilisateur
+- utiliser les autorisations système de manière transparente
+- s’appuyer sur le transport réseau chiffré utilisé par les SDK tiers, lorsque cela est applicable
+
+Aucune méthode de stockage ou de transmission n’est parfaitement sûre, mais l’application est conçue pour éviter toute collecte inutile par le développeur.
+
+---
+
+## 8. Logiciels open source
+
+L’application utilise des logiciels open source, y compris des bibliothèques liées à :
+
+- l’analyse et la sérialisation des sous-titres
+- la sélection de fichiers
+- les préférences locales
+- les fenêtres de superposition
+- la lecture vidéo
+- WebView
+
+Les avis relatifs aux logiciels open source sont disponibles dans l’application. Pour certains composants, l’application peut utiliser une copie localement modifiée d’un paquet open source tout en conservant la mention de licence d’origine.
+
+---
+
+## 9. Contact
+
+Si vous avez des questions ou des demandes liées à la confidentialité :
+
+- **E-mail :** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+
+Veuillez inclure le nom de l’application **Subtitle Player & Editor** dans votre message.
+
+---
+
+## 10. Modifications de cette Politique
+
+Cette Politique peut être mise à jour si :
+
+- les fonctionnalités de l’application changent
+- les autorisations ou l’utilisation des SDK changent
+- les exigences légales ou de plateforme changent
+
+Les modifications importantes seront reflétées dans la page de politique mise à jour et, le cas échéant, dans l’application.
