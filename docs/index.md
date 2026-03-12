@@ -25,6 +25,9 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 - **take_it (Power lucky lotto) **  
   Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share)
 
+- **KnowMe **  
+  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share)
+
 ---
 
 ## FAQ
@@ -55,6 +58,7 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
   - Power Audio Tag Editor : [Power Audio Tag Editor](https://frog-im.github.io/privacy/bbo-music-player/ko/)
   - Power Subtitle Editor & Player: [Power Subtitle Editor & Player](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/)
   - Power lucky lotto : [Power lucky lotto](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/)
+  - KnowMe : [KnowMe](https://frog-im.github.io/privacy/know%20me/ko/)
 - **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
 
 
