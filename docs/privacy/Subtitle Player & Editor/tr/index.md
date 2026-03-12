@@ -1,29 +1,41 @@
 ---
 title: Gizlilik Politikası | Subtitle Tool
-description: Subtitle Player & Editor (Subtitle Tool) için gizlilik politikası
+description: Subtitle Tool (Subtitle Player & Editor) Gizlilik Politikası - Türkçe
 lang: tr
-last_updated: 2025-12-12
+last_updated: 2026-03-11
 ---
 
-# Gizlilik Politikası (Subtitle Player & Editor / “Subtitle Tool”)
+# Gizlilik Politikası (Subtitle Tool / Subtitle Player & Editor)
 
-- **Uygulama adı:** Subtitle Player & Editor (bundan sonra “Subtitle Tool” olarak anılacaktır)  
-- **Geliştirici:** frog-im  
-- **İletişim:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-- **Yürürlük tarihi:** 2025-12-12  
+- **Uygulama adı:** Subtitle Player & Editor (bu Politikada ayrıca **Subtitle Tool** olarak da anılır)
+- **Geliştirici:** frog-im
+- **İletişim:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- **Yürürlük tarihi:** 2026-03-11
 
-> Bu Politika; Kore Kişisel Bilgileri Koruma Kanunu (PIPA), GDPR/UK GDPR, İsviçre FADP ve çeşitli ABD eyalet gizlilik yasaları gibi ilgili mevzuat esas alınarak hazırlanmıştır.  
-> Belirli bir ülke/bölge hukukunda özel ve bağlayıcı hükümler bulunması hâlinde, bu hükümler işbu Politikanın ilgili hükümlerine üstün gelir.
+> Bu Politika, Kore Kişisel Bilgilerin Korunması Yasası (PIPA), GDPR / UK GDPR, İsviçre FADP ve ilgili ABD eyalet gizlilik yasaları dahil olmak üzere yürürlükteki yasalara atıfla hazırlanmıştır. Zorunlu yerel kurallar uygulanıyorsa, bu kurallar öncelikli olur.
 
 ---
 
 ## 1. Amaç ve Kapsam
 
-Bu uygulama, cihazda saklanan ses dosyalarının **meta verilerini (başlık, sanatçı vb.) düzenleme** ve **şarkı sözü/altyazı örtüşmesi (overlay) gösterme** fonksiyonları sağlar.  
-Uygulama **kullanıcı hesabı oluşturmaz** ve **kullanıcı içeriğini sunucularımıza yüklemez**. İşleme, varsayılan olarak **kullanıcının cihazında yerel olarak** gerçekleştirilir.
+Bu uygulama aşağıdakileri sağlar:
 
-Ancak, **reklam** ve **hukuki yükümlülüklerin yerine getirilmesi** amaçlarıyla; üçüncü taraf iş ortakları (örneğin Google Mobile Ads SDK (AdMob) ve UMP) **reklam tanımlayıcıları** gibi bilgileri toplayabilir ve işleyebilir.  
-Aydınlatma metinleri, onay ekranları ve gizlilik tercihleri, **Google UMP (User Messaging Platform)** çerçevesinde yönetilir.
+- Altyazı oynatma ve düzenleme
+- Kullanıcının seçtiği dosyalardan video + altyazı oynatma
+- Android'de diğer uygulamaların üzerinde gösterilen kayan altyazı / şarkı sözü katmanı
+
+Desteklenen altyazı işleme formatları şunları içerebilir:
+
+- `srt`
+- `vtt`
+- `ass`
+- `ssa`
+- `lrc`
+- `txt`
+
+Uygulama **kullanıcı hesabı oluşturmaz** ve **kullanıcının altyazı veya medya dosyalarını geliştiricinin kendi sunucularına yüklemez**. Altyazı ayrıştırma, düzenleme, önizleme ve oynatmayla ilgili işlemlerin çoğu **cihaz üzerinde yerel olarak** gerçekleştirilir.
+
+Bununla birlikte, reklam, izin/onay yönetimi ve yasal uyumluluk amaçları doğrultusunda **Google Mobile Ads SDK (AdMob)** ve **Google UMP** gibi üçüncü taraf SDK'lar; reklam tanımlayıcıları, cihaz sinyalleri ve onay tercihleri gibi belirli bilgileri işleyebilir.
 
 ---
 
@@ -31,125 +43,269 @@ Aydınlatma metinleri, onay ekranları ve gizlilik tercihleri, **Google UMP (Use
 
 ### 2-1) Kullanıcının Açıkça Seçtiği Dosyalar
 
-- **Ses dosyası/kapak görseli yolları ve içerikleri:** yalnızca düzenleme ve kaydetme amacıyla **cihaz üzerinde yerel olarak** işlenir.  
-- **FFmpegKit**, kodlama, meta veri düzenleme ve küçük resim çıkarma için yerel olarak kullanılır.  
-- Uygulama, bu kullanıcı-seçimli dosyaları sunucularımıza **yüklemez**.
+Uygulama, kullanıcının açıkça seçtiği dosyalarla etkileşime girer; bunlar şunları içerir:
+
+- **Altyazı dosyaları**
+  - Örnekler: `.srt`, `.vtt`, `.ass`, `.ssa`, `.lrc`, `.txt`
+  - Kullanımlar:
+    - Uygulama içinde altyazı oynatma
+    - Altyazı düzenleme
+    - Katman altyazısı gösterimi
+    - Altyazı dönüştürme ve dışa aktarma
+
+- **Medya dosyaları**
+  - Örnekler: kullanıcının seçtiği yerel video veya ses dosyaları
+  - Kullanımlar:
+    - Video + altyazı oynatma
+    - Katman zamanlamasının o anda oynatılan medya ile hizalanması
+
+Önemli noktalar:
+
+- Kullanıcının seçtiği dosyalar cihaz üzerinde yerel olarak işlenir.
+- Uygulama bu dosyaları geliştiricinin kendi sunucularına yüklemez.
+- Dosya yolları ve içerikleri yalnızca oynatma, katman, düzenleme, kaydetme ve kullanıcının talep ettiği işlemler için kullanılır.
 
 ### 2-2) Yerel Ayarlar ve Saklanan Değerler
 
-Temel işlevler ve kullanım kolaylığı için, uygulama aşağıdaki değerleri **cihazda yerel olarak** saklar.  
-Bu veriler sunucularımıza gönderilmez ve **uygulama veya uygulama verileri silindiğinde kaldırılır**.
+Kalıcı ayarlar sağlamak ve önceki durumu geri yüklemek için uygulama, bazı değerleri cihaz üzerinde `SharedPreferences` veya işletim sistemi tarafından sağlanan benzer yerel depolama yöntemleriyle yerel olarak saklar.
 
-#### (1) Tercihler (`shared_preferences`)
+Bu değerler geliştiricinin kendi sunucularına gönderilmez ve genellikle uygulama verileri temizlendiğinde veya uygulama kaldırıldığında silinir.
 
-| Tür | Anahtar/İçerik | Amaç | Saklama | Silme |
-|---|---|---|---|---|
-| Örtüşme konumu/yazı tipi | `overlay_box_x`, `overlay_box_y`, `overlay_text_font` | Örtüşme kutusunun konumunu ve yazı tipi boyutunu geri yükleme | Cihazdaki SharedPreferences | Uygulama verileri veya uygulama silindiğinde kaldırılır |
-| Reklam/gizlilik ayarları | `pref_npa_always`, `pref_us_rdp`, `pref_child_directed`, `pref_under_age`, `pref_max_ad_rating` | Kişiselleştirilmemiş reklamlar, ABD RDP sinyali, COPPA çocuk etiketi, yaş etiketi, reklam içerik derecelendirme sınırı | Cihazdaki SharedPreferences | Sol sütunda belirtilen şekilde |
+#### (1) Katman ayarları
 
-#### (2) Geçici Dosyalar (sistem geçici klasörü)
+Örnekler şunları içerir:
 
-- **Örnekler:** `cover_*.jpg`, `tmp_*.flac`  
-- **Kullanım:** kapak görseli çıkarma, FLAC etiketleme, geçici kodlama  
-- **Konum:** işletim sisteminin geçici klasörü (`systemTemp`)  
-- **Saklama süresi:** işlem tamamlandıktan sonra uygulama tarafından mümkün olduğunca silinir; ayrıca işletim sisteminin temizlik mekanizmaları tarafından da kaldırılabilir.
+- `overlay_box_x`
+- `overlay_box_y`
+- `overlay_text_font`
+- `overlay_text_color`
+- `overlay_outline_enabled`
+- `overlay_outline_color`
+- `overlay_outline_width`
+- `overlay_force_landscape`
+- `overlay_interstitial_count`
 
-#### (3) Kullanıcı Tarafından Seçilen Kayıt Yolu (SAF)
+Amaç:
 
-- Kullanıcı “Farklı kaydet” özelliğini kullandığında, son ses dosyaları kullanıcı tarafından seçilen konuma (örneğin İndirilenler klasörü, bulut depolama) kaydedilebilir.  
-- Bu dosyalar **harici depolama alanında** bulunur ve uygulama kaldırıldıktan sonra **varlığını sürdürebilir**. Kullanıcı bu dosyaları manuel olarak silebilir.
+- Katman konumunu geri yüklemek
+- Katman ve uygulama içi altyazı oynatma için altyazı stilini geri yüklemek
+- Kenarlık / yazı tipi / yön tercihlerini korumak
+- Bazı katmanla ilgili akışlarda reklam gösterim sıklığı mantığını kontrol etmek
 
-#### (4) Onay Durumu (UMP önbelleği)
+#### (2) Son oynatma veya katman konumları
 
-- EEA/İngiltere/İsviçre bölgelerinde UMP SDK **kullanıcının reklam onay durumunu yerel olarak önbelleğe alır**.  
-- Bu durum, uygulama verilerinin silinmesiyle veya uygulama içindeki **Gizlilik Seçenekleri** ekranından (varsa) sıfırlanabilir.
+Örnekler şunları içerir:
+
+- `overlay_recent_positions`
+- `video_subtitle_recent_position`
+
+Amaç:
+
+- Son altyazı/katman başlangıç konumlarını geri yüklemek veya önermek
+- Video + altyazı oynatmayı daha rahat sürdürmek
+
+#### (3) Reklam ve gizlilik tercih değerleri
+
+Örnekler şunları içerebilir:
+
+- `pref_npa_always`
+- `pref_us_rdp`
+- `pref_child_directed`
+- `pref_under_age`
+- `pref_max_ad_rating`
+
+Amaç:
+
+- Reklam gizlilik tercihlerini saklamak
+- UMP / AdMob gizlilik ve reklam yapılandırma ayarlarını uygulamak
+
+#### (4) Kullanıcı tarafından oluşturulan altyazı çıktısı
+
+Kullanıcı altyazı dosyalarını kaydettiğinde veya dışa aktardığında, uygulama yeni altyazı dosyalarını kullanıcının seçtiği bir konuma yazabilir; örneğin:
+
+- İndirilenler
+- Sistem seçicisi üzerinden seçilen başka bir klasör
+- Kullanıcının yönettiği bir depolama konumu
+
+Kullanıcının kaydettiği bu dosyalar, kullanıcı bunları manuel olarak silmedikçe uygulama silindikten sonra da cihazda kalabilir.
+
+#### (5) Geçici dosyalar ve önbellekler
+
+Uygulama ve üçüncü taraf kütüphaneler, normal çalışma için geçici dosyalar veya önbellek dosyaları oluşturabilir; örneğin:
+
+- dosya seçici önbellek verileri
+- geçici altyazı dönüştürme verileri
+- oynatmayla ilgili önbellek verileri
+
+Bunlar yalnızca yerel çalışma amacıyla kullanılır ve geliştiricinin kendi sunucularına yüklenmez.
+
+#### (6) UMP onay durumu önbelleği
+
+Google UMP'nin geçerli olduğu bölgelerde SDK, onay durumunu cihaz üzerinde yerel olarak önbelleğe alabilir.
+
+Bu genellikle şu yollarla sıfırlanabilir:
+
+- uygulama verilerini temizlemek, veya
+- uygulama içinde gizlilik seçenekleri girişi mevcutsa onay tercihlerini değiştirmek
+
+### 2-3) Android Katmanı ve İzinlerle İlgili İşleme
+
+Android'de kayan altyazı katmanı şunları kullanabilir:
+
+- `SYSTEM_ALERT_WINDOW` / diğer uygulamaların üzerinde gösterme izni
+- `POST_NOTIFICATIONS` izni
+- katman hizmeti için gerekli bir foreground service bildirimi
+
+Amaç:
+
+- altyazı katmanını diğer uygulamaların üzerinde göstermek
+- katman hizmetinin çalışmasını sürdürmek
+- Android'in gerekli katman / hizmet bildirimlerini göstermesine olanak tanımak
+- altyazı ilerleme desteği gerektiğinde medya bildirimi bilgilerini okumak
+
+Bu izinler yalnızca kullanıcının kullanmayı seçtiği uygulama özellikleri için kullanılır.
+
+### 2-4) Reklamlar, Onay ve İlgili Veriler (Üçüncü Taraf SDK'lar)
+
+Uygulama aşağıdakiler dahil Google reklam / onay SDK'larını kullanır:
+
+- **Google Mobile Ads SDK (AdMob)**
+- **Google UMP**
+
+Uygulama şunları gösterebilir:
+
+- banner reklamlar
+- geçiş reklamları
+- ödüllü veya ödüllü geçiş reklamları
+
+Bu SDK'lar şu tür verileri işleyebilir:
+
+- reklam tanımlayıcıları (örneğin, geçerli olduğunda AAID / IDFA)
+- IP tabanlı ve ağla ilgili bilgiler
+- cihaz ve uygulama meta verileri
+- reklam etkileşim sinyalleri
+- onay tercihleri
+
+Amaçlar şunları içerebilir:
+
+- reklam sunumu
+- reklam ölçümü ve raporlama
+- sıklık sınırlaması
+- dolandırıcılığın önlenmesi
+- yasal uyumluluk
+
+Geliştirici, bu SDK'ları kullanıcının onay tercihleri ve yürürlükteki hukuka uygun şekilde yapılandırmayı amaçlar.
 
 ---
 
-### 2-3) Reklam ve Onaya İlişkin Veriler (Üçüncü Taraf SDK’lar)
+## 3. Verileri Nasıl İşliyor ve Saklıyoruz
 
-- **Google Mobile Ads SDK (AdMob) ve UMP**, örneğin **reklam tanımlayıcıları (AAID/IDFA)**, **IP aralıkları**, **cihaz/uygulama bilgisi**, **reklam etkileşim sinyalleri**, **onay durumu** gibi verileri toplayıp işleyebilir.  
-- **Amaçlar:** reklam sunumu, gösterim sıklığı sınırlaması, dolandırıcılığın önlenmesi, performans ölçümü, yasal yükümlülüklerin yerine getirilmesi.  
-- **Onayın zorunlu olduğu bölgeler (EEA/İngiltere/İsviçre):** onay, UMP ekranları aracılığıyla toplanır ve gerektiğinde **Gizlilik Seçenekleri** ekranı sağlanır.  
-  İlgili yasal zorunluluğun bulunmadığı bölgelerde (örneğin Kore) bu seçenek **görünmeyebilir**.
+- **Yerel ayarlar ve son konum verileri**
+  - uygulama verileri temizlenene veya uygulama kaldırılana kadar cihazda saklanır
+
+- **Geçici dosyalar / önbellek**
+  - çalışma için gerektiği sürece saklanır, ardından mümkün olduğu ölçüde uygulama tarafından kaldırılır veya daha sonra işletim sistemi tarafından temizlenir
+
+- **Kullanıcının kaydettiği altyazı dosyaları**
+  - kullanıcı tarafından silinene kadar kullanıcının seçtiği kayıt konumunda kalır
+
+- **Üçüncü taraflarca işlenen reklam / onay verileri**
+  - Google politikalarına ve yürürlükteki hukuka uygun olarak saklanır
 
 ---
 
-## 3. İşleme ve Saklama
+## 4. Üçüncü Taraf İşleme ve Sınır Ötesi Aktarımlar
 
-- **Yerel ayarlar:** kullanıcı uygulama verilerini silene veya uygulamayı kaldırana kadar cihazda saklanır.  
-- **Geçici dosyalar:** kodlama/çıkarma işlemleri sırasında oluşturulur, işlem tamamlandıktan sonra silinir veya bir süre sistem önbelleğinde kalabilir.  
-- **Reklam/onay verileri (üçüncü taraf):** **Google politikalarına** göre saklanır ve silinir.
+Reklam ve onay yönetimi için bazı bilgiler Google ve ilgili iş ortakları tarafından işlenebilir.
 
----
-
-## 4. Üçüncü Taraflara Aktarım ve Sınır Ötesi Veri Akışı
-
-Reklam ve onay yönetimi amaçlarıyla, kullanıcıya ait bazı bilgiler Google altyapısına aktarılabilir ve burada işlenebilir.
-
-| Kalem | Ayrıntı |
+| Öğe | Ayrıntılar |
 |---|---|
-| **Alıcı** | Google LLC ve bağlı şirketleri/alt işleyicileri |
-| **Hedef bölge** | Amerika Birleşik Devletleri (ve Google altyapısının bulunduğu diğer bölgeler) |
-| **Amaç** | Reklam sunumu, ölçüm ve performans, yasal uyum, onay yönetimi |
-| **Veriler** | Reklam tanımlayıcıları, IP aralıkları, cihaz/uygulama bilgisi, reklam etkileşimleri, onay durumu vb. |
-| **Saklama süresi** | Google’ın ilgili politikalarına göre |
-| **Reddetmenin etkisi** | Kişiselleştirilmiş reklamlar sınırlanabilir; kişiselleştirilmemiş reklamlar gösterilmeye devam edebilir |
+| Alıcı | Google LLC ve ilgili bağlı kuruluşlar / işleyiciler |
+| Amaç | Reklam sunumu, ölçüm, dolandırıcılığın önlenmesi, onay yönetimi ve yasal uyumluluk |
+| Olası veriler | Reklam tanımlayıcıları, cihaz/uygulama bilgileri, IP tabanlı bilgiler, reklam etkileşim verileri, onay durumu |
+| Hedef | Google altyapısının faaliyet gösterdiği Amerika Birleşik Devletleri ve diğer bölgeler |
+| Saklama | Google politikalarına ve yürürlükteki hukuka uygun olarak |
 
-Google Play’deki **“Data safety” (Veri güvenliği)** bölümüne ilişkin gereklilikleri karşılar ve beyanlarımızı fiilî işleme faaliyetleriyle uyumlu tutarız.
+Geliştirici, uygulama mağazası gizlilik açıklamalarını gerçek SDK davranışıyla tutarlı tutmayı amaçlar.
 
 ---
 
-## 5. Haklarınız ve Bunları Nasıl Kullanacağınız
+## 5. Haklarınız ve Seçenekleriniz
 
-- **Kişiselleştirilmiş reklamlardan vazgeçme / onayı değiştirme**  
-  - İlgili bölgelerde (EEA/İngiltere/İsviçre): **Ayarlar → Gizlilik Seçenekleri** menüsünden tercihlerinizi değiştirebilirsiniz.  
-  - Diğer bölgelerde: işletim sistemi ayarlarından **reklam kimliğini sıfırlama / reklam takibini sınırlama** işlemlerini kullanabilirsiniz.
-- **Yerel bilgilerin sıfırlanması:** uygulama verilerinin silinmesi veya uygulamanın kaldırılması, overlay koordinatları, yazı tipi boyutu ve diğer yerel ayarları sıfırlar.  
-- **GDPR/UK GDPR/İsviçre FADP/ABD eyalet gizlilik yasaları** uyarınca, geçerli olduğu ölçüde erişim, düzeltme, silme, veri taşınabilirliği, işlem kısıtlama, onayı geri çekme vb. haklara sahip olabilirsiniz.  
-  Google tarafından işlenen reklam verileri için, **Google’ın sunduğu süreç ve araçları** kullanmanız gerekir.
+Yargı bölgenize bağlı olarak şu haklara sahip olabilirsiniz:
+
+- erişim
+- düzeltme
+- silme
+- kısıtlama
+- taşınabilirlik
+- itiraz
+- onayın yasal dayanak olduğu durumlarda onayı geri çekme
+
+Uygulanabilir pratik kontroller şunları içerir:
+
+- mevcut olduğu durumlarda uygulama içinde reklam / gizlilik tercihlerini değiştirmek
+- yerel ayarları ve önbelleğe alınmış tercihleri kaldırmak için uygulama verilerini temizlemek
+- uygulamayı kaldırmak
+- dışa aktarılan altyazı dosyalarını kullanıcı depolamasından manuel olarak silmek
+- bildirim ayarları, reklam kimliği sıfırlama veya reklam kişiselleştirme ayarları gibi işletim sistemi düzeyindeki kontrolleri kullanmak
+
+Google tarafından işlenen veriler için kullanıcıların, ilgili olduğu durumlarda Google'ın kendi gizlilik ve hesap araçlarına da başvurması gerekir.
 
 ---
 
 ## 6. Çocukların Gizliliği
 
-Bu uygulama **çocukları hedeflememektedir**.  
-Yasal asgari yaştan küçük bir çocuk uygulamayı kullanıyorsa, kullanımı bırakması ve bir veli eşliğinde işletim sisteminin sunduğu reklam sınırlandırma özelliklerini kullanması tavsiye edilir.  
-Gerektiğinde, **TFUA (child-directed etiketi)** veya benzeri çocuk koruma etiketleri uygulanabilir.
+Bu uygulama öncelikli olarak çocuklara yönelik değildir.
+
+Temel amacı altyazı oynatma, düzenleme, katman gösterimi ve ilgili yardımcı işlevlerdir. Uygun olduğunda, reklam SDK yapılandırması platform gereklilikleri ve geliştirici ayarlarıyla tutarlı biçimde yaşla ilgili veya çocuklara yönelik işaretler uygulayabilir.
 
 ---
 
 ## 7. Güvenlik Önlemleri
 
-- Toplama ve saklama süreçlerinde **veri minimizasyonu**  
-- Geçici dosyaların sınırlı süreyle kullanımı ve mümkün olduğunda işlem sonrasında silinmesi  
-- İşlemenin, işletim sisteminin izin verdiği **yetki kapsamı** içinde tutulması  
-- Üçüncü taraflara veri aktarımında **TLS veya eşdeğer şifreleme** kullanılması (ilgili SDK standartlarına göre)
+Uygulamanın mimarisinin sınırları içinde geliştirici şunları amaçlar:
+
+- altyazı ve medya işlemenin çoğunu cihaz üzerinde tutarak veri toplamayı en aza indirmek
+- sistem dosya seçicilerini ve kullanıcı tarafından başlatılan dosya erişimini kullanmak
+- sistem izinlerini şeffaf biçimde kullanmak
+- uygun olduğu durumlarda üçüncü taraf SDK'lar tarafından kullanılan şifreli ağ aktarımına dayanmak
+
+Hiçbir depolama veya iletim yöntemi tamamen güvenli değildir, ancak uygulama geliştirici tarafından gereksiz veri toplanmasını önleyecek şekilde tasarlanmıştır.
 
 ---
 
-## 8. Veri Güvenliği (Google Play)
+## 8. Açık Kaynak Yazılım
 
-Google Play Console’daki **“Data safety”** bölümünü doğru ve güncel tutar; işleme faaliyetlerinde değişiklik olduğunda gerekli güncellemeleri zamanında yaparız.
+Uygulama, aşağıdakilerle ilgili kütüphaneler dahil açık kaynak yazılımlar kullanır:
 
----
+- altyazı ayrıştırma ve serileştirme
+- dosya seçme
+- yerel tercihler
+- katman pencereleri
+- video oynatma
+- WebView
 
-## 9. Açık Kaynak Yazılımlara İlişkin Bilgi
-
-Uygulama, **FFmpeg** gibi açık kaynaklı yazılımlar kullanır.  
-Uygulama içinde yer alan bir bilgilendirme dosyası (örneğin `open-source/ffmpeg/WHERE-TO-GET-SOURCE.txt`), kaynak koda nasıl ulaşılacağını açıklar.  
-Talep edilmesi hâlinde, bu dosyada belirtilen usule göre ilgili kaynak kodu sağlarız.
-
----
-
-## 10. İletişim
-
-- E-posta: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+Açık kaynak bildirimleri uygulama içinde mevcuttur. Bazı bileşenler için uygulama, orijinal lisans bildirimini koruyarak açık kaynaklı bir paketin yerel olarak değiştirilmiş kopyasını kullanabilir.
 
 ---
 
-## 11. Bu Politikanın Değiştirilmesi
+## 9. İletişim
 
-Hukuki mevzuat veya hizmet kapsamındaki değişiklikler nedeniyle bu Politikayı güncelleyebiliriz.  
-Güncellemeleri **uygulama içinde** ve bu **politika sayfasında** duyururuz.  
-Önemli değişiklikler için, yeni yürürlük tarihinden **en az 7 gün önce** bildirim yapmaya çalışırız.
+Gizlilikle ilgili sorularınız veya talepleriniz varsa:
+
+- **E-posta:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+
+Lütfen mesajınıza uygulama adı olan **Subtitle Player & Editor** bilgisini ekleyin.
+
+---
+
+## 10. Bu Politikadaki Değişiklikler
+
+Bu Politika şu durumlarda güncellenebilir:
+
+- uygulama özellikleri değişirse
+- izinler veya SDK kullanımı değişirse
+- yasal veya platform gereklilikleri değişirse
+
+Önemli değişiklikler güncellenmiş politika sayfasına ve uygun olduğunda uygulama içine yansıtılacaktır.
