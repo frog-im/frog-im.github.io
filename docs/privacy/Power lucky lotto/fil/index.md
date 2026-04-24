@@ -39,42 +39,7 @@ Gayunman, para sa **advertising**, **consent management**, at **legal compliance
 
 ### 2-1) Data na naka-store sa inyong device (local storage)
 
-Nag-iimbak ang app ng ilang data **lokal sa inyong device** para magbigay ng feature at mapabuti ang usability.  
-Karaniwan, ang data na ito ay **hindi ipinapadala sa server ng developer** at natatanggal kapag dinelete ninyo ang app data o in-uninstall ang app (maliban sa mga file na in-export ninyo sa ibang lugar).
-
-#### (1) Settings (SharedPreferences)
-
-| Category | Key (example) | Purpose | Storage | Deletion |
-|---|---|---|---|---|
-| Setup completed | `setup_done` | I-store ang initial setup state | SharedPreferences | Tinatanggal sa app data delete/uninstall |
-| Country history | `selected_countries` | I-keep ang recently selected countries | Same | Same |
-| Active country | `active_country` | I-store ang kasalukuyang selected country | Same | Same |
-| Selected games | `selected_lotto_ids` | I-store ang checked game IDs | Same | Same |
-| Active game | `active_lotto_id` | I-store ang active game ID | Same | Same |
-| **Seed time selection (optional)** | `birth_datetime_iso` | I-store ang seed reference time na pinili ng user (maaaring gamitin para sa seeding/personalization) | Same | Same |
-
-> **Note:** Ang “Seed time selection (optional)” ay pinoproseso lamang kung pinili ng user na i-set ito at maaaring hindi kailangan para sa core app use.
-
-#### (2) Log data (SQLite)
-
-Maaaring mag-store ang app ng generated/saved records sa local SQLite database.
-
-- Example tables: `log_...`  
-- Example fields:  
-  - `id`, `date_id` o `date_text` (timestamp), `choice1..choiceN` (picked numbers), `isFinger` (fingerprint-related flag, atbp.)
-
-Maaari ninyong tingnan ang logs sa table list/detail screens at i-delete ang mga ito (table-level o row-level) kung nais.
-
-#### (3) JSON data files (per game)
-
-Maaaring mag-store ang app ng game-specific JSON data sa documents directory ng app.
-
-- Example: `game_json/<gameId>.json`  
-- Purpose: user-managed/editable draw/result data (hal., para sa statistics/visualization)
-
-Ang mga file na ito ay naka-store on-device at karaniwang natatanggal kapag in-uninstall ang app, depende sa OS/backup behavior.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Ads, consent, at kaugnay na data (third-party SDKs)
 
