@@ -39,30 +39,7 @@ Cependant, pour la **publicité**, la **gestion du consentement** et la **confor
 
 ### 2-1) Données stockées localement sur l’appareil
 
-#### (1) Paramètres (SharedPreferences)
-
-| Catégorie | Clé (exemple) | Finalité | Stockage | Suppression |
-|---|---|---|---|---|
-| Configuration terminée | `setup_done` | État de configuration initiale | SharedPreferences | Suppression des données/désinstallation |
-| Historique des pays | `selected_countries` | Pays récemment sélectionnés | Idem | Idem |
-| Pays actif | `active_country` | Pays actuellement sélectionné | Idem | Idem |
-| Jeux sélectionnés | `selected_lotto_ids` | IDs des jeux cochés | Idem | Idem |
-| Jeu actif | `active_lotto_id` | ID du jeu actif | Idem | Idem |
-| **Sélection de l’heure seed (facultatif)** | `birth_datetime_iso` | Heure de référence seed choisie par l’utilisateur (peut servir de seed/personalisation) | Idem | Idem |
-
-#### (2) Journaux (SQLite)
-
-- Tables typiques : `log_...`  
-- Champs possibles : `id`, `date_id` ou `date_text`, `choice1..choiceN`, `isFinger`
-
-L’utilisateur peut consulter et supprimer ces données dans l’application.
-
-#### (3) Fichiers JSON (par jeu)
-
-- Exemple : `game_json/<gameId>.json`  
-- Utilité : gestion/édition par l’utilisateur de données de tirages/résultats (statistiques/visualisation)
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Publicité, consentement et données associées (SDK tiers)
 
