@@ -44,35 +44,7 @@ This data is generally **not transmitted to the developer’s servers** and is r
 
 #### (1) Settings (SharedPreferences)
 
-| Category | Key (example) | Purpose | Storage | Deletion |
-|---|---|---|---|---|
-| Setup completed | `setup_done` | Store initial setup state | SharedPreferences | Removed on app data delete/uninstall |
-| Country history | `selected_countries` | Keep recently selected countries | Same | Same |
-| Active country | `active_country` | Store the currently selected country | Same | Same |
-| Selected games | `selected_lotto_ids` | Store checked game IDs | Same | Same |
-| Active game | `active_lotto_id` | Store the active game ID | Same | Same |
-| **Seed time selection (optional)** | `birth_datetime_iso` | Store a user-selected seed reference time (may be used for seeding generation/personalization) | Same | Same |
-
-> **Note:** “Seed time selection (optional)” is only collected if the user chooses to set it and may not be required for core app use.
-
-#### (2) Log data (SQLite)
-
-The app may store generated/saved records in a local SQLite database.
-
-- Example tables: `log_...`  
-- Example fields:  
-  - `id`, `date_id` or `date_text` (timestamp), `choice1..choiceN` (picked numbers), `isFinger` (fingerprint-related flag, etc.)
-
-You can view logs in the app’s table list/detail screens and delete them (table-level or row-level) if you wish.
-
-#### (3) JSON data files (per game)
-
-The app may store game-specific JSON data in the app’s documents directory.
-
-- Example: `game_json/<gameId>.json`  
-- Purpose: user-managed/editable draw/result data (e.g., for statistics/visualization)
-
-These files are stored on-device and are generally removed when the app is uninstalled, subject to OS/backup behavior.
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ---
 
