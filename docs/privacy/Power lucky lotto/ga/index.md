@@ -39,42 +39,7 @@ Mar sin féin, le haghaidh **fógraíochta**, **bainistíocht toilithe**, agus *
 
 ### 2-1) Sonraí a stóráiltear ar do ghléas (stóráil áitiúil)
 
-Stórálann an aip roinnt sonraí **go háitiúil ar do ghléas** chun gnéithe a sholáthar agus inúsáidteacht a fheabhsú.  
-De ghnáth **ní sheoltar** na sonraí seo chuig freastalaithe an fhorbróra agus baintear iad nuair a ghlanann tú sonraí na haipe nó nuair a dhíshuiteálann tú í (seachas comhaid a onnmhairíonn tú in áit eile).
-
-#### (1) Socruithe (SharedPreferences)
-
-| Catagóir | Eochair (sampla) | Cuspóir | Stóráil | Scriosadh |
-|---|---|---|---|---|
-| Socrú críochnaithe | `setup_done` | Staid an tsocraithe tosaigh a stóráil | SharedPreferences | Bainte ar ghlanadh sonraí/díshuiteáil |
-| Stair tíortha | `selected_countries` | Tíortha a roghnaíodh le déanaí a choinneáil | Mar an gcéanna | Mar an gcéanna |
-| Tír ghníomhach | `active_country` | An tír roghnaithe reatha a stóráil | Mar an gcéanna | Mar an gcéanna |
-| Cluichí roghnaithe | `selected_lotto_ids` | IDanna cluichí ticáilte a stóráil | Mar an gcéanna | Mar an gcéanna |
-| Cluiche gníomhach | `active_lotto_id` | ID an chluiche ghníomhaigh a stóráil | Mar an gcéanna | Mar an gcéanna |
-| **Roghnú ama síl (roghnach)** | `birth_datetime_iso` | Am tagartha síl roghnaithe ag an úsáideoir a stóráil (d’fhéadfadh sé a bheith in úsáid le haghaidh seed/personalization) | Mar an gcéanna | Mar an gcéanna |
-
-> **Nóta:** Ní bhailítear “Roghnú ama síl (roghnach)” ach má roghnaíonn an t-úsáideoir é, agus b’fhéidir nach mbeidh sé riachtanach don phríomhúsáid.
-
-#### (2) Sonraí loga (SQLite)
-
-Féadfaidh an aip taifid ghinte/sábháilte a stóráil i mbunachar sonraí SQLite áitiúil.
-
-- Sampla táblaí: `log_...`  
-- Sampla réimsí:  
-  - `id`, `date_id` nó `date_text` (stamp ama), `choice1..choiceN` (uimhreacha roghnaithe), `isFinger` (bratach a bhaineann le méarlorg, srl.)
-
-Is féidir leat na logaí a fheiceáil sna scáileáin liosta/sonraí, agus iad a scriosadh (de réir tábla nó de réir ró) más mian leat.
-
-#### (3) Comhaid JSON (de réir cluiche)
-
-Féadfaidh an aip sonraí JSON in aghaidh an chluiche a stóráil i ndoiciméid na haipe.
-
-- Sampla: `game_json/<gameId>.json`  
-- Cuspóir: sonraí tarraingthe/torthaí in-eagarthóireachta ag an úsáideoir (m.sh., staitisticí/amléiriú)
-
-Stóráiltear na comhaid seo ar an ngléas agus baintear iad go minic ar dhíshuiteáil, ag brath ar iompar OS/cúltaca.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Fógraí, toiliú agus sonraí gaolmhara (SDK tríú páirtí)
 
