@@ -39,37 +39,7 @@ No obstante, para **publicidad**, **gestión de consentimiento** y **cumplimient
 
 ### 2-1) Datos guardados en el dispositivo (almacenamiento local)
 
-La app guarda algunos datos **localmente** para ofrecer funciones y mejorar la experiencia.  
-En general, estos datos **no se envían** a servidores del desarrollador y se eliminan al borrar datos de la app o desinstalarla (salvo archivos exportados por el usuario).
-
-#### (1) Ajustes (SharedPreferences)
-
-| Categoría | Clave (ejemplo) | Finalidad | Almacenamiento | Eliminación |
-|---|---|---|---|---|
-| Configuración completada | `setup_done` | Guardar estado de configuración inicial | SharedPreferences | Al borrar datos/desinstalar |
-| Historial de países | `selected_countries` | Mantener países seleccionados recientemente | Igual | Igual |
-| País activo | `active_country` | Guardar el país seleccionado actual | Igual | Igual |
-| Juegos seleccionados | `selected_lotto_ids` | Guardar IDs de juegos marcados | Igual | Igual |
-| Juego activo | `active_lotto_id` | Guardar el ID de juego activo | Igual | Igual |
-| **Selección de hora seed (opcional)** | `birth_datetime_iso` | Guardar una hora de referencia seed elegida por el usuario (puede usarse como semilla/personalización) | Igual | Igual |
-
-#### (2) Datos de registros (SQLite)
-
-La app puede guardar registros generados/guardados en una base de datos SQLite local.
-
-- Tablas de ejemplo: `log_...`  
-- Campos de ejemplo: `id`, `date_id` o `date_text`, `choice1..choiceN`, `isFinger`
-
-Puedes consultar y eliminar estos registros en la app (por tabla o por fila).
-
-#### (3) Archivos JSON (por juego)
-
-La app puede guardar datos JSON por juego en el directorio de documentos de la app.
-
-- Ejemplo: `game_json/<gameId>.json`  
-- Finalidad: datos de sorteos/resultados editables por el usuario (estadísticas/visualización)
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Publicidad, consentimiento y datos relacionados (SDKs de terceros)
 
