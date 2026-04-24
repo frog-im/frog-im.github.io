@@ -39,42 +39,7 @@ Namun, untuk **periklanan**, **pengelolaan persetujuan**, dan **kepatuhan hukum*
 
 ### 2-1) Data yang disimpan di perangkat Anda (penyimpanan lokal)
 
-Aplikasi menyimpan beberapa data **secara lokal di perangkat Anda** untuk menyediakan fitur dan meningkatkan kenyamanan.  
-Data ini umumnya **tidak dikirim ke server pengembang** dan akan dihapus saat Anda menghapus data aplikasi atau mencopot pemasangan aplikasi (kecuali file yang Anda ekspor ke tempat lain).
-
-#### (1) Pengaturan (SharedPreferences)
-
-| Kategori | Kunci (contoh) | Tujuan | Penyimpanan | Penghapusan |
-|---|---|---|---|---|
-| Penyiapan selesai | `setup_done` | Menyimpan status penyiapan awal | SharedPreferences | Dihapus saat hapus data aplikasi/copot pemasangan |
-| Riwayat negara | `selected_countries` | Menyimpan negara yang baru dipilih | Sama | Sama |
-| Negara aktif | `active_country` | Menyimpan negara yang sedang dipilih | Sama | Sama |
-| Permainan terpilih | `selected_lotto_ids` | Menyimpan ID permainan yang dicentang | Sama | Sama |
-| Permainan aktif | `active_lotto_id` | Menyimpan ID permainan yang aktif | Sama | Sama |
-| **Pemilihan waktu seed (opsional)** | `birth_datetime_iso` | Menyimpan waktu referensi seed yang dipilih pengguna (dapat digunakan untuk seeding/personalization) | Sama | Sama |
-
-> **Catatan:** “Pemilihan waktu seed (opsional)” hanya diproses jika pengguna memilih untuk mengaturnya dan mungkin tidak diperlukan untuk penggunaan inti aplikasi.
-
-#### (2) Data log (SQLite)
-
-Aplikasi dapat menyimpan catatan yang dihasilkan/disimpan dalam basis data SQLite lokal.
-
-- Contoh tabel: `log_...`  
-- Contoh kolom:  
-  - `id`, `date_id` atau `date_text` (timestamp), `choice1..choiceN` (angka yang dipilih), `isFinger` (flag terkait sidik jari, dll.)
-
-Anda dapat melihat log pada layar daftar/detail tabel dan menghapusnya (per tabel atau per baris) jika diinginkan.
-
-#### (3) File data JSON (per permainan)
-
-Aplikasi dapat menyimpan data JSON per permainan pada direktori dokumen aplikasi.
-
-- Contoh: `game_json/<gameId>.json`  
-- Tujuan: data undian/hasil yang dikelola dan dapat diedit oleh pengguna (misalnya untuk statistik/visualisasi)
-
-File ini disimpan di perangkat dan umumnya terhapus saat aplikasi dicopot, tergantung perilaku OS/backup.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Iklan, persetujuan, dan data terkait (SDK pihak ketiga)
 
