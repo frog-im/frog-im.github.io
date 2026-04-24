@@ -42,39 +42,7 @@ Ancak **reklam**, **onay yönetimi** ve **yasal uyumluluk** için
 Uygulama, özellikleri sağlamak ve kullanılabilirliği artırmak için bazı verileri **cihazınızda yerel olarak** saklar.  
 Bu veriler genellikle **geliştirici sunucularına iletilmez** ve uygulama verilerini sildiğinizde veya uygulamayı kaldırdığınızda silinir (başka yere dışa aktardığınız dosyalar hariç).
 
-#### (1) Ayarlar (SharedPreferences)
-
-| Kategori | Anahtar (örnek) | Amaç | Depolama | Silme |
-|---|---|---|---|---|
-| Kurulum tamamlandı | `setup_done` | İlk kurulum durumunu saklamak | SharedPreferences | Uygulama verisi silme/kaldırma ile silinir |
-| Ülke geçmişi | `selected_countries` | Son seçilen ülkeleri saklamak | Aynı | Aynı |
-| Aktif ülke | `active_country` | Şu an seçili ülkeyi saklamak | Aynı | Aynı |
-| Seçili oyunlar | `selected_lotto_ids` | İşaretli oyun ID’lerini saklamak | Aynı | Aynı |
-| Aktif oyun | `active_lotto_id` | Aktif oyun ID’sini saklamak | Aynı | Aynı |
-| **Seed zamanı seçimi (isteğe bağlı)** | `birth_datetime_iso` | Kullanıcının seçtiği seed referans zamanını saklamak (seeding/kişiselleştirme için kullanılabilir) | Aynı | Aynı |
-
-> **Not:** “Seed zamanı seçimi (isteğe bağlı)” yalnızca kullanıcı ayarlamayı seçerse işlenir ve uygulamanın temel kullanımı için gerekli olmayabilir.
-
-#### (2) Log verileri (SQLite)
-
-Uygulama, üretilen/kaydedilen kayıtları yerel bir SQLite veritabanında saklayabilir.
-
-- Örnek tablolar: `log_...`  
-- Örnek alanlar:  
-  - `id`, `date_id` veya `date_text` (zaman damgası), `choice1..choiceN` (seçilen sayılar), `isFinger` (parmak izi ile ilgili bayrak vb.)
-
-Logları uygulama içindeki tablo listesi/detay ekranlarında görebilir ve isterseniz (tablo düzeyi veya satır düzeyi) silebilirsiniz.
-
-#### (3) JSON veri dosyaları (oyun başına)
-
-Uygulama, oyun bazlı JSON verilerini uygulamanın doküman dizininde saklayabilir.
-
-- Örnek: `game_json/<gameId>.json`  
-- Amaç: kullanıcı tarafından yönetilen/düzenlenebilen çekiliş/sonuç verileri (ör. istatistik/görselleştirme)
-
-Bu dosyalar cihazda saklanır ve OS/yedekleme davranışına bağlı olarak genellikle uygulama kaldırıldığında silinir.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Reklam, onay ve ilgili veriler (üçüncü taraf SDK’lar)
 
