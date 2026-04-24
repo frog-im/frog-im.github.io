@@ -42,39 +42,7 @@ Tuy nhiên, để phục vụ **quảng cáo**, **quản lý đồng ý**, và *
 Ứng dụng lưu một số dữ liệu **cục bộ trên thiết bị** để cung cấp tính năng và tăng tiện ích sử dụng.  
 Dữ liệu này thường **không được truyền tới máy chủ của nhà phát triển** và sẽ bị xóa khi bạn xóa dữ liệu ứng dụng hoặc gỡ cài đặt (trừ các tệp bạn xuất ra nơi khác).
 
-#### (1) Cài đặt (SharedPreferences)
-
-| Danh mục | Khóa (ví dụ) | Mục đích | Lưu trữ | Xóa |
-|---|---|---|---|---|
-| Hoàn tất thiết lập | `setup_done` | Lưu trạng thái thiết lập ban đầu | SharedPreferences | Xóa khi xóa dữ liệu/gỡ cài đặt |
-| Lịch sử quốc gia | `selected_countries` | Lưu các quốc gia đã chọn gần đây | Tương tự | Tương tự |
-| Quốc gia đang chọn | `active_country` | Lưu quốc gia hiện tại | Tương tự | Tương tự |
-| Trò chơi đã chọn | `selected_lotto_ids` | Lưu các ID trò chơi được tick | Tương tự | Tương tự |
-| Trò chơi đang dùng | `active_lotto_id` | Lưu ID trò chơi đang hoạt động | Tương tự | Tương tự |
-| **Chọn thời gian seed (tùy chọn)** | `birth_datetime_iso` | Lưu thời điểm tham chiếu seed do người dùng chọn (có thể dùng cho seeding/cá nhân hóa) | Tương tự | Tương tự |
-
-> **Lưu ý:** “Chọn thời gian seed (tùy chọn)” chỉ được xử lý khi người dùng chủ động thiết lập và có thể không cần cho việc sử dụng cốt lõi.
-
-#### (2) Dữ liệu log (SQLite)
-
-Ứng dụng có thể lưu các bản ghi đã tạo/đã lưu trong cơ sở dữ liệu SQLite cục bộ.
-
-- Ví dụ bảng: `log_...`  
-- Ví dụ trường:  
-  - `id`, `date_id` hoặc `date_text` (mốc thời gian), `choice1..choiceN` (các số đã chọn), `isFinger` (cờ liên quan vân tay, v.v.)
-
-Bạn có thể xem log trong màn hình danh sách/chi tiết bảng và xóa (theo bảng hoặc theo dòng) nếu muốn.
-
-#### (3) Tệp dữ liệu JSON (theo trò chơi)
-
-Ứng dụng có thể lưu dữ liệu JSON theo từng trò chơi trong thư mục tài liệu của ứng dụng.
-
-- Ví dụ: `game_json/<gameId>.json`  
-- Mục đích: dữ liệu kỳ quay/kết quả do người dùng quản lý/chỉnh sửa (phục vụ thống kê/hiển thị)
-
-Các tệp này được lưu trên thiết bị và thường bị xóa khi gỡ cài đặt, tùy thuộc hành vi OS/sao lưu.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Quảng cáo, đồng ý và dữ liệu liên quan (SDK bên thứ ba)
 
