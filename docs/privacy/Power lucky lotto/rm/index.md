@@ -42,39 +42,7 @@ Tuttina, per **reclama**, **gestiun da consentiment** e **confurmitad legala**, 
 L'app memorisescha tschertas datas **localmain sin Voss apparat** per porscher funcziuns e meglierar la dieverabilitad.  
 Questas datas **na vegnan normalmain betg tramessas** a serviders dal sviluppader e vegnan stizzadas cura che Vus stizzais datas da l'app u deinstallais l'app (exceptà files che Vus exportais en auters lieus).
 
-#### (1) Settings (SharedPreferences)
-
-| Categoria | Clav (exempel) | Scopo | Memoraziun | Stizzar |
-|---|---|---|---|---|
-| Setup finì | `setup_done` | Memorisar il status dal setup inizial | SharedPreferences | Stizzà cun stizzar datas/deinstallar |
-| Istorgia da pajais | `selected_countries` | Tegnar pajais tschernids dacurt | Medem | Medem |
-| Pajais activ | `active_country` | Memorisar il pajais activ | Medem | Medem |
-| Gieus tschernids | `selected_lotto_ids` | Memorisar IDs marcads | Medem | Medem |
-| Gieu activ | `active_lotto_id` | Memorisar l'ID dal gieu activ | Medem | Medem |
-| **Selecziun da temp da seed (opziunal)** | `birth_datetime_iso` | Memorisar in temp da referenza tschernì (po vegnir duvrà per seeding/personalisation) | Medem | Medem |
-
-> **Nota:** “Selecziun da temp da seed (opziunal)” vegn rimnada mo sche l'utilisader la tscherna, e po esser betg necessaria per l'uso principal.
-
-#### (2) Datas da log (SQLite)
-
-L'app po memorisar registers generads/salvads en ina banca da datas SQLite locala.
-
-- Exempel tabellas: `log_...`  
-- Exempel champs:  
-  - `id`, `date_id` u `date_text` (timestamp), `choice1..choiceN` (nums tschernids), `isFinger` (flag collià cun fingerprint, etc.)
-
-Vus pudais vesair logs en las paginas da glista/detagli e las stizzar (sin nivel da tabella u sin nivel da riga) sch'igl è giavischà.
-
-#### (3) Files JSON (per gieu)
-
-L'app po memorisar datas JSON per gieu en la directiva da documents da l'app.
-
-- Exempel: `game_json/<gameId>.json`  
-- Scopo: datas da draw/resultat administrablas ed editablas dal user (p.ex., statistica/visualisaziun)
-
-Quests files restan sin l'apparat e vegnan savens stizzads cun deinstallaziun, dentant quai po dependar da l'OS/backup.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Reclama, consentiment e datas associadas (SDK da terzas partidas)
 
