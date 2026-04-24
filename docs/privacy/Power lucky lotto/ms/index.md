@@ -42,39 +42,7 @@ Walau bagaimanapun, untuk **pengiklanan**, **pengurusan persetujuan**, dan **pem
 Aplikasi menyimpan sesetengah data **secara tempatan pada peranti anda** untuk menyediakan ciri dan meningkatkan kebolehgunaan.  
 Data ini lazimnya **tidak dihantar ke pelayan pembangun** dan akan dipadam apabila anda memadam data aplikasi atau menyahpasang aplikasi (kecuali fail yang anda eksport ke tempat lain).
 
-#### (1) Tetapan (SharedPreferences)
-
-| Kategori | Kunci (contoh) | Tujuan | Storan | Pemadaman |
-|---|---|---|---|---|
-| Persediaan selesai | `setup_done` | Simpan status persediaan awal | SharedPreferences | Dipadam apabila padam data/nyahpasang |
-| Sejarah negara | `selected_countries` | Simpan negara yang dipilih baru-baru ini | Sama | Sama |
-| Negara aktif | `active_country` | Simpan negara yang sedang dipilih | Sama | Sama |
-| Permainan dipilih | `selected_lotto_ids` | Simpan ID permainan yang ditanda | Sama | Sama |
-| Permainan aktif | `active_lotto_id` | Simpan ID permainan aktif | Sama | Sama |
-| **Pemilihan masa seed (pilihan)** | `birth_datetime_iso` | Simpan masa rujukan seed yang dipilih pengguna (mungkin digunakan untuk seeding/pemperibadian) | Sama | Sama |
-
-> **Nota:** “Pemilihan masa seed (pilihan)” hanya diproses jika pengguna memilih untuk menetapkannya dan mungkin tidak diperlukan untuk penggunaan teras aplikasi.
-
-#### (2) Data log (SQLite)
-
-Aplikasi mungkin menyimpan rekod yang dijana/disimpan dalam pangkalan data SQLite tempatan.
-
-- Contoh jadual: `log_...`  
-- Contoh medan:  
-  - `id`, `date_id` atau `date_text` (cap masa), `choice1..choiceN` (nombor dipilih), `isFinger` (bendera berkaitan cap jari, dll.)
-
-Anda boleh melihat log dalam skrin senarai/perincian jadual dan memadamkannya (peringkat jadual atau baris) jika mahu.
-
-#### (3) Fail data JSON (mengikut permainan)
-
-Aplikasi mungkin menyimpan data JSON khusus permainan dalam direktori dokumen aplikasi.
-
-- Contoh: `game_json/<gameId>.json`  
-- Tujuan: data cabutan/keputusan yang diurus dan boleh diedit oleh pengguna (cth. untuk statistik/visualisasi)
-
-Fail ini disimpan pada peranti dan lazimnya dipadam apabila aplikasi dinyahpasang, bergantung pada tingkah laku OS/sandaran.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Iklan, persetujuan dan data berkaitan (SDK pihak ketiga)
 
