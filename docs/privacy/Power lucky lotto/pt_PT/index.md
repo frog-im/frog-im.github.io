@@ -42,39 +42,7 @@ No entanto, para **publicidade**, **gestão de consentimento** e **conformidade 
 A aplicação armazena alguns dados **localmente no seu dispositivo** para fornecer funcionalidades e melhorar a usabilidade.  
 Estes dados, em geral, **não são transmitidos para servidores do desenvolvedor** e são removidos quando elimina os dados da aplicação ou desinstala a aplicação (exceto ficheiros que exporte para outro local).
 
-#### (1) Definições (SharedPreferences)
-
-| Categoria | Chave (exemplo) | Finalidade | Armazenamento | Eliminação |
-|---|---|---|---|---|
-| Configuração concluída | `setup_done` | Guardar o estado de configuração inicial | SharedPreferences | Removido ao eliminar dados/desinstalar |
-| Histórico de países | `selected_countries` | Guardar países selecionados recentemente | Idem | Idem |
-| País ativo | `active_country` | Guardar o país atualmente selecionado | Idem | Idem |
-| Jogos selecionados | `selected_lotto_ids` | Guardar IDs de jogos assinalados | Idem | Idem |
-| Jogo ativo | `active_lotto_id` | Guardar o ID do jogo ativo | Idem | Idem |
-| **Seleção de hora seed (opcional)** | `birth_datetime_iso` | Guardar uma hora de referência seed escolhida pelo utilizador (pode ser usada para seeding/personalização) | Idem | Idem |
-
-> **Nota:** “Seleção de hora seed (opcional)” só é tratada se o utilizador optar por a definir e pode não ser necessária para o uso principal da aplicação.
-
-#### (2) Dados de log (SQLite)
-
-A aplicação pode armazenar registos gerados/guardados numa base de dados SQLite local.
-
-- Exemplos de tabelas: `log_...`  
-- Exemplos de campos:  
-  - `id`, `date_id` ou `date_text` (timestamp), `choice1..choiceN` (números escolhidos), `isFinger` (sinalizador relacionado com impressão digital, etc.)
-
-Pode visualizar os logs nos ecrãs de lista/detalhe de tabelas e eliminá-los (por tabela ou por linha), se desejar.
-
-#### (3) Ficheiros de dados JSON (por jogo)
-
-A aplicação pode guardar dados JSON específicos por jogo no diretório de documentos da aplicação.
-
-- Exemplo: `game_json/<gameId>.json`  
-- Finalidade: dados de sorteios/resultados geridos/editáveis pelo utilizador (por exemplo, para estatísticas/visualização)
-
-Estes ficheiros são armazenados no dispositivo e, em geral, são removidos ao desinstalar, dependendo do comportamento do sistema/backup.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Anúncios, consentimento e dados relacionados (SDK de terceiros)
 
