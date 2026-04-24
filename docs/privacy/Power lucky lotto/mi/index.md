@@ -42,39 +42,7 @@ Heoi anō, mō te **pānuitanga**, **whakahaere whakaae**, me te **whai-ture**, 
 Ka penapena te taupānga i ētahi raraunga **ki tō pūrere** hei whakapai i te whakamahi me te tuku āhuatanga.  
 I te nuinga o te wā **kāore** ēnei raraunga e tukuna ki ngā tūmau a te kaiwhakawhanake, ā, ka tangohia ina mukua e koe ngā raraunga taupānga, ina tango rānei i te taupānga (haunga ngā kōnae ka kawea e koe ki waho).
 
-#### (1) Ngā tautuhinga (SharedPreferences)
-
-| Wāhanga | Kī (tauira) | Kaupapa | Penapena | Muku |
-|---|---|---|---|---|
-| Kua oti te whakarite | `setup_done` | Te penapena i te āhua whakarite tuatahi | SharedPreferences | Ka mukua ina mukua raraunga/tango taupānga |
-| Hītori whenua | `selected_countries` | Te pupuri i ngā whenua kua kōwhiria tata nei | Waihoki | Waihoki |
-| Whenua hohe | `active_country` | Te penapena i te whenua e kōwhiria ana ināianei | Waihoki | Waihoki |
-| Kēmu kua kōwhiria | `selected_lotto_ids` | Te penapena i ngā game ID kua tohua | Waihoki | Waihoki |
-| Kēmu hohe | `active_lotto_id` | Te penapena i te game ID hohe | Waihoki | Waihoki |
-| **Kōwhiri wā kākano (he kōwhiringa)** | `birth_datetime_iso` | Te penapena i tētahi wā tohutoro kākano kua kōwhiria (ka taea mō te seeding/personalization) | Waihoki | Waihoki |
-
-> **Tuhipoka:** Ka kohia te “Kōwhiri wā kākano (he kōwhiringa)” mēnā ka tīpako te kaiwhakamahi. Kāore pea e hiahiatia mō ngā āhuatanga matua.
-
-#### (2) Raraunga rārangi (SQLite)
-
-Ka taea e te taupānga te penapena i ngā pūkete hanga/tiaki ki tētahi pātengi raraunga SQLite ā-rohe.
-
-- Tauira ripanga: `log_...`  
-- Tauira āpure:  
-  - `id`, `date_id` rānei `date_text` (timestamp), `choice1..choiceN` (ngā tau kua kōwhiria), `isFinger` (tohu e pā ana ki te fingerprint, etc.)
-
-Ka taea e koe te tiro i ngā rārangi i ngā mata rārangi/tāpitopito, ā, te muku (ā-ripanga, ā-rārangi rānei) mēnā e hiahia ana.
-
-#### (3) Ngā kōnae JSON (mō ia kēmu)
-
-Ka taea e te taupānga te penapena raraunga JSON mō ia kēmu ki te kōpaki documents o te taupānga.
-
-- Tauira: `game_json/<gameId>.json`  
-- Kaupapa: raraunga draw/result ka taea e te kaiwhakamahi te whakahaere/whakatika (hei tauira, tatauranga/whakaaturanga)
-
-Kei te pūrere ēnei kōnae e penapenahia ana, ā, he maha ngā wā ka tangohia ina tango taupānga, engari ka whakawhirinaki ki te OS/backup.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Pānuitanga, whakaae, me ngā raraunga e pā ana (SDK tuatoru)
 
