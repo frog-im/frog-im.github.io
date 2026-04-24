@@ -42,39 +42,7 @@ No entanto, para **publicidade**, **gestão de consentimento** e **conformidade 
 O app armazena certos dados **localmente no seu dispositivo** para fornecer recursos e melhorar a usabilidade.  
 Esses dados, em geral, **não são transmitidos aos servidores do desenvolvedor** e são removidos quando você apaga os dados do app ou desinstala o app (exceto arquivos exportados para outro local).
 
-#### (1) Configurações (SharedPreferences)
-
-| Categoria | Chave (exemplo) | Finalidade | Armazenamento | Exclusão |
-|---|---|---|---|---|
-| Configuração concluída | `setup_done` | Armazenar estado de configuração inicial | SharedPreferences | Removido ao apagar dados/desinstalar |
-| Histórico de países | `selected_countries` | Manter países selecionados recentemente | Mesmo | Mesmo |
-| País ativo | `active_country` | Armazenar o país selecionado atualmente | Mesmo | Mesmo |
-| Jogos selecionados | `selected_lotto_ids` | Armazenar IDs de jogos marcados | Mesmo | Mesmo |
-| Jogo ativo | `active_lotto_id` | Armazenar o ID do jogo ativo | Mesmo | Mesmo |
-| **Seleção de horário seed (opcional)** | `birth_datetime_iso` | Armazenar um horário de referência seed escolhido pelo usuário (pode ser usado para seed/personalização) | Mesmo | Mesmo |
-
-> **Observação:** “Seleção de horário seed (opcional)” só é coletada se o usuário optar por definir, e pode não ser necessária para o uso principal do app.
-
-#### (2) Dados de log (SQLite)
-
-O app pode armazenar registros gerados/salvos em um banco de dados SQLite local.
-
-- Tabelas de exemplo: `log_...`  
-- Campos de exemplo:  
-  - `id`, `date_id` ou `date_text` (timestamp), `choice1..choiceN` (números escolhidos), `isFinger` (flag relacionada a impressão digital, etc.)
-
-Você pode visualizar os logs nas telas de lista/detalhe de tabelas e excluí-los (por tabela ou por linha), se desejar.
-
-#### (3) Arquivos JSON (por jogo)
-
-O app pode armazenar dados JSON específicos do jogo no diretório de documentos do app.
-
-- Exemplo: `game_json/<gameId>.json`  
-- Finalidade: dados de sorteios/resultados gerenciados/editáveis pelo usuário (por exemplo, para estatísticas/visualização)
-
-Esses arquivos são armazenados no dispositivo e, em muitos casos, são removidos ao desinstalar o app, sujeito ao comportamento de backup do sistema operacional.
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Anúncios, consentimento e dados relacionados (SDKs de terceiros)
 
