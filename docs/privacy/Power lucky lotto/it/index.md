@@ -39,30 +39,7 @@ Tuttavia, per **pubblicità**, **gestione del consenso** e **conformità**, SDK 
 
 ### 2-1) Dati salvati localmente sul dispositivo
 
-#### (1) Impostazioni (SharedPreferences)
-
-| Categoria | Chiave (esempio) | Scopo | Memoria | Cancellazione |
-|---|---|---|---|---|
-| Setup completato | `setup_done` | Stato configurazione iniziale | SharedPreferences | Eliminazione dati/disinstallazione |
-| Storico paesi | `selected_countries` | Paesi selezionati di recente | Idem | Idem |
-| Paese attivo | `active_country` | Paese attualmente selezionato | Idem | Idem |
-| Giochi selezionati | `selected_lotto_ids` | ID giochi selezionati | Idem | Idem |
-| Gioco attivo | `active_lotto_id` | ID gioco attivo | Idem | Idem |
-| **Selezione orario seed (opzionale)** | `birth_datetime_iso` | Orario seed scelto dall’utente (può servire come seed/personalizzazione) | Idem | Idem |
-
-#### (2) Dati log (SQLite)
-
-- Tabelle tipiche: `log_...`  
-- Campi possibili: `id`, `date_id` o `date_text`, `choice1..choiceN`, `isFinger`
-
-I log sono consultabili ed eliminabili dall’app (per tabella o per riga).
-
-#### (3) File JSON (per gioco)
-
-- Esempio: `game_json/<gameId>.json`  
-- Scopo: dati di estrazioni/risultati gestiti e modificabili dall’utente (statistiche/visualizzazione)
-
----
+[Local Settings and Stored Values](https://frog-im.github.io/privacy/Power%20lucky%20lotto/en/local/)
 
 ### 2-2) Pubblicità, consenso e dati correlati (SDK di terze parti)
 
