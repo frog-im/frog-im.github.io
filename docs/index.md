@@ -16,11 +16,11 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 
 ## Apps
 - **LyriFloat (Tag Editor) **  
-  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share)
+  Google Play: [Tag Edito](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share)
 
 
 - **air_caption (Subtitle Editor) **  
-  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share)
+  Google Play: [air_caption](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share)
 
 - **take_it (Power lucky lotto) **  
   Google Play: [Power lucky lotto](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share)
