@@ -15,18 +15,21 @@ description: 배포하는 앱의 공식 지원 페이지입니다. 문의, 버�
 ---
 
 ## Apps
-- **LyriFloat (Power Audio Tag Editor) **  
+- **LyriFloat (Tag Editor) **  
   Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share)
 
 
-- **air_caption (Power Subtitle Editor & Player) **  
+- **air_caption (Subtitle Editor) **  
   Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share)
 
 - **take_it (Power lucky lotto) **  
-  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share)
+  Google Play: [Power lucky lotto](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share)
 
 - **KnowMe **  
-  Google Play: [https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share)
+  Google Play: [KnowMe](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share)
+
+- **QuestDiary **  
+  Google Play: [QDiary](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share)
 
 ---
 
@@ -59,6 +62,7 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
   - Power Subtitle Editor & Player: [Power Subtitle Editor & Player](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/)
   - Power lucky lotto : [Power lucky lotto](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/)
   - KnowMe : [KnowMe](https://frog-im.github.io/privacy/know%20me/ko/)
+  - QDiary : [QDiary](https://frog-im.github.io/privacy/Quest_Diary/en/)
 - **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
 
 
