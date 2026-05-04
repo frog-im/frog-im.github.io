@@ -63,7 +63,10 @@ A. 아래 **Privacy & Data** 섹션의 이메일로 보내 주세요.
   - Power lucky lotto : [Power lucky lotto](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/)
   - KnowMe : [KnowMe](https://frog-im.github.io/privacy/know%20me/ko/)
   - QDiary : [QDiary](https://frog-im.github.io/privacy/Quest_Diary/en/)
+ 
+    
 - **데이터 삭제 요청(Data Deletion Request):** [g.ns.0700g@gmail.com]
+- QDiary : [QDiary](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
 
 ---
