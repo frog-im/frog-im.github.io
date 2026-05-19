@@ -269,4 +269,5 @@ Chính sách này có thể được sửa đổi do thay đổi về pháp lu�
 
 - Nhà phát triển: frog-im
 - Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Hướng dẫn xóa tài khoản: [Hướng dẫn xóa](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
