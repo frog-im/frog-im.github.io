@@ -269,6 +269,7 @@ Google AdMob 및 UMP SDK 사용 시 다음 정보가 처리될 수 있습니다.
 
 - 개발자: frog-im
 - 이메일: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- 계정 삭제 안내: [삭제 안내](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
 
 
