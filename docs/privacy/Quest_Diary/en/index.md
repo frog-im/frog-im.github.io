@@ -269,4 +269,5 @@ This Policy may be revised due to changes in laws, third-party services, or app 
 
 - Developer: frog-im
 - Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Account deletion guide: [Deletion instructions](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
