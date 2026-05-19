@@ -269,4 +269,5 @@ Google AdMob और UMP SDK का उपयोग करते समय नि
 
 - डेवलपर: frog-im
 - ईमेल: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- खाता हटाने की जानकारी: [हटाने के निर्देश](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
