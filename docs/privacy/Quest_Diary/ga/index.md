@@ -269,4 +269,5 @@ Féadfar an Polasaí seo a athbhreithniú de bharr athruithe i ndlíthe, i seirb
 
 - Forbróir: frog-im
 - Ríomhphost: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Treoir maidir le cuntas a scriosadh: [Treoracha scriosta](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
