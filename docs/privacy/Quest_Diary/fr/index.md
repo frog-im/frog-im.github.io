@@ -269,4 +269,5 @@ La présente Politique peut être révisée en raison de modifications de la lé
 
 - Développeur : frog-im
 - E-mail : [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Guide de suppression de compte : [Instructions de suppression](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
