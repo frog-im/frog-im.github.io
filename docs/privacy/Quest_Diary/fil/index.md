@@ -269,4 +269,5 @@ Maaaring baguhin ang Patakarang ito dahil sa mga pagbabago sa batas, third-party
 
 - Developer: frog-im
 - Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Gabay sa pagtanggal ng account: [Mga tagubilin sa pagtanggal](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
