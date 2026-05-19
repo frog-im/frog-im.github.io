@@ -269,4 +269,5 @@ Google AdMob மற்றும் UMP SDK பயன்படுத்தும�
 
 - உருவாக்குநர்: frog-im
 - மின்னஞ்சல்: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- கணக்கு நீக்க வழிகாட்டி: [நீக்க வழிமுறைகள்](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
