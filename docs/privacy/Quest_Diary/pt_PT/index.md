@@ -269,4 +269,5 @@ A presente Política poderá ser revista devido a alterações na legislação, 
 
 - Desenvolvedor: frog-im
 - E-mail: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Guia de eliminação de conta: [Instruções de eliminação](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
