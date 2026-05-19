@@ -269,4 +269,5 @@ Bu Politika; mevzuat, üçüncü taraf hizmetler veya uygulama özelliklerindeki
 
 - Geliştirici: frog-im
 - E-posta: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Hesap silme rehberi: [Silme talimatları](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
