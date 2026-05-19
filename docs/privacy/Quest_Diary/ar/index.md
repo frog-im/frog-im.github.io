@@ -269,4 +269,4 @@ description: سياسة الخصوصية الخاصة بـ QDiary
 
 - المطور: frog-im
 - البريد الإلكتروني: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-- دليل حذف الحساب: [تعليمات الحذف][account-delete-form]
+- دليل حذف الحساب: [تعليمات الحذف](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
