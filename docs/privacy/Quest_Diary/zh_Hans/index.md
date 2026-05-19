@@ -269,4 +269,5 @@ QDiary 提供以下功能：
 
 - 开发者：frog-im
 - 电子邮箱：[g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- 账户删除指南：[删除说明](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
