@@ -269,4 +269,5 @@ Esta Política puede revisarse debido a cambios en las leyes, servicios de terce
 
 - Desarrollador: frog-im
 - Correo electrónico: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Guía de eliminación de cuenta: [Instrucciones de eliminación](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
