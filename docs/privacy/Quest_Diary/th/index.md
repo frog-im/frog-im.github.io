@@ -269,4 +269,5 @@ QDiary ให้บริการฟังก์ชันดังต่อไ�
 
 - ผู้พัฒนา: frog-im
 - อีเมล: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- คู่มือการลบบัญชี: [คำแนะนำการลบ](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
