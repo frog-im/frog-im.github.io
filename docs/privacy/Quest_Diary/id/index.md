@@ -269,4 +269,5 @@ Kebijakan ini dapat direvisi karena perubahan hukum, layanan pihak ketiga, atau 
 
 - Pengembang: frog-im
 - Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+- Panduan penghapusan akun: [Petunjuk penghapusan](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog)
 
