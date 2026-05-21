@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 ---
 title: App Support | frog-im
 description: Official support page for apps published by frog-im. frog-im 앱 지원 페이지. frog-im 应用支持页面。
@@ -27,7 +29,7 @@ Please select a language.
 
 ---
 
-<details id="support-en">
+<details id="support-en" markdown="1">
 <summary><strong>English - App Support</strong></summary>
 
 # App Support
@@ -127,7 +129,7 @@ When contacting support, please include the app name, app version, device model,
 
 ---
 
-<details id="support-ko">
+<details id="support-ko" markdown="1">
 <summary><strong>한국어 - 앱 지원</strong></summary>
 
 # 앱 지원
@@ -227,7 +229,7 @@ When contacting support, please include the app name, app version, device model,
 
 ---
 
-<details id="support-zh">
+<details id="support-zh" markdown="1">
 <summary><strong>中文 - 应用支持</strong></summary>
 
 # 应用支持
