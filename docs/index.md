@@ -102,7 +102,7 @@ Please use the email address or data deletion request form listed in the Privacy
 | **Power Lucky Lotto** | [Privacy Policy](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
 | **KnowMe** | [Privacy Policy](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [Privacy Policy](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [Privacy Policy](https://frog-im.github.io/privacy/Time_Back/ko/) |
+| **TimeBack** | [Privacy Policy](https://frog-im.github.io/privacy/TimeBack/ko/) |
 
 ---
 
@@ -204,7 +204,7 @@ When contacting support, please include the app name, app version, device model,
 | **Power Lucky Lotto** | [개인정보처리방침](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
 | **KnowMe** | [개인정보처리방침](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [개인정보처리방침](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [개인정보처리방침](https://frog-im.github.io/privacy/Time_Back/ko/) |
+| **TimeBack** | [개인정보처리방침](https://frog-im.github.io/privacy/TimeBack/ko/) |
 
 ---
 
@@ -306,7 +306,7 @@ When contacting support, please include the app name, app version, device model,
 | **Power Lucky Lotto** | [隐私政策](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
 | **KnowMe** | [隐私政策](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [隐私政策](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [隐私政策](https://frog-im.github.io/privacy/Time_Back/ko/) |
+| **TimeBack** | [隐私政策](https://frog-im.github.io/privacy/TimeBack/ko/) |
 
 ---
 
