@@ -2,7 +2,7 @@
 title: 국외 이전 안내 | TimeBack
 description: AdMob 광고를 위한 개인정보 국외 이전 안내 (한국어)
 lang: ko
-last_updated: 2026-06-03
+last_updated: 2026-06-06
 ---
 
 # 국외 이전 안내 (AdMob 기반)

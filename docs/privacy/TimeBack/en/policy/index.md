@@ -2,7 +2,7 @@
 title: Cross-Border Transfer Notice | TimeBack
 description: Cross-border transfer notice for AdMob advertising
 lang: en
-last_updated: 2026-06-03
+last_updated: 2026-06-06
 ---
 
 # Cross-Border Transfer Notice (AdMob-based)

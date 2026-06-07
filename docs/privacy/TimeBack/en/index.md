@@ -2,7 +2,7 @@
 title: Privacy Policy | TimeBack
 description: TimeBack Privacy Policy
 lang: en
-last_updated: 2026-06-03
+last_updated: 2026-06-06
 ---
 
 # Privacy Policy (TimeBack)
@@ -11,7 +11,7 @@ last_updated: 2026-06-03
 - **Developer:** frog-im
 - **Contact:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 - **Effective date:** 2026-06-03
-- **Last updated:** 2026-06-03
+- **Last updated:** 2026-06-06
 
 This Privacy Policy is based on the current implementation of the TimeBack app. TimeBack provides screen-time review, daily goals, reclaimed-time records, reflections, challenges, notifications, sharing, and advertising features.
 
@@ -21,6 +21,8 @@ TimeBack provides the following features:
 
 - App usage-time review through Android usage access permission
 - Daily usage goals, reminders, and status-bar usage notifications
+- Hard-limit warning notifications and overlay display
+- Overlay exception app selection
 - Reclaimed-time activity records
 - Daily reflection records
 - Challenge progress and checklist management
@@ -48,6 +50,7 @@ This information is used to provide usage statistics and compare usage against u
 - Reclaimed-time activity category, title, start time, and duration
 - Daily reflection text
 - Challenge progress and checklist entries
+- Overlay exception app list
 
 ### 2-3. Information Stored on the Device
 
@@ -59,6 +62,7 @@ The app may store the following information in a local SQLite database or Shared
 - Daily reflection records
 - Challenge progress and checklist state
 - Onboarding completion state
+- Settings such as usage reminders, hard-limit warnings, status-bar display, and overlay exception apps
 - Local ad consent and privacy-option state
 
 Based on the current implementation, these local records are not automatically uploaded to frog-im servers.
@@ -82,6 +86,7 @@ The app processes information for the following purposes:
 - Storing reclaimed-time and reflection records entered by the user
 - Managing challenge progress
 - Providing reminders and status-bar notifications
+- Providing hard-limit warning notifications, overlay display, and overlay exception handling
 - Sharing usage-stat images when requested by the user
 - Serving ads, measuring ad performance, and applying ad consent choices
 - Maintaining app stability and responding to errors
@@ -98,7 +103,7 @@ Local storage may include the following.
 |---|---|---|---|
 | SQLite database | App usage records, package names, app names, usage time, date-based aggregates | Show usage statistics and compare usage against goals | In-app deletion features, clearing app data, or uninstalling the app |
 | SQLite database | Reclaimed-time activities, reflections, challenge progress, checklist entries | Show records and manage progress | In-app deletion features, clearing app data, or uninstalling the app |
-| SharedPreferences | Onboarding completion state, reminder settings, notification settings, local ad-consent state | Keep app settings | Clearing app data or uninstalling the app |
+| SharedPreferences | Onboarding completion state, reminder settings, hard-limit warning settings, status-bar display settings, overlay exception app list, local ad-consent state | Keep app settings | Clearing app data or uninstalling the app |
 | Temporary files/cache | Shared usage-stat images and similar temporary files | Perform sharing requested by the user | Deleted after sharing where possible, or according to OS/app cleanup policies |
 
 When the user clears app data or uninstalls the app, data stored in the app's internal storage is generally deleted. However, Android backup, manufacturer backup, cloud backup, or files directly shared by the user may be retained separately according to the policies of those services.
@@ -150,7 +155,11 @@ Information may be processed outside the user's country in the following cases.
 
 For details, please see the [Cross-Border Transfer Notice](./policy/).
 
-## 7. Retention
+## 7. Installed App List and Overlay Exceptions
+
+On Android, if the user configures overlay exception apps, the app may read the package names and app names of launchable apps on the device to display a selection list. Package names selected by the user as exceptions are stored in SharedPreferences on the device and are used only to avoid showing hard-limit warning overlays on top of those apps.
+
+## 8. Retention
 
 The app retains information under the following standards:
 
@@ -159,31 +168,33 @@ The app retains information under the following standards:
 - Temporary files for shared images: as needed for sharing or according to OS cleanup policies
 - Advertising and consent-related data: according to the policies of Google and other relevant third parties
 
-## 8. Permissions
+## 9. Permissions
 
 The app may use the following permissions:
 
 - `PACKAGE_USAGE_STATS`: read app usage time
 - `POST_NOTIFICATIONS`: show usage reminders and status-bar notifications
+- `SYSTEM_ALERT_WINDOW`: show hard-limit warning overlays
 - `INTERNET`: communicate with ad SDKs and show legal notice pages
 - `ACCESS_NETWORK_STATE`: check network state
 - `com.google.android.gms.permission.AD_ID`: use advertising identifiers
 
 Permissions are used only as needed for app features. Users may revoke permissions in device settings, but related features may be limited.
 
-## 9. User Rights and Choices
+## 10. User Rights and Choices
 
 Users may:
 
 - View, edit, or delete records inside the app
 - Delete local information by clearing app data or uninstalling the app
 - Change usage access, notification, and advertising identifier settings in device settings
+- Revoke overlay permission and change overlay exception app settings
 - Change ad privacy options
 - Contact us with privacy questions or deletion requests
 
 Contact email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
-## 10. Security Measures
+## 11. Security Measures
 
 The app applies or may apply the following safeguards:
 
@@ -194,15 +205,15 @@ The app applies or may apply the following safeguards:
 
 Device security conditions such as rooting, jailbreaking, malware, or shared-device use may create additional risks.
 
-## 11. Children's Privacy
+## 12. Children's Privacy
 
 TimeBack is not designed primarily for children. Age-related settings or platform policies of Google Mobile Ads SDK and UMP may apply during advertising and consent processing.
 
-## 12. Changes
+## 13. Changes
 
 This Policy may be updated due to changes in law, third-party service configuration, or app features. Material changes will be notified through in-app notice or by updating this page.
 
-## 13. Contact
+## 14. Contact
 
 - Developer: frog-im
 - Email: [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
