@@ -1,82 +1,78 @@
-﻿---
-title: Cross-Border Transfer Notice | know_me
-description: Cross-border data transfer notice for AdMob advertising (Hindi)
+---
+title: सीमा-पार डेटा हस्तांतरण सूचना | know_me
+description: AdMob विज्ञापन के लिए सीमा-पार डेटा हस्तांतरण संबंधी सूचना (हिन्दी)
 lang: hi
 last_updated: 2026-03-04
 ---
 
-# Cross-Border Transfer Notice (AdMob-based)
+# सीमा-पार डेटा हस्तांतरण सूचना (AdMob आधारित)
 
-This app (“**know_me**”) uses **Google AdMob** to provide and measure in-app advertising. In the course of providing these services, personal data may be transferred outside your country.
-
----
-
-## A. Recipient and Contact
-- **Recipient:** Google LLC and its affiliates (service provider of AdMob)  
-- **Service/Role:** ad serving, advertising/measurement features, related log processing  
-- **Website:** `admob.google.com`  
-- **Privacy inquiries:** Google Privacy Help Center or other privacy inquiry routes provided by Google  
-- **Note:** On iOS, the use of the advertising identifier (IDFA) is subject to platform policies and the user’s consent status.
-
-> Reference: Google may use information collected from partner apps/sites (device identifiers, IP, app activity, etc.) for advertising and measurement.
+यह ऐप (“**know_me**”) इन-ऐप विज्ञापन प्रदान करने और उनका मापन करने के लिए **Google AdMob** का उपयोग करता है। इस प्रक्रिया में, व्यक्तिगत जानकारी उपयोगकर्ता के देश से बाहर स्थानांतरित की जा सकती है।
 
 ---
 
-## B. Destination Countries
-- The United States and other countries/regions where Google or its affiliates have data processing capabilities (e.g., in Europe or Asia).
+## A. प्राप्तकर्ता और संपर्क
+- **प्राप्तकर्ता:** Google LLC और उसकी सहयोगी कंपनियाँ (AdMob सेवा प्रदाता)  
+- **प्राप्तकर्ता की भूमिका:** विज्ञापन प्रदाय, विज्ञापन/मापन सुविधाएँ प्रदान करना, संबंधित लॉग प्रोसेसिंग  
+- **वेबसाइट:** `admob.google.com`  
+- **गोपनीयता संबंधी पूछताछ:** Google Privacy Help Center या Google द्वारा उपलब्ध अन्य संपर्क माध्यम  
+- **टिप्पणी:** iOS पर विज्ञापन पहचानकर्ता (IDFA) का उपयोग प्लेटफ़ॉर्म नीतियों और उपयोगकर्ता की सहमति स्थिति पर निर्भर करता है।
+
+> संदर्भ: Google साझेदार ऐप्स/साइटों से एकत्र की गई जानकारी (डिवाइस पहचानकर्ता, IP, ऐप गतिविधि आदि) को विज्ञापन और मापन उद्देश्यों के लिए उपयोग कर सकता है।
 
 ---
 
-## C. Timing and Method of Transfer
-- **Timing:** when the app runs and when ad requests/impressions/clicks/measurement occur  
-- **Method:** transmission over networks with encryption in transit (HTTPS/TLS)  
-- **Safeguards:** processed under applicable international transfer frameworks and contractual safeguards (e.g., adequacy decisions, Standard Contractual Clauses)
+## B. गंतव्य देश
+- संयुक्त राज्य अमेरिका तथा अन्य देश/क्षेत्र जहाँ Google या उसकी सहयोगी कंपनियों के पास डेटा प्रोसेसिंग सुविधाएँ हैं (जैसे यूरोप या एशिया के कुछ क्षेत्र)।
 
 ---
 
-## D. Purpose and Categories of Data
-- **Purpose:** ad delivery, personalization status, performance measurement, analytics, service quality and stability improvement  
-- **Examples of data:** advertising identifiers (AAID/IDFA), app version/settings, basic device/network information, cookie-like identifiers, usage logs (including ad interaction and crash/error signals), coarse location (city/country level).  
-  The specific data collected is governed by Google’s partner data use documentation.
+## C. हस्तांतरण का समय और तरीका
+- **हस्तांतरण का समय:** जब ऐप चल रहा हो और जब विज्ञापन अनुरोध, विज्ञापन प्रदर्शन, क्लिक या मापन इवेंट होते हों  
+- **हस्तांतरण का तरीका:** ऐसे नेटवर्क के माध्यम से ट्रांसमिशन, जहाँ डेटा ट्रांज़िट के दौरान एन्क्रिप्टेड होता है (HTTPS/TLS)  
+- **सुरक्षा उपाय:** प्रासंगिक अंतरराष्ट्रीय डेटा हस्तांतरण फ्रेमवर्क और संविदात्मक सुरक्षा उपायों (जैसे, पर्याप्तता निर्णय, मानक संविदात्मक खंड) के अनुसार प्रोसेसिंग
 
 ---
 
-## E. Retention
-- Retained as necessary for the above purposes or as required by applicable laws, then deleted or de-identified.
+## D. हस्तांतरण का उद्देश्य और स्थानांतरित व्यक्तिगत जानकारी की श्रेणियाँ
+- **उद्देश्य:** विज्ञापन प्रदान करना, वैयक्तिकरण स्थिति को प्रतिबिंबित करना, प्रदर्शन मापन, विश्लेषण, सेवा की गुणवत्ता और स्थिरता में सुधार  
+- **डेटा के उदाहरण:** विज्ञापन पहचानकर्ता (AAID/IDFA), ऐप संस्करण/सेटिंग जानकारी, बुनियादी डिवाइस/नेटवर्क जानकारी, कुकी-समान पहचानकर्ता, उपयोग लॉग (विज्ञापन इंटरैक्शन और त्रुटि/क्रैश संकेत सहित), मोटा-मोटा स्थान (शहर/देश स्तर) आदि  
+  वास्तव में एकत्र और उपयोग की जाने वाली जानकारी Google की पार्टनर डेटा उपयोग संबंधी दस्तावेज़ों में निर्धारित दायरे के अनुसार होती है।
 
 ---
 
-## F. Right to Refuse or Withdraw Consent
-- **In-app path:** in **Privacy Options**, you can choose non-personalized ads (NPA).  
-  In regions such as EEA/UK/CH, you can select and reset consent via a consent management screen (CMP/UMP).  
-- Refusal or withdrawal of consent may limit certain personalization features. Core app functions remain available.
+## E. भंडारण अवधि
+- डेटा को ऊपर बताए गए उद्देश्यों को पूरा करने के लिए आवश्यक अवधि तक या प्रासंगिक कानूनों द्वारा निर्धारित अवधि तक संग्रहीत किया जाता है, इसके बाद उसे हटा दिया जाता है या डी-पहचाना (de-identified) कर दिया जाता है।
 
 ---
 
-## G. Contact for Privacy Inquiries
-- **Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
+## F. सहमति से इन्कार और सहमति वापस लेने का अधिकार
+- **ऐप के भीतर मार्ग:** **Privacy Options** स्क्रीन में आप non-personalized ads (NPA) चुन सकते हैं।  
+  EEA, यूके या स्विट्ज़रलैंड जैसे कुछ क्षेत्रों में आप सहमति प्रबंधन स्क्रीन (CMP/UMP) के माध्यम से सहमति चुन, बदल या रीसेट कर सकते हैं।  
+- सहमति से इन्कार या सहमति वापस लेने पर कुछ वैयक्तिकरण सुविधाएँ सीमित हो सकती हैं, लेकिन ऐप की मुख्य कार्यक्षमताएँ उपलब्ध रहेंगी।
 
 ---
 
-## Country-Specific Notices
-
-### Korea (PIPA)
-- For cross-border transfers, we disclose the recipient, destination, timing/method, purposes/categories, retention, and any disadvantages from refusal. This Notice is designed to meet those requirements.
-
-### Japan (APPI)
-- For third-party provision to foreign entities, we provide information on the **destination country** and its **protective regime**, or on **appropriate safeguards**. Transfers may be based on consent where required. Google’s international transfer mechanisms and safeguards are as described above.
-
-### Türkiye (KVKK)
-- Cross-border transfers may require an adequacy decision, written undertakings ensuring sufficient safeguards with Board approval, or explicit consent. We will provide details in this Notice and via support channels where applicable.
+## G. गोपनीयता संबंधी पूछताछ के लिए संपर्क
+- **ईमेल:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
 
 ---
 
-## Third-party Provision
-- We share only the minimum information necessary with the third party (the **Recipient** above) for legal compliance and service provision. See Google’s documentation for how partner data is used.
+## देश-विशिष्ट अतिरिक्त सूचना
 
-## Changes
-- This Notice may change. For important changes, we will provide in-app notice or update this document.
+### दक्षिण कोरिया (व्यक्तिगत जानकारी संरक्षण अधिनियम)
+- सीमा-पार हस्तांतरण के लिए प्राप्तकर्ता, गंतव्य देश, समय/तरीका, उद्देश्य/डेटा श्रेणियाँ, भंडारण अवधि, और सहमति से इन्कार की स्थिति में संभावित प्रभाव का खुलासा किया जाना चाहिए। यह सूचना इन आवश्यकताओं को पूरा करने के लिए तैयार की गई है।
 
+### जापान (व्यक्तिगत जानकारी संरक्षण अधिनियम, APPI)
+- विदेशी तृतीय पक्ष को जानकारी प्रदान करते समय, हम **गंतव्य देश** और उसके **सुरक्षा ढाँचे**, या उपयुक्त **सुरक्षा उपायों** की जानकारी प्रदान करते हैं। जहाँ आवश्यक हो, हस्तांतरण उपयोगकर्ता की सहमति पर आधारित हो सकता है। Google के अंतरराष्ट्रीय डेटा हस्तांतरण तंत्र और सुरक्षा उपाय ऊपर वर्णित के अनुसार हैं।
 
+### तुर्किये (KVKK)
+- सीमा-पार हस्तांतरण के लिए पर्याप्तता निर्णय, प्राधिकरण द्वारा अनुमोदित पर्याप्त सुरक्षा उपायों वाले लिखित उपबंध, या स्पष्ट सहमति आवश्यक हो सकती है। जहाँ लागू हो, हम इस सूचना और सहायता चैनलों के माध्यम से संबंधित जानकारी प्रदान करेंगे।
 
+---
 
+## तृतीय पक्ष को प्रदान करना
+- कानूनी दायित्वों के पालन और सेवा प्रदान करने के लिए आवश्यक न्यूनतम जानकारी ही ऊपर उल्लिखित **प्राप्तकर्ता** को प्रदान की जाती है। पार्टनर डेटा उपयोग के तरीके के लिए Google से संबंधित दस्तावेज़ देखें।
+
+## परिवर्तन
+- यह सूचना बदली जा सकती है। महत्वपूर्ण परिवर्तन होने पर हम ऐप के भीतर सूचना देंगे या इस दस्तावेज़ को अद्यतन करेंगे।

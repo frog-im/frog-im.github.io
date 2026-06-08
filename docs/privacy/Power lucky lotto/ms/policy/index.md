@@ -1,5 +1,5 @@
 ---
-title: Notis Pemindahan Data Merentas Sempadan | Subtitle Player & Editor
+title: Notis Pemindahan Data Merentas Sempadan | Power lucky lotto
 description: Notis pemindahan data merentas sempadan untuk pengiklanan AdMob (Bahasa Melayu)
 lang: ms
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Notis Pemindahan Data Merentas Sempadan (berasaskan AdMob)
 
-Aplikasi ini (“**Subtitle Player & Editor**”) menggunakan **Google AdMob** untuk memaparkan dan mengukur iklan dalam aplikasi. Dalam menyediakan perkhidmatan ini, data peribadi anda mungkin dipindahkan ke luar negara tempat anda berada.
+Aplikasi ini (“**Power lucky lotto**”) menggunakan **Google AdMob** untuk memaparkan dan mengukur iklan dalam aplikasi. Dalam menyediakan perkhidmatan ini, data peribadi anda mungkin dipindahkan ke luar negara tempat anda berada.
 
 ---
 

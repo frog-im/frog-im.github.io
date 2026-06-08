@@ -1,5 +1,5 @@
 ---
-title: எல்லைத் தாண்டிய 이전 அறிவிப்பு | power lucky lotto
+title: எல்லைத் தாண்டிய தரவு பரிமாற்ற அறிவிப்பு | power lucky lotto
 description: AdMob விளம்பரத்திற்கான எல்லைத் தாண்டிய தரவு பரிமாற்ற அறிவிப்பு (தமிழ்)
 lang: ta
 last_updated: 2026-1-29

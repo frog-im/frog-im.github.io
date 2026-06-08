@@ -1,5 +1,5 @@
 ---
-title: 跨境数据传输通知 | Subtitle Player & Editor
+title: 跨境数据传输通知 | Power lucky lotto
 description: 使用 AdMob 广告的跨境数据传输说明（简体中文）
 lang: zh-hans
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # 跨境数据传输通知（基于 AdMob）
 
-本应用（“**Subtitle Player & Editor**”，下同）使用 **Google AdMob** 提供和衡量应用内广告。在提供这些服务的过程中，您的个人数据可能会被传输到您所在国家/地区之外。
+本应用（“**Power lucky lotto**”，下同）使用 **Google AdMob** 提供和衡量应用内广告。在提供这些服务的过程中，您的个人数据可能会被传输到您所在国家/地区之外。
 
 ---
 

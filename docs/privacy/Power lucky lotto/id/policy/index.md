@@ -1,5 +1,5 @@
 ---
-title: Pemberitahuan Transfer Data Lintas Batas | Subtitle Player & Editor
+title: Pemberitahuan Transfer Data Lintas Batas | Power lucky lotto
 description: Pemberitahuan transfer data lintas batas untuk iklan AdMob (Bahasa Indonesia)
 lang: id
 last_updated: 2025-12-12
@@ -7,7 +7,7 @@ last_updated: 2025-12-12
 
 # Pemberitahuan Transfer Data Lintas Batas (berbasis AdMob)
 
-Aplikasi ini (“**Subtitle Player & Editor**”) menggunakan **Google AdMob** untuk menayangkan dan mengukur iklan di dalam aplikasi. Dalam penyediaan layanan tersebut, data pribadi Anda dapat ditransfer ke luar negara tempat Anda berada.
+Aplikasi ini (“**Power lucky lotto**”) menggunakan **Google AdMob** untuk menayangkan dan mengukur iklan di dalam aplikasi. Dalam penyediaan layanan tersebut, data pribadi Anda dapat ditransfer ke luar negara tempat Anda berada.
 
 ---
 
