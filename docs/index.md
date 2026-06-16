@@ -57,6 +57,7 @@ This page is provided as the developer contact website for Google Play.
 | **KnowMe** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
 | **QDiary / QuestDiary** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | Google Play link will be added after publication |
+| **Lucky Pick Box** | Google Play link will be added after publication |
 
 ---
 
@@ -103,6 +104,7 @@ Please use the email address or data deletion request form listed in the Privacy
 | **KnowMe** | [Privacy Policy](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [Privacy Policy](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [Privacy Policy](https://frog-im.github.io/privacy/TimeBack/ko/) |
+| **Lucky Pick Box** | [Privacy Policy](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/en/) |
 
 ---
 
@@ -159,6 +161,7 @@ When contacting support, please include the app name, app version, device model,
 | **KnowMe** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
 | **QDiary / QuestDiary** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | Google Play 출시 후 링크 추가 예정 |
+| **Lucky Pick Box / 뽑기박스** | Google Play 출시 후 링크 추가 예정 |
 
 ---
 
@@ -205,6 +208,7 @@ When contacting support, please include the app name, app version, device model,
 | **KnowMe** | [개인정보처리방침](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [개인정보처리방침](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [개인정보처리방침](https://frog-im.github.io/privacy/TimeBack/ko/) |
+| **Lucky Pick Box / 뽑기박스** | [개인정보처리방침](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/ko/) |
 
 ---
 
@@ -261,6 +265,7 @@ When contacting support, please include the app name, app version, device model,
 | **KnowMe** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
 | **QDiary / QuestDiary** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | Google Play 发布后添加链接 |
+| **Lucky Pick Box** | Google Play 发布后添加链接 |
 
 ---
 
@@ -307,6 +312,7 @@ When contacting support, please include the app name, app version, device model,
 | **KnowMe** | [隐私政策](https://frog-im.github.io/privacy/know%20me/ko/) |
 | **QDiary / QuestDiary** | [隐私政策](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [隐私政策](https://frog-im.github.io/privacy/TimeBack/ko/) |
+| **Lucky Pick Box** | [隐私政策](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/zh/) |
 
 ---
 
