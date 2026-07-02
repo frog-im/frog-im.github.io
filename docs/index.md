@@ -1,373 +1,456 @@
-<div id="top"></div>
-
 ---
-title: App Support | frog-im
-description: Official support page for apps published by frog-im. frog-im 앱 지원 페이지. frog-im 应用支持页面。
+title: frog-im
+description: frog-im official app support, web apps, and store links.
 ---
 
-# App Support
-
-Official support page for apps published by **frog-im**.
-
-frog-im이 배포하는 앱의 공식 지원 페이지입니다.
-
-frog-im 发布的应用程序官方支持页面。
-
----
-
-## Language / 언어 / 语言
-
-Please select a language.
-
-언어를 선택해 주세요.
-
-请选择语言。
-
-- [English](#support-en)
-- [한국어](#support-ko)
-- [中文](#support-zh)
-
----
-
-<details id="support-en" markdown="1">
-<summary><strong>English - App Support</strong></summary>
-
-# App Support
-
-**Developer:** frog-im  
-**Support Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-**Response Time:** Within 3 business days  
-**Business Hours:** Mon–Fri, 10:00–17:00 KST  
-
-This is the official support page for apps published by frog-im.
-
-This page is provided as the developer contact website for Google Play.
-
-[Back to language selection](#top)
-
----
-
-## Apps
-
-| App | Google Play |
-|---|---|
-| **LyriFloat / Power Audio Tag Editor** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share) |
-| **Air Caption / Power Subtitle Editor & Player** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share) |
-| **Power Lucky Lotto** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share) |
-| **KnowMe** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
-| **QDiary / QuestDiary** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
-| **TimeBack** | Google Play link will be added after publication |
-| **Lucky Pick Box** | Google Play link will be added after publication |
-
----
-
-## FAQ
-
-### Q1. Can I request a refund after payment?
-
-Refunds follow Google Play payment and refund policies.
-
-For in-app payment issues, please contact us by email with your receipt or order number.
-
----
-
-### Q2. How do I report a bug?
-
-Please include the following information when reporting a bug.
-
-**Bug Report Template**
-
-- App name / version
-- Device / OS version
-- Steps to reproduce
-- Expected behavior
-- Actual behavior
-- Screenshots or screen recording link, if available
-
----
-
-### Q3. Where can I send privacy or data-related requests?
-
-Please use the email address or data deletion request form listed in the Privacy & Data section below.
-
----
-
-## Privacy & Data
-
-### Privacy Policy
-
-| App | Privacy Policy |
-|---|---|
-| **Power Audio Tag Editor** | [Privacy Policy](https://frog-im.github.io/privacy/bbo-music-player/ko/) |
-| **Power Subtitle Editor & Player** | [Privacy Policy](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/) |
-| **Power Lucky Lotto** | [Privacy Policy](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
-| **KnowMe** | [Privacy Policy](https://frog-im.github.io/privacy/know%20me/ko/) |
-| **QDiary / QuestDiary** | [Privacy Policy](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [Privacy Policy](https://frog-im.github.io/privacy/TimeBack/ko/) |
-| **Lucky Pick Box** | [Privacy Policy](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/en/) |
-
----
-
-### Account & Data Deletion Request
-
-For privacy, account deletion, or data deletion requests, please use one of the methods below.
-
-| App | Request Method |
-|---|---|
-| **General Request** | [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com) |
-| **QDiary / QuestDiary** | [Data Deletion Request Form](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog) |
-
-When sending a request, please include the app name, request type, and information needed to identify the relevant account or data.
-
-If an app does not require account creation, account deletion may not apply. However, you can still contact us for privacy or data-related questions.
-
----
-
-## Contact
-
-**Support Email:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-
-When contacting support, please include the app name, app version, device model, OS version, and screenshots or screen recordings if available.
-
-</details>
-
----
-
-<details id="support-ko" markdown="1">
-<summary><strong>한국어 - 앱 지원</strong></summary>
-
-# 앱 지원
-
-**개발자:** frog-im  
-**지원 이메일:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-**응답 시간:** 영업일 기준 3일 이내  
-**운영 시간:** 월–금, 10:00–17:00 KST  
-
-본 페이지는 frog-im이 배포하는 앱의 공식 지원 페이지입니다.
-
-본 페이지는 Google Play 스토어의 개발자 연락처 웹사이트로 제공됩니다.
-
-[언어 선택으로 돌아가기](#top)
-
----
-
-## 앱 목록
-
-| 앱 | Google Play |
-|---|---|
-| **LyriFloat / Power Audio Tag Editor** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share) |
-| **Air Caption / Power Subtitle Editor & Player** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share) |
-| **Power Lucky Lotto** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share) |
-| **KnowMe** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
-| **QDiary / QuestDiary** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
-| **TimeBack** | Google Play 출시 후 링크 추가 예정 |
-| **Lucky Pick Box / 뽑기박스** | Google Play 출시 후 링크 추가 예정 |
-
----
-
-## 자주 묻는 질문
-
-### Q1. 결제 후 환불이 가능한가요?
-
-환불은 Google Play 결제 및 환불 정책을 따릅니다.
-
-앱 내 결제 문제가 있는 경우 영수증 또는 주문번호를 포함하여 이메일로 문의해 주세요.
-
----
-
-### Q2. 버그 제보는 어떻게 하나요?
-
-버그 제보 시 아래 정보를 함께 보내 주시면 처리 속도가 빨라집니다.
-
-**버그 제보 템플릿**
-
-- 앱 이름 / 버전
-- 기기 / OS 버전
-- 재현 방법
-- 기대 동작
-- 실제 동작
-- 스크린샷 또는 재현 영상 링크, 선택 사항
-
----
-
-### Q3. 개인정보 관련 문의는 어디로 보내나요?
-
-아래 개인정보 및 데이터 섹션의 이메일 또는 데이터 삭제 요청 양식을 이용해 주세요.
-
----
-
-## 개인정보 및 데이터
-
-### 개인정보처리방침
-
-| 앱 | 개인정보처리방침 |
-|---|---|
-| **Power Audio Tag Editor** | [개인정보처리방침](https://frog-im.github.io/privacy/bbo-music-player/ko/) |
-| **Power Subtitle Editor & Player** | [개인정보처리방침](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/) |
-| **Power Lucky Lotto** | [개인정보처리방침](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
-| **KnowMe** | [개인정보처리방침](https://frog-im.github.io/privacy/know%20me/ko/) |
-| **QDiary / QuestDiary** | [개인정보처리방침](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [개인정보처리방침](https://frog-im.github.io/privacy/TimeBack/ko/) |
-| **Lucky Pick Box / 뽑기박스** | [개인정보처리방침](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/ko/) |
-
----
-
-### 계정 및 데이터 삭제 요청
-
-개인정보, 계정 삭제 또는 데이터 삭제 요청은 아래 방법 중 하나를 이용해 주세요.
-
-| 앱 | 요청 방법 |
-|---|---|
-| **일반 요청** | [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com) |
-| **QDiary / QuestDiary** | [데이터 삭제 요청 양식](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog) |
-
-요청 시 앱 이름, 요청 유형, 관련 계정 또는 데이터를 확인하는 데 필요한 정보를 함께 보내 주세요.
-
-계정 생성이 필요하지 않은 앱의 경우 계정 삭제가 적용되지 않을 수 있습니다. 다만 개인정보 또는 데이터 관련 문의는 언제든지 보낼 수 있습니다.
-
----
-
-## 문의
-
-**지원 이메일:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-
-문의 시 앱 이름, 앱 버전, 기기 모델, OS 버전, 스크린샷 또는 재현 영상을 함께 보내 주시면 더 빠르게 확인할 수 있습니다.
-
-</details>
-
----
-
-<details id="support-zh" markdown="1">
-<summary><strong>中文 - 应用支持</strong></summary>
-
-# 应用支持
-
-**开发者:** frog-im  
-**支持邮箱:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)  
-**回复时间:** 3 个工作日内  
-**工作时间:** 周一至周五，10:00–17:00 KST  
-
-这是 frog-im 发布的应用程序官方支持页面。
-
-本页面作为 Google Play 开发者联系网站提供。
-
-[返回语言选择](#top)
-
----
-
-## 应用列表
-
-| 应用 | Google Play |
-|---|---|
-| **LyriFloat / Power Audio Tag Editor** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share) |
-| **Air Caption / Power Subtitle Editor & Player** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share) |
-| **Power Lucky Lotto** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share) |
-| **KnowMe** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share) |
-| **QDiary / QuestDiary** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
-| **TimeBack** | Google Play 发布后添加链接 |
-| **Lucky Pick Box** | Google Play 发布后添加链接 |
-
----
-
-## 常见问题
-
-### Q1. 付款后可以申请退款吗?
-
-退款将遵循 Google Play 的付款和退款政策。
-
-如果遇到应用内付款问题，请通过电子邮件联系我们，并附上收据或订单号。
-
----
-
-### Q2. 如何报告错误?
-
-报告错误时，请包含以下信息，以便我们更快地确认问题。
-
-**错误报告模板**
-
-- 应用名称 / 版本
-- 设备 / 操作系统版本
-- 重现步骤
-- 预期结果
-- 实际结果
-- 截图或屏幕录制链接，如有
-
----
-
-### Q3. 隐私或数据相关请求应发送到哪里?
-
-请使用下方“隐私与数据”部分中列出的电子邮件或数据删除请求表单。
-
----
-
-## 隐私与数据
-
-### 隐私政策
-
-| 应用 | 隐私政策 |
-|---|---|
-| **Power Audio Tag Editor** | [隐私政策](https://frog-im.github.io/privacy/bbo-music-player/ko/) |
-| **Power Subtitle Editor & Player** | [隐私政策](https://frog-im.github.io/privacy/Subtitle%20Player%20%26%20Editor/ko/) |
-| **Power Lucky Lotto** | [隐私政策](https://frog-im.github.io/privacy/Power%20lucky%20lotto/ko/) |
-| **KnowMe** | [隐私政策](https://frog-im.github.io/privacy/know%20me/ko/) |
-| **QDiary / QuestDiary** | [隐私政策](https://frog-im.github.io/privacy/Quest_Diary/en/) |
-| **TimeBack** | [隐私政策](https://frog-im.github.io/privacy/TimeBack/ko/) |
-| **Lucky Pick Box** | [隐私政策](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/zh/) |
-
----
-
-### 账号和数据删除请求
-
-如需提出隐私、账号删除或数据删除请求，请使用以下方式之一。
-
-| 应用 | 请求方式 |
-|---|---|
-| **一般请求** | [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com) |
-| **QDiary / QuestDiary** | [数据删除请求表单](https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog) |
-
-提交请求时，请包含应用名称、请求类型，以及用于确认相关账号或数据所需的信息。
-
-如果某个应用不需要创建账号，则账号删除可能不适用。但您仍然可以就隐私或数据相关问题联系我们。
-
----
-
-## 联系方式
-
-**支持邮箱:** [g.ns.0700g@gmail.com](mailto:g.ns.0700g@gmail.com)
-
-联系支持时，请提供应用名称、应用版本、设备型号、操作系统版本，以及截图或屏幕录制，如有。
-
-</details>
-
----
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  function openTargetDetails() {
-    var hash = window.location.hash;
-    if (!hash) return;
-
-    var target = document.querySelector(hash);
-    if (!target) return;
-
-    if (target.tagName.toLowerCase() === "details") {
-      document.querySelectorAll("details").forEach(function (item) {
-        item.removeAttribute("open");
-      });
-
-      target.setAttribute("open", "open");
-
-      setTimeout(function () {
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        });
-      }, 50);
-    }
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f8fb;
+    --panel: #ffffff;
+    --ink: #172033;
+    --muted: #5f6f86;
+    --line: #dce4ef;
+    --primary: #0f766e;
+    --primary-dark: #115e59;
+    --accent: #f5b301;
+    --soft: #e7f5f2;
+    --shadow: 0 18px 50px rgba(23, 32, 51, 0.12);
   }
 
-  openTargetDetails();
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", Arial, sans-serif;
+  }
 
-  window.addEventListener("hashchange", openTargetDetails);
-});
-</script>
+  .page {
+    width: min(1120px, calc(100% - 32px));
+    margin: 0 auto;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+    gap: 28px;
+    align-items: center;
+    padding: 56px 0 34px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 14px;
+    padding: 7px 11px;
+    border: 1px solid rgba(15, 118, 110, 0.2);
+    border-radius: 999px;
+    background: var(--soft);
+    color: var(--primary-dark);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--ink);
+    font-size: clamp(38px, 7vw, 68px);
+    line-height: 1.02;
+    letter-spacing: 0;
+  }
+
+  .lead {
+    margin: 18px 0 0;
+    max-width: 660px;
+    color: var(--muted);
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 18px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .button.primary {
+    background: var(--primary);
+    color: #ffffff;
+  }
+
+  .button.secondary {
+    background: var(--panel);
+    color: var(--ink);
+    border-color: var(--line);
+  }
+
+  .button.store {
+    background: #202633;
+    color: #ffffff;
+  }
+
+  .showcase {
+    position: relative;
+    min-height: 360px;
+    border-radius: 8px;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 72% 20%, rgba(245, 179, 1, 0.45), transparent 26%),
+      linear-gradient(145deg, #0f766e, #123b55);
+    box-shadow: var(--shadow);
+  }
+
+  .phone {
+    position: absolute;
+    inset: 36px 52px 28px auto;
+    width: 230px;
+    min-height: 292px;
+    border: 10px solid #182235;
+    border-radius: 30px;
+    background: #f9fbff;
+    box-shadow: 0 22px 46px rgba(0, 0, 0, 0.24);
+  }
+
+  .phone-screen {
+    padding: 24px 18px;
+  }
+
+  .ticket-title {
+    margin: 0 0 18px;
+    color: #143f6b;
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .balls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .ball {
+    display: grid;
+    width: 52px;
+    height: 52px;
+    place-items: center;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #172033;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .mini-card {
+    position: absolute;
+    left: 28px;
+    bottom: 32px;
+    width: 190px;
+    padding: 18px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--ink);
+  }
+
+  .mini-card strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 30px 0;
+  }
+
+  .section h2 {
+    margin: 0 0 16px;
+    font-size: 28px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    padding: 18px;
+  }
+
+  .card h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+  }
+
+  .card p {
+    margin: 0 0 14px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .small-link {
+    color: var(--primary-dark);
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .small-note {
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  .support {
+    margin: 22px 0 54px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    overflow: hidden;
+  }
+
+  .support summary {
+    cursor: pointer;
+    padding: 18px;
+    font-weight: 900;
+  }
+
+  .support-content {
+    padding: 0 18px 18px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .support-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    color: var(--ink);
+  }
+
+  .support-content th,
+  .support-content td {
+    padding: 10px;
+    border: 1px solid var(--line);
+    text-align: left;
+  }
+
+  @media (max-width: 820px) {
+    .hero,
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding-top: 34px;
+    }
+
+    .showcase {
+      min-height: 330px;
+    }
+
+    .phone {
+      right: 22px;
+      width: 210px;
+    }
+
+    .mini-card {
+      left: 18px;
+      width: 150px;
+    }
+  }
+</style>
+
+<main class="page">
+  <section class="hero" aria-labelledby="home-title">
+    <div>
+      <p class="eyebrow">frog-im official website</p>
+      <h1 id="home-title">frog-im</h1>
+      <p class="lead">
+        앱 지원, 개인정보처리방침, 스토어 링크와 웹에서 바로 실행할 수 있는 Power Lucky Lotto를 한 곳에서 제공합니다.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="/picker/">뽑기박스 웹 실행</a>
+        <a class="button primary" href="/lotto/">Power Lucky Lotto 웹 실행</a>
+        <a class="button store" href="https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share">Power Lucky Lotto 스토어</a>
+        <a class="button secondary" href="#support">지원 문의</a>
+      </div>
+    </div>
+
+    <div class="showcase" aria-label="Power Lucky Lotto preview">
+      <div class="phone">
+        <div class="phone-screen">
+          <p class="ticket-title">Power Lucky Lotto</p>
+          <div class="balls" aria-hidden="true">
+            <span class="ball">7</span>
+            <span class="ball">12</span>
+            <span class="ball">19</span>
+            <span class="ball">28</span>
+            <span class="ball">34</span>
+            <span class="ball">41</span>
+          </div>
+        </div>
+      </div>
+      <div class="mini-card">
+        <strong>Web app</strong>
+        설치 없이 브라우저에서 바로 실행
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="quick-links">
+    <h2 id="quick-links">바로가기</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Lucky Pick Box Web</h3>
+        <p>사다리, 돌림판, 제비뽑기, 팀 나누기 등을 웹에 맞춘 작업대 UI로 실행합니다.</p>
+        <a class="button primary" href="/picker/">/picker 열기</a>
+      </article>
+      <article class="card">
+        <h3>Power Lucky Lotto Web</h3>
+        <p>기존 Flutter Web 빌드를 GitHub Pages의 `/lotto` 경로에서 실행합니다.</p>
+        <a class="button primary" href="/lotto/">/lotto 열기</a>
+      </article>
+      <article class="card">
+        <h3>Google Play</h3>
+        <p>Power Lucky Lotto의 Google Play 스토어 페이지로 이동합니다.</p>
+        <a class="button store" href="https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share">스토어 이동</a>
+      </article>
+      <article class="card">
+        <h3>Support</h3>
+        <p>앱 문의, 결제 문제, 데이터 삭제 요청은 이메일로 접수합니다.</p>
+        <a class="button secondary" href="mailto:g.ns.0700g@gmail.com">g.ns.0700g@gmail.com</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="apps">
+    <h2 id="apps">앱과 정책</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Power Lucky Lotto</h3>
+        <p>로또 번호 생성 앱입니다. 웹앱과 Google Play 모두 제공됩니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="/lotto/">웹앱</a>
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.powerluckylotto&pcampaignid=web_share">Google Play</a>
+          <a class="small-link" href="/privacy/Power%20lucky%20lotto/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>LyriFloat</h3>
+        <p>Power Audio Tag Editor 앱 지원 및 개인정보처리방침입니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.lyrifloat&pcampaignid=web_share">Google Play</a>
+          <a class="small-link" href="/privacy/bbo-music-player/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Air Caption</h3>
+        <p>Power Subtitle Editor & Player 앱 지원 및 개인정보처리방침입니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.aircaption.air_caption&pcampaignid=web_share">Google Play</a>
+          <a class="small-link" href="/privacy/Subtitle%20Player%20%26%20Editor/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>KnowMe</h3>
+        <p>KnowMe 앱 지원 및 개인정보처리방침입니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.knowme&pcampaignid=web_share">Google Play</a>
+          <a class="small-link" href="/privacy/know%20me/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>QDiary</h3>
+        <p>QuestDiary 앱 지원, 개인정보처리방침, 데이터 삭제 요청입니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share">Google Play</a>
+          <a class="small-link" href="/privacy/Quest_Diary/en/">개인정보처리방침</a>
+          <a class="small-link" href="https://docs.google.com/forms/d/e/1FAIpQLSexIrSPRwSmVG5aU-Mp0wq0uRyXTh2Xh9Gag3Y4QBisWmFZWw/viewform?usp=dialog">데이터 삭제</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>Lucky Pick Box</h3>
+        <p>랜덤 뽑기 도구 모음입니다. 웹 버전과 Google Play에서 제공됩니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="/picker/">웹앱</a>
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.drawing_lots">Google Play</a>
+          <a class="small-link" href="/privacy/Lucky%20Pick%20Box/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>TimeBack</h3>
+        <p>과거의 기록을 돌아볼 수 있는 앱입니다. Google Play와 개인정보처리방침을 제공합니다.</p>
+        <div class="link-list">
+          <a class="small-link" href="https://play.google.com/store/apps/details?id=com.github.frogim.timeBack.time_back">Google Play</a>
+          <a class="small-link" href="/privacy/TimeBack/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+      <article class="card">
+        <h3>FileGuard</h3>
+        <p>파일을 안전하게 보관하는 신규 앱입니다.</p>
+        <div class="link-list">
+          <span class="small-note">Google Play 링크 추가 예정</span>
+          <a class="small-link" href="/privacy/File%20Guard/ko/">개인정보처리방침</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <details id="support" class="support" open>
+    <summary>App Support</summary>
+    <div class="support-content">
+      <p><strong>Developer:</strong> frog-im<br>
+      <strong>Support Email:</strong> <a href="mailto:g.ns.0700g@gmail.com">g.ns.0700g@gmail.com</a><br>
+      <strong>Response Time:</strong> Within 3 business days<br>
+      <strong>Business Hours:</strong> Mon-Fri, 10:00-17:00 KST</p>
+
+      <p>본 페이지는 frog-im이 배포하는 앱의 공식 지원 페이지이며 Google Play 개발자 연락처 웹사이트로 제공됩니다.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>요청 유형</th>
+            <th>처리 방법</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>버그 제보</td>
+            <td>앱 이름, 앱 버전, 기기, OS 버전, 재현 방법, 스크린샷 또는 녹화 영상을 이메일에 포함해 주세요.</td>
+          </tr>
+          <tr>
+            <td>결제 및 환불</td>
+            <td>Google Play 결제 및 환불 정책을 따릅니다. 주문번호 또는 영수증을 함께 보내 주세요.</td>
+          </tr>
+          <tr>
+            <td>개인정보 및 데이터 삭제</td>
+            <td>앱 이름, 요청 유형, 관련 계정 또는 데이터를 확인하는 데 필요한 정보를 포함해 이메일로 요청해 주세요.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+</main>
