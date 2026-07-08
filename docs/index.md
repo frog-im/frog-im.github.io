@@ -58,7 +58,7 @@ This page is provided as the developer contact website for Google Play.
 | **QDiary / QuestDiary** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.timeBack.time_back) |
 | **Drawing / Lucky Pick Box** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.drawing_lots) |
-| **FileGuard** | Google Play link will be added after publication |
+| **FileGuard** | [Open on Google Play](https://play.google.com/store/apps/details?id=com.github.frogim.fileguard) |
 
 ---
 
@@ -106,6 +106,7 @@ Please use the email address or data deletion request form listed in the Privacy
 | **QDiary / QuestDiary** | [Privacy Policy](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [Privacy Policy](https://frog-im.github.io/privacy/TimeBack/ko/) |
 | **Lucky Pick Box** | [Privacy Policy](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/en/) |
+| **Next Step** | [Privacy Policy](https://frog-im.github.io/privacy/next_step/en/) |
 | **FileGuard** | [Privacy Policy](https://frog-im.github.io/privacy/File%20Guard/en/) |
 
 ---
@@ -164,7 +165,7 @@ When contacting support, please include the app name, app version, device model,
 | **QDiary / QuestDiary** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.timeBack.time_back) |
 | **Drawing / Lucky Pick Box / 뽑기박스** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.drawing_lots) |
-| **FileGuard** | Google Play 출시 후 링크 추가 예정 |
+| **FileGuard** | [Google Play에서 열기](https://play.google.com/store/apps/details?id=com.github.frogim.fileguard) |
 
 ---
 
@@ -212,6 +213,7 @@ When contacting support, please include the app name, app version, device model,
 | **QDiary / QuestDiary** | [개인정보처리방침](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [개인정보처리방침](https://frog-im.github.io/privacy/TimeBack/ko/) |
 | **Lucky Pick Box / 뽑기박스** | [개인정보처리방침](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/ko/) |
+| **Next Step / 다음한걸음** | [개인정보처리방침](https://frog-im.github.io/privacy/next_step/ko/) |
 | **FileGuard** | [개인정보처리방침](https://frog-im.github.io/privacy/File%20Guard/ko/) |
 
 ---
@@ -270,7 +272,7 @@ When contacting support, please include the app name, app version, device model,
 | **QDiary / QuestDiary** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.pr.confessionjournal.confession_journal&pcampaignid=web_share) |
 | **TimeBack** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.timeBack.time_back) |
 | **Drawing / Lucky Pick Box** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.drawing_lots) |
-| **FileGuard** | Google Play 链接将在发布后添加 |
+| **FileGuard** | [在 Google Play 打开](https://play.google.com/store/apps/details?id=com.github.frogim.fileguard) |
 
 ---
 
@@ -318,6 +320,7 @@ When contacting support, please include the app name, app version, device model,
 | **QDiary / QuestDiary** | [隐私政策](https://frog-im.github.io/privacy/Quest_Diary/en/) |
 | **TimeBack** | [隐私政策](https://frog-im.github.io/privacy/TimeBack/ko/) |
 | **Lucky Pick Box** | [隐私政策](https://frog-im.github.io/privacy/Lucky%20Pick%20Box/zh/) |
+| **Next Step** | [隐私政策](https://frog-im.github.io/privacy/next_step/zh/) |
 | **FileGuard** | [隐私政策](https://frog-im.github.io/privacy/File%20Guard/zh/) |
 
 ---
